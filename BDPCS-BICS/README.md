@@ -5,10 +5,12 @@
     - Google Chrome 29 and later or
     - Mozilla Firefox 24 and later
 
-**How to View the Lab Guides**
+**How to View the Lab Guides:**
 
 - The Labguides are best viewed using the Workshop's [GitHub Pages Website URL](https://pcdavies.github.io/BigDataPrepBICS/BDPCS-BICS/) 
 - Once you are viewing the Workshop's GitHub Pages website, you can see a list of Lab Guides at any time by clicking on the **Menu Icon**
+
+    ![](images/WorkshopMenu.png)
 
 ## Oracle Big Data Prep-BI Cloud Service Workshop
 
