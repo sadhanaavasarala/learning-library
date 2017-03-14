@@ -13,13 +13,13 @@
                 "number": "100",
                 "filename": "BDPCS_L100.md",
                 "title": "Lab 100: Preparing and Cleansing Data",
-                "description": "This hands-on exercise will allow you to gain a better understanding of the basic features of functions of the service. It should become apparent that this service can be easily utilized by both technical and non-technical users to cleanse and enrich basic information in an independent fashion."
+                "description": "This hands-on exercise will show you how to upload a zip file with spreadsheet data into BDPCS and obvserve the many automated and guided data cleansing features."
             },
             {
                 "number": "200",
                 "filename": "BDPCS_L200.md",
                 "title": "Lab 200: Blending and Publishing Data",
-                "description": "This lab will involve adding a new related dataset into the mix and completion of the final step of processing and publishing your prepared results."
+                "description": "This lab will show you how to add a new related dataset into the mix and complete the final step of processing and publishing your prepared results."
             },
             {
                 "number": "300",
