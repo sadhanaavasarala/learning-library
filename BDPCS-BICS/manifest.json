@@ -23,13 +23,13 @@
             },
             {
                 "number": "300",
-                "filename": "BDPCS_L300.md",
+                "filename": "BICS_L300.md",
                 "title": "Lab 300: Visual Analyzer",
                 "description": "This lab will introduce you to Data Visualization and show you how to discover patterns and insights in the data."
             },
             {
                 "number": "400",
-                "filename": "BDPCS_L400.md",
+                "filename": "BICS_L400.md",
                 "title": "Lab 400: Answers and Dashboards",
                 "description": "This lab will introduce you to Answers and Dashboards, and show you how to create analyses and publish these into a dashboard."
             }
