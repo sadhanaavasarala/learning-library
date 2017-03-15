@@ -5,6 +5,11 @@
     - Google Chrome 29 and later or
     - Mozilla Firefox 24 and later
 
+**Files Required for the Labs:** 
+- The workshop participants will need to download the following files, which will be used in the labs:
+    - [WS_CustomerAccts.zip](data/WS_CUstomerAccts.zip)
+    - [WS_CustomerSalesActivity.xlsx](data/WS_CUstomerSalesActivity.xlsx)
+
 **How to View the Lab Guides:**
 
 - The Labguides are best viewed using the Workshop's [GitHub Pages Website URL](https://pcdavies.github.io/BigDataPrepBICS/BDPCS-BICS/) 
