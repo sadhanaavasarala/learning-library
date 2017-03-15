@@ -7,7 +7,7 @@
 
 **Files Required for the Labs:** 
 - The workshop participants will need to download the following files, which will be used in the labs:
-    - [WS_CustomerAccts.zip](data/WS_CUstomerAccts.zip)
+    - [WS_CustomerAccts.zip](data/WS_CustomerAccts.zip)
     - [WS_CustomerSalesActivity.xlsx](data/WS_CUstomerSalesActivity.xlsx)
 
 **How to View the Lab Guides:**
