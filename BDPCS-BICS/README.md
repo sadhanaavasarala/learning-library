@@ -10,6 +10,12 @@
     - [WS_CustomerAccts.zip](data/WS_CustomerAccts.zip)
     - [WS_CustomerSalesActivity.xlsx](data/WS_CustomerSalesActivity.xlsx)
 
+**Datasheets:** 
+- These datasheets are not used in the labs, but may be of interest.
+    - [Agile Analytics](/datasheets/agile_analytics.pdf)
+    - [Big Data Preparation Cloud Service](/datasheets/big-data-prep-cloud-service-ds.pdf)
+    - [BI Cloud Service](/datasheets/Oracle_Businesss_Intelligence_Cloud_Service_Datasheet.pdf)
+
 **How to View the Lab Guides:**
 
 - The Labguides are best viewed using the Workshop's [GitHub Pages Website URL](https://pcdavies.github.io/BigDataPrepBICS/BDPCS-BICS/) 
