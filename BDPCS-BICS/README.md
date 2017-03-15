@@ -14,7 +14,7 @@
 - These datasheets are not used in the labs, but may be of interest.
     - [Agile Analytics](datasheets/agile_analytics.pdf)
     - [Big Data Preparation Cloud Service](datasheets/big-data-prep-cloud-service-ds.pdf)
-    - [BI Cloud Service](datasheets/Oracle_Businesss_Intelligence_Cloud_Service_Datasheet.pdf)
+    - [BI Cloud Service](datasheets/Oracle_Business_Intelligence_Cloud_Service_Datasheet.pdf)
 
 **How to View the Lab Guides:**
 
