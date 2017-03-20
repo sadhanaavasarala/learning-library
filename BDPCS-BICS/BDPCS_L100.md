@@ -161,7 +161,7 @@ The sections below provide examples of the configuration information that is req
     ![](images/L100/p27.png)
 
 #### BDPCS Recommendations for Col_0005
-- Click the Recommendations toolbar button and select the recommendations for Col_0005.
+- Click the Recommendations toolbar button and select the recommendations for Col\_0005.
 
     ![](images/L100/p28.png)
 
@@ -202,7 +202,7 @@ The sections below provide examples of the configuration information that is req
     ![](images/L100/p36.png)
 
 #### Recommendations for US us_phone
-- Next, we will review the us_phone field recommendations.  Click the Recommendations toolbar button and select the recommendations for us_phone.
+- Next, we will review the us_phone field recommendations.  Click the Recommendations toolbar button and select the recommendations for us\_phone.
 
     ![](images/L100/p37.png)
 
@@ -211,16 +211,16 @@ The sections below provide examples of the configuration information that is req
     ![](images/L100/p38.png)
 
 #### Recommendations for date_02
-- Returning to our transform Recommendations, we will focus on the date_02 field.  Click the Recommendations toolbar button and select the recommendations for date_02.  We know this is the customer’s birthdate, so we’ll apply transforms that make the most sense.
+- Returning to our transform Recommendations, we will focus on the date\_02 field.  Click the Recommendations toolbar button and select the recommendations for date\_02.  We know this is the customer’s birthdate, so we’ll apply transforms that make the most sense.
 
     ![](images/L100/p39.png)
 
-- Here we see many formatting and extract recommendations.  We don’t really want the specific customer birthdate, but we would like to retain the birthmonth.  Click the checkmark to accept the recommendation to extract month from date_02.
+- Here we see many formatting and extract recommendations.  We don’t really want the specific customer birthdate, but we would like to retain the birthmonth.  Click the checkmark to accept the recommendation to extract month from date\_02.
 
     ![](images/L100/p40.png)
 
 #### Remove the date_02 field
-- Select date_02 from the dataset field list
+- Select date\_02 from the dataset field list
 - Click the field operations menu
 - Select the Delete menu item.
 
@@ -238,7 +238,7 @@ The sections below provide examples of the configuration information that is req
     ![](images/L100/p43.png)
 
 #### Remove the credit_card field
-- Notice the extra privacy icon that accompanies the credit_card and us_ssn fields:
+- Notice the extra privacy icon that accompanies the credit\_card and us\_ssn fields:
 
     ![](images/L100/p44.png)
 
@@ -250,15 +250,15 @@ This icon indicates that BDPCS has I identified that these fields contain sensit
     ![](images/L100/p45.png)
 
 #### Remove the Col_0017 field
-Col_0017 contains extraneous data that has no value.  We will remove this field.  To remove the field:
-- Select the Col_0017 field
+Col\_0017 contains extraneous data that has no value.  We will remove this field.  To remove the field:
+- Select the Col\_0017 field
 - Click the field operations menu
 - Select the Delete menu item
 
     ![](images/L100/p46.png)
 
 #### Obfuscate us_ssn
-- Review the Recommendations for the us_ssn field.
+- Review the Recommendations for the us\_ssn field.
 
     ![](images/L100/p47.png)
 
@@ -279,49 +279,49 @@ Col_0017 contains extraneous data that has no value.  We will remove this field.
 
 #### Rename field_3 to Last_4_SSN
 Here we will rename our new field to something more descriptive, Last_4_SSN, by doing the following:
-- Select the field_3 column
+- Select the field\_3 column
 - Click the field operations menu
 - Select the Rename menu item
 
     ![](images/L100/p51.png)
 
-- This will open the Rename dialog.  Specify Last_4_SSN as the Name and press the Apply button.
+- This will open the Rename dialog.  Specify Last\_4\_SSN as the Name and press the Apply button.
 
     ![](images/L100/p52.png)
 
 #### Remove the us_ssn_field
-Since we no longer need the us_ssn column, we will remove it by doing the following:
-- Select the us_ssn column
+Since we no longer need the us\_ssn column, we will remove it by doing the following:
+- Select the us\_ssn column
 - Click the column operations menu
 - Select the Delete menu item
 
     ![](images/L100/p53.png)
 
 #### Apply occupations enrichments
-- Explore the Recommendations for the SOC_Occupations_Knowledge column.
+- Explore the Recommendations for the SOC\_Occupations_Knowledge column.
 
     ![](images/L100/p54.png)
 
-- Click the checkmark to accept the recommendation to Enrich SOC_Occupations_Knowledge with SOC_Occupations_Knowledges.Mean_annual_wage.
+- Click the checkmark to accept the recommendation to Enrich SOC\_Occupations_Knowledge with SOC\_Occupations\_Knowledges.Mean\_annual\_wage.
 
     ![](images/L100/p55.png)
 
 - This will add the mean annual wage for the respective occupation to our dataset.
 
 #### Rename the SOC_Occupations_Knowledge
-- Select the SOC_Occupations_Knowledge column
+- Select the SOC\_Occupations\_Knowledge column
 - Click the field operations menu
 - Select the Rename menu item
 
     ![](images/L100/p56.png)
 
-- Specify Occ_SOC as the Name and press the Apply button.
+- Specify Occ\_SOC as the Name and press the Apply button.
 
     ![](images/L100/p57.png)
 
 #### Move the company_name column to above street_address
 - Click and drag the company_name column
-- Drop the column above the street_address column
+- Drop the column above the street\_address column
 
     ![](images/L100/p58.png)
 
