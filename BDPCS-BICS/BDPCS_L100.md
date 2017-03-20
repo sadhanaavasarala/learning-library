@@ -326,7 +326,7 @@ Since we no longer need the us\_ssn column, we will remove it by doing the follo
     ![](images/L100/p58.png)
 
 #### Normalize the value in the gender column
-- Select the gender column.  ***Notice that the values include male, female, M and F***.
+- Select the gender column.  **Notice that the values include male, female, M and F**.
 
     ![](images/L100/p59.png)
 
