@@ -79,7 +79,7 @@ Your workshop leader will provide the specific cloud service URL as well as the 
 
 ## Source Connection Setup
 The two BDPCS Source Connections utilized in this workshop will be used:
-- Default\_Oracle_Cloud_Storage
+- Default\_Oracle\_Cloud\_Storage
 - Oracle\_BICS
 
 The sections below provide examples of the configuration information that is required for the two sources:
