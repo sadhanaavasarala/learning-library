@@ -149,7 +149,7 @@ The sections below provide examples of the configuration information that is req
     ![](images/L100/p25.png)
 
 ### **STEP 2:**  Explore Recommendations
-#### BDPCS Recommendations for Col_0001:  
+#### BDPCS Recommendations for Col\_0001:  
 - Click the Recommendations toolbar button.  This open a menu list of field recommendations.
 - Select the recommendations for Col_0001
 
@@ -160,7 +160,7 @@ The sections below provide examples of the configuration information that is req
 
     ![](images/L100/p27.png)
 
-#### BDPCS Recommendations for Col_0005
+#### BDPCS Recommendations for Col\_0005
 - Click the Recommendations toolbar button and select the recommendations for Col\_0005.
 
     ![](images/L100/p28.png)
@@ -169,7 +169,7 @@ The sections below provide examples of the configuration information that is req
 
     ![](images/L100/p29.png)
 
-#### Recommendations for CustomerActivity_U
+#### Recommendations for CustomerActivity\_U
 - Click the Recommendations toolbar button and select the recommendations for City.
 
     ![](images/L100/p30.png)
@@ -201,16 +201,16 @@ The sections below provide examples of the configuration information that is req
 
     ![](images/L100/p36.png)
 
-#### Recommendations for US us_phone
+#### Recommendations for us\_phone
 - Next, we will review the us_phone field recommendations.  Click the Recommendations toolbar button and select the recommendations for us\_phone.
 
     ![](images/L100/p37.png)
 
-- Here we will click the checkmarks to accept the recommendation to extract area_code and the recommendations to Reformat our phone numbers so that they are in a consistent 999-999-9999 format.
+- Here we will click the checkmarks to accept the recommendation to extract area\_code and the recommendations to Reformat our phone numbers so that they are in a consistent 999-999-9999 format.
 
     ![](images/L100/p38.png)
 
-#### Recommendations for date_02
+#### Recommendations for date\_02
 - Returning to our transform Recommendations, we will focus on the date\_02 field.  Click the Recommendations toolbar button and select the recommendations for date\_02.  We know this is the customer’s birthdate, so we’ll apply transforms that make the most sense.
 
     ![](images/L100/p39.png)
@@ -219,7 +219,7 @@ The sections below provide examples of the configuration information that is req
 
     ![](images/L100/p40.png)
 
-#### Remove the date_02 field
+#### Remove the date\_02 field
 - Select date\_02 from the dataset field list
 - Click the field operations menu
 - Select the Delete menu item.
@@ -237,19 +237,19 @@ The sections below provide examples of the configuration information that is req
 
     ![](images/L100/p43.png)
 
-#### Remove the credit_card field
+#### Remove the credit\_card field
 - Notice the extra privacy icon that accompanies the credit\_card and us\_ssn fields:
 
     ![](images/L100/p44.png)
 
-This icon indicates that BDPCS has I identified that these fields contain sensitive personal information.  Depending on how we are using this information, we might consider removing or obfuscating this data to ensure we are protecting our customer’s privacy.  For our purposes, we do not need credit card information.  We’ll simply remove this field.
+This icon indicates that BDPCS has identified that these fields contain sensitive personal information.  Depending on how we are using this information, we might consider removing or obfuscating this data to ensure we are protecting our customer’s privacy.  For our purposes, we do not need credit card information.  We’ll simply remove this field.
 - Select the credit_card field
 - Click the field operations menu
 - Select the Delete menu item
 
     ![](images/L100/p45.png)
 
-#### Remove the Col_0017 field
+#### Remove the Col\_0017 field
 Col\_0017 contains extraneous data that has no value.  We will remove this field.  To remove the field:
 - Select the Col\_0017 field
 - Click the field operations menu
@@ -257,7 +257,7 @@ Col\_0017 contains extraneous data that has no value.  We will remove this field
 
     ![](images/L100/p46.png)
 
-#### Obfuscate us_ssn
+#### Obfuscate us\_ssn
 - Review the Recommendations for the us\_ssn field.
 
     ![](images/L100/p47.png)
@@ -268,8 +268,8 @@ Col\_0017 contains extraneous data that has no value.  We will remove this field
 
 - Notice how this masks the first 5 digits of the us_ssn with the # character.
 
-#### Extract field_3 from us_ssn
-- We could use the us_ssn column as is, but instead, we will simply keep the last four (4) relevant ssn digits.  Click the checkmark to accept the recommendation to Extract field_3 from us_ssn.
+#### Extract field\_3 from us\_ssn
+- We could use the us_ssn column as is, but instead, we will simply keep the last four (4) relevant ssn digits.  Click the checkmark to accept the recommendation to Extract field\_3 from us\_ssn.
 
     ![](images/L100/p49.png)
 
@@ -277,8 +277,8 @@ Col\_0017 contains extraneous data that has no value.  We will remove this field
 
     ![](images/L100/p50.png)
 
-#### Rename field_3 to Last_4_SSN
-Here we will rename our new field to something more descriptive, Last_4_SSN, by doing the following:
+#### Rename field\_3 to Last\_4\_SSN
+Here we will rename our new field to something more descriptive, Last\_4\_SSN, by doing the following:
 - Select the field\_3 column
 - Click the field operations menu
 - Select the Rename menu item
@@ -289,7 +289,7 @@ Here we will rename our new field to something more descriptive, Last_4_SSN, by 
 
     ![](images/L100/p52.png)
 
-#### Remove the us_ssn_field
+#### Remove the us\_ssn\_field
 Since we no longer need the us\_ssn column, we will remove it by doing the following:
 - Select the us\_ssn column
 - Click the column operations menu
@@ -308,7 +308,7 @@ Since we no longer need the us\_ssn column, we will remove it by doing the follo
 
 - This will add the mean annual wage for the respective occupation to our dataset.
 
-#### Rename the SOC_Occupations_Knowledge
+#### Rename the SOC\_Occupations\_Knowledge
 - Select the SOC\_Occupations\_Knowledge column
 - Click the field operations menu
 - Select the Rename menu item
@@ -319,7 +319,7 @@ Since we no longer need the us\_ssn column, we will remove it by doing the follo
 
     ![](images/L100/p57.png)
 
-#### Move the company_name column to above street_address
+#### Move the company\_name column to above street_address
 - Click and drag the company_name column
 - Drop the column above the street\_address column
 
