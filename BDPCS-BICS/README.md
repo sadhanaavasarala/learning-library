@@ -56,7 +56,7 @@ The Oracle Big Data Preparation - BI Cloud Service Workshop is a one day worksho
 
 ## Lab 300: BICS - Visual Analyzer
 
-**Documentation**: [BDPCS\_L300.md](BDPCS\_L300.md)
+**Documentation**: [BICS\_L300.md](BICS\_L300.md)
 
 ### Objectives
 
@@ -66,7 +66,7 @@ The Oracle Big Data Preparation - BI Cloud Service Workshop is a one day worksho
 
 ## Lab 400: BICS - Answers and Dashboards
 
-**Documentation**: [BDPCS\_L400.md](BDPCS\_L400.md)
+**Documentation**: [BICS\_L400.md](BICS\_L400.md)
 
 ### Objectives
 
