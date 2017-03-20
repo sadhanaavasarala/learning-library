@@ -79,8 +79,8 @@ Your workshop leader will provide the specific cloud service URL as well as the 
 
 ## Source Connection Setup
 The two BDPCS Source Connections utilized in this workshop will be used:
-- Default_Oracle_Cloud_Storage
-- Oracle_BICS
+- Default\_Oracle_Cloud_Storage
+- Oracle\_BICS
 
 The sections below provide examples of the configuration information that is required for the two sources:
 - An Oracle Cloud Storage Service instance where our input files to be Transformed will reside.
@@ -116,13 +116,13 @@ The sections below provide examples of the configuration information that is req
 
     ![](images/L100/p19.png)
 
-- Specify Name and Source.  Name the Transform CustomerActivity_U[User:1..20]-MMMDD.  Example: CustomerActivity_U1-Jan24.  ** Note that transform names should be unique.  That is, if you create a transform and then delete it, new transform names should not be the same name as current AND deleted transforms.**
+- Specify Name and Source.  Name the Transform CustomerActivity\_U[User:1..20]-MMMDD.  Example: CustomerActivity\_U1-Jan24.  ** Note that transform names should be unique.  That is, if you create a transform and then delete it, new transform names should not be the same name as current AND deleted transforms.**
 - Uncheck the Contains Header checkbox
 - Press the Select button to select a Source and File
 
     ![](images/L100/p20.png)
 
-- Select the Default_Oracle_Cloud_Storage source.
+- Select the Default\_Oracle\_Cloud\_Storage source.
 - Select Workshop-Customer folder.
 - Press OK.
 
@@ -132,7 +132,7 @@ The sections below provide examples of the configuration information that is req
 
     ![](images/L100/p22.png)
 
-- This will return you to the Catalog page where you will see the CustomerActivity_U01_Jan24 Transform.  Its Status should be In Progress as shown below.
+- This will return you to the Catalog page where you will see the CustomerActivity\_U01\_Jan24 Transform.  Its Status should be In Progress as shown below.
 
     ![](images/L100/p23.png)
 
@@ -140,7 +140,7 @@ The sections below provide examples of the configuration information that is req
 
 ## Edit and Configure the Transform
 ### **STEP 1:** Edit the Transform
-- After the Transform processing has completed and the Status is ***Ready***, Click the catalog menu and select Edit to edit the transform.
+- After the Transform processing has completed and the Status is **Ready**, Click the catalog menu and select Edit to edit the transform.
 
     ![](images/L100/p24.png)
 

@@ -33,7 +33,7 @@ Note:  There are several views that are part of this workbook – save frequentl
 
     ![](images/L400/p4.png)
 
-### **Step 2:** Expand and drag the following items to the ‘Selected Columns’ area.  Use the <CTRL> key to multi-select items, folder by folder.
+### **Step 2:** Expand and drag the following items to the ‘Selected Columns’ area.  Use the <CTRL\> key to multi-select items, folder by folder.
 - Select and drag and drop items to selected columns region from left to right.
 
     ![](images/L400/p5.png)
@@ -134,13 +134,15 @@ Note:  There are several views that are part of this workbook – save frequentl
 
     ![](images/L400/p35.png)
 
-- Select the ‘Save Analysis’ icon upper left.  Enter ‘Lab <your workstation>-Lab
+- Select the `Save Analysis` icon upper left.  Enter `Customer Analysis`
 
     ![](images/L400/p36.png)
+    
+    ![](images/L400/p36.1.png)
 
 # Dashboards
 ### **Step 1:**  Create Dashboard prompts
-- Return to the main Cloud Service tab and select ‘Catalog’.
+- Return to the main Cloud Service tab and select `Catalog`.
 
     ![](images/L400/p37.png)
 
@@ -178,7 +180,7 @@ Note:  There are several views that are part of this workbook – save frequentl
 
     ![](images/L400/p47.png)
 
-- Call it ‘Time Prompt’.
+- Call it `Time Prompt`.
 
     ![](images/L400/p48.png)
 
@@ -189,11 +191,13 @@ Note:  There are several views that are part of this workbook – save frequentl
 
     ![](images/L400/p50.png)
 
-- Refresh the folders and select Dashboards – Customer Activity Dashboard – edit it.  This will open a new tab to edit.
+    ![](images/L400/p50.1.png)
 
-    ![](images/L400/p51.png)
+- Ignore this error.
 
-- Expand the catalog (lower left) and drag the Time Prompt and the Customer Activity Dashboard on to the Dashboard Page at the top.  Then drag your saved analysis workbook on to the dashboard just below the dashboard prompt.
+    ![](images/L400/p50.2.png)
+
+- Expand the catalog and drag the Time Prompt and the Customer Activity Dashboard on to the Dashboard Page at the top.  Then drag your saved analysis workbook on to the dashboard just below the dashboard prompt.
 
     ![](images/L400/p52.png)
 
