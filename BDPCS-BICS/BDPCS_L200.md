@@ -50,8 +50,8 @@ Upon successful login, you should see the following Home page:
 
 ## Source Connection Setup
 The two BDPCS Source Connections utilized in this workshop will be used:
-- Default_Oracle_Cloud_Storage
-- Oracle_BICS
+- Default\_Oracle\_Cloud\_Storage
+- Oracle\_BICS
 
 The sections below provide examples of the configuration information that is required for the two sources:
 - An Oracle Cloud Storage Service instance where our input files to be Transformed will reside.
@@ -85,7 +85,7 @@ The sections below provide examples of the configuration information that is req
 
 ### ** Step 2:**  Edit the Transform from Workshop Lab 100
 - Click the Catalog tab
-- Access the operations menu associated with your Customer_Activity Transform from Lab 100 and select Edit menu item to edit the Transform.
+- Access the operations menu associated with your Customer\_Activity Transform from Lab 100 and select Edit menu item to edit the Transform.
 
     ![](images/L200/p11.png)
 
@@ -98,8 +98,8 @@ The sections below provide examples of the configuration information that is req
 
     ![](images/L200/p13.png)
 
-- Select the Source (Default_Oracle_Cloud_Storage) or the Source name provided to you by your workshop leader, and then the Workshops-Customer folder.
-- Select the Customer Sales Activity (WS_CustomerSalesActivity.xlsx) or the filename as provided by the workshop leader and press OK.
+- Select the Source (Default\_Oracle\_Cloud\_Storage) or the Source name provided to you by your workshop leader, and then the Workshops-Customer folder.
+- Select the Customer Sales Activity (WS\_CustomerSalesActivity.xlsx) or the filename as provided by the workshop leader and press OK.
 
     ![](images/L200/p14.png)
 
@@ -123,7 +123,7 @@ The sections below provide examples of the configuration information that is req
 
     ![](images/L200/p18.png)
 
-- From the list of Recommendations, click the checkmark for Extract day_of_week from OrderDate to apply this transform.
+- From the list of Recommendations, click the checkmark for Extract day\_of\_week from OrderDate to apply this transform.
 
     ![](images/L200/p19.png)
 
@@ -139,15 +139,15 @@ The sections below provide examples of the configuration information that is req
 
     ![](images/L200/p21.1.png)
 
-- Step 9: Associate BrandName with Brand_Cat domain.  Select BrandName from the Recommendations list.
+- Step 9: Associate BrandName with Brand\_Cat domain.  Select BrandName from the Recommendations list.
 
     ![](images/L200/p22.png)
 
-- Click the checkmark for Classify BrandName as domain Brand_Cat.
+- Click the checkmark for Classify BrandName as domain Brand\_Cat.
 
     ![](images/L200/p23.png)
 
-- This associates BrandName with a knowledge object that will allow us add a product category to our dataset.  After the domain assignment recommendation has been accepted, an additional Recommendation appears.  Click the checkmark for Enrich BrandName with Brand_Cat.BrandCategory to accept the Recommendation to add a Brand Category column to our dataset.
+- This associates BrandName with a knowledge object that will allow us add a product category to our dataset.  After the domain assignment recommendation has been accepted, an additional Recommendation appears.  Click the checkmark for Enrich BrandName with Brand\_Cat.BrandCategory to accept the Recommendation to add a Brand Category column to our dataset.
 
     ![](images/L200/p24.png)
 

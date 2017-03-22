@@ -37,7 +37,7 @@ The following shows the self service flow of information, as business users take
 
 ![](images/L300/p5.png)
 
-- Hover over elements to get familiar with controls.  Note in particular the ‘Undo Last Edit’ icon for when you make a mistake and want to back up.
+- Hover over elements to get familiar with controls.  Note in particular the `Undo Last Edit` icon for when you make a mistake and want to back up.
 
     ![](images/L300/p6.png)
 
@@ -118,7 +118,7 @@ This visual tells us that electronics is our largest selling (revenue) item over
 
     ![](images/L300/p25.png)
 
-- Save project – call it VA-XX Project where ‘XX’ is your assigned participant number.  Click on the folders to save in the appropriate directory (Company Shared…).
+- Save project – call it VA-XX Project where `XX` is your assigned participant number.  Click on the folders to save in My Folder.
 
     ![](images/L300/p26.png)
 

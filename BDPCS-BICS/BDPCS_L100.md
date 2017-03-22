@@ -79,8 +79,8 @@ Your workshop leader will provide the specific cloud service URL as well as the 
 
 ## Source Connection Setup
 The two BDPCS Source Connections utilized in this workshop will be used:
-- Default_Oracle_Cloud_Storage
-- Oracle_BICS
+- Default\_Oracle\_Cloud\_Storage
+- Oracle\_BICS
 
 The sections below provide examples of the configuration information that is required for the two sources:
 - An Oracle Cloud Storage Service instance where our input files to be Transformed will reside.
@@ -116,13 +116,13 @@ The sections below provide examples of the configuration information that is req
 
     ![](images/L100/p19.png)
 
-- Specify Name and Source.  Name the Transform CustomerActivity_U[User:1..20]-MMMDD.  Example: CustomerActivity_U1-Jan24.  ** Note that transform names should be unique.  That is, if you create a transform and then delete it, new transform names should not be the same name as current AND deleted transforms.**
+- Specify Name and Source.  Name the Transform CustomerActivity\_U[User:1..20]-MMMDD.  Example: CustomerActivity\_U1-Jan24.  ** Note that transform names should be unique.  That is, if you create a transform and then delete it, new transform names should not be the same name as current AND deleted transforms.**
 - Uncheck the Contains Header checkbox
 - Press the Select button to select a Source and File
 
     ![](images/L100/p20.png)
 
-- Select the Default_Oracle_Cloud_Storage source.
+- Select the Default\_Oracle\_Cloud\_Storage source.
 - Select Workshop-Customer folder.
 - Press OK.
 
@@ -132,7 +132,7 @@ The sections below provide examples of the configuration information that is req
 
     ![](images/L100/p22.png)
 
-- This will return you to the Catalog page where you will see the CustomerActivity_U01_Jan24 Transform.  Its Status should be In Progress as shown below.
+- This will return you to the Catalog page where you will see the CustomerActivity\_U01\_Jan24 Transform.  Its Status should be In Progress as shown below.
 
     ![](images/L100/p23.png)
 
@@ -140,7 +140,7 @@ The sections below provide examples of the configuration information that is req
 
 ## Edit and Configure the Transform
 ### **STEP 1:** Edit the Transform
-- After the Transform processing has completed and the Status is ***Ready***, Click the catalog menu and select Edit to edit the transform.
+- After the Transform processing has completed and the Status is **Ready**, Click the catalog menu and select Edit to edit the transform.
 
     ![](images/L100/p24.png)
 
@@ -149,7 +149,7 @@ The sections below provide examples of the configuration information that is req
     ![](images/L100/p25.png)
 
 ### **STEP 2:**  Explore Recommendations
-#### BDPCS Recommendations for Col_0001:  
+#### BDPCS Recommendations for Col\_0001:  
 - Click the Recommendations toolbar button.  This open a menu list of field recommendations.
 - Select the recommendations for Col_0001
 
@@ -160,8 +160,8 @@ The sections below provide examples of the configuration information that is req
 
     ![](images/L100/p27.png)
 
-#### BDPCS Recommendations for Col_0005
-- Click the Recommendations toolbar button and select the recommendations for Col_0005.
+#### BDPCS Recommendations for Col\_0005
+- Click the Recommendations toolbar button and select the recommendations for Col\_0005.
 
     ![](images/L100/p28.png)
 
@@ -169,7 +169,7 @@ The sections below provide examples of the configuration information that is req
 
     ![](images/L100/p29.png)
 
-#### Recommendations for CustomerActivity_U
+#### Recommendations for CustomerActivity\_U
 - Click the Recommendations toolbar button and select the recommendations for City.
 
     ![](images/L100/p30.png)
@@ -201,26 +201,26 @@ The sections below provide examples of the configuration information that is req
 
     ![](images/L100/p36.png)
 
-#### Recommendations for US us_phone
-- Next, we will review the us_phone field recommendations.  Click the Recommendations toolbar button and select the recommendations for us_phone.
+#### Recommendations for us\_phone
+- Next, we will review the us_phone field recommendations.  Click the Recommendations toolbar button and select the recommendations for us\_phone.
 
     ![](images/L100/p37.png)
 
-- Here we will click the checkmarks to accept the recommendation to extract area_code and the recommendations to Reformat our phone numbers so that they are in a consistent 999-999-9999 format.
+- Here we will click the checkmarks to accept the recommendation to extract area\_code and the recommendations to Reformat our phone numbers so that they are in a consistent 999-999-9999 format.
 
     ![](images/L100/p38.png)
 
-#### Recommendations for date_02
-- Returning to our transform Recommendations, we will focus on the date_02 field.  Click the Recommendations toolbar button and select the recommendations for date_02.  We know this is the customer’s birthdate, so we’ll apply transforms that make the most sense.
+#### Recommendations for date\_02
+- Returning to our transform Recommendations, we will focus on the date\_02 field.  Click the Recommendations toolbar button and select the recommendations for date\_02.  We know this is the customer’s birthdate, so we’ll apply transforms that make the most sense.
 
     ![](images/L100/p39.png)
 
-- Here we see many formatting and extract recommendations.  We don’t really want the specific customer birthdate, but we would like to retain the birthmonth.  Click the checkmark to accept the recommendation to extract month from date_02.
+- Here we see many formatting and extract recommendations.  We don’t really want the specific customer birthdate, but we would like to retain the birthmonth.  Click the checkmark to accept the recommendation to extract month from date\_02.
 
     ![](images/L100/p40.png)
 
-#### Remove the date_02 field
-- Select date_02 from the dataset field list
+#### Remove the date\_02 field
+- Select date\_02 from the dataset field list
 - Click the field operations menu
 - Select the Delete menu item.
 
@@ -237,28 +237,28 @@ The sections below provide examples of the configuration information that is req
 
     ![](images/L100/p43.png)
 
-#### Remove the credit_card field
-- Notice the extra privacy icon that accompanies the credit_card and us_ssn fields:
+#### Remove the credit\_card field
+- Notice the extra privacy icon that accompanies the credit\_card and us\_ssn fields:
 
     ![](images/L100/p44.png)
 
-This icon indicates that BDPCS has I identified that these fields contain sensitive personal information.  Depending on how we are using this information, we might consider removing or obfuscating this data to ensure we are protecting our customer’s privacy.  For our purposes, we do not need credit card information.  We’ll simply remove this field.
+This icon indicates that BDPCS has identified that these fields contain sensitive personal information.  Depending on how we are using this information, we might consider removing or obfuscating this data to ensure we are protecting our customer’s privacy.  For our purposes, we do not need credit card information.  We’ll simply remove this field.
 - Select the credit_card field
 - Click the field operations menu
 - Select the Delete menu item
 
     ![](images/L100/p45.png)
 
-#### Remove the Col_0017 field
-Col_0017 contains extraneous data that has no value.  We will remove this field.  To remove the field:
-- Select the Col_0017 field
+#### Remove the Col\_0017 field
+Col\_0017 contains extraneous data that has no value.  We will remove this field.  To remove the field:
+- Select the Col\_0017 field
 - Click the field operations menu
 - Select the Delete menu item
 
     ![](images/L100/p46.png)
 
-#### Obfuscate us_ssn
-- Review the Recommendations for the us_ssn field.
+#### Obfuscate us\_ssn
+- Review the Recommendations for the us\_ssn field.
 
     ![](images/L100/p47.png)
 
@@ -268,8 +268,8 @@ Col_0017 contains extraneous data that has no value.  We will remove this field.
 
 - Notice how this masks the first 5 digits of the us_ssn with the # character.
 
-#### Extract field_3 from us_ssn
-- We could use the us_ssn column as is, but instead, we will simply keep the last four (4) relevant ssn digits.  Click the checkmark to accept the recommendation to Extract field_3 from us_ssn.
+#### Extract field\_3 from us\_ssn
+- We could use the us_ssn column as is, but instead, we will simply keep the last four (4) relevant ssn digits.  Click the checkmark to accept the recommendation to Extract field\_3 from us\_ssn.
 
     ![](images/L100/p49.png)
 
@@ -277,56 +277,56 @@ Col_0017 contains extraneous data that has no value.  We will remove this field.
 
     ![](images/L100/p50.png)
 
-#### Rename field_3 to Last_4_SSN
-Here we will rename our new field to something more descriptive, Last_4_SSN, by doing the following:
-- Select the field_3 column
+#### Rename field\_3 to Last\_4\_SSN
+Here we will rename our new field to something more descriptive, Last\_4\_SSN, by doing the following:
+- Select the field\_3 column
 - Click the field operations menu
 - Select the Rename menu item
 
     ![](images/L100/p51.png)
 
-- This will open the Rename dialog.  Specify Last_4_SSN as the Name and press the Apply button.
+- This will open the Rename dialog.  Specify Last\_4\_SSN as the Name and press the Apply button.
 
     ![](images/L100/p52.png)
 
-#### Remove the us_ssn_field
-Since we no longer need the us_ssn column, we will remove it by doing the following:
-- Select the us_ssn column
+#### Remove the us\_ssn\_field
+Since we no longer need the us\_ssn column, we will remove it by doing the following:
+- Select the us\_ssn column
 - Click the column operations menu
 - Select the Delete menu item
 
     ![](images/L100/p53.png)
 
 #### Apply occupations enrichments
-- Explore the Recommendations for the SOC_Occupations_Knowledge column.
+- Explore the Recommendations for the SOC\_Occupations_Knowledge column.
 
     ![](images/L100/p54.png)
 
-- Click the checkmark to accept the recommendation to Enrich SOC_Occupations_Knowledge with SOC_Occupations_Knowledges.Mean_annual_wage.
+- Click the checkmark to accept the recommendation to Enrich SOC\_Occupations_Knowledge with SOC\_Occupations\_Knowledges.Mean\_annual\_wage.
 
     ![](images/L100/p55.png)
 
 - This will add the mean annual wage for the respective occupation to our dataset.
 
-#### Rename the SOC_Occupations_Knowledge
-- Select the SOC_Occupations_Knowledge column
+#### Rename the SOC\_Occupations\_Knowledge
+- Select the SOC\_Occupations\_Knowledge column
 - Click the field operations menu
 - Select the Rename menu item
 
     ![](images/L100/p56.png)
 
-- Specify Occ_SOC as the Name and press the Apply button.
+- Specify Occ\_SOC as the Name and press the Apply button.
 
     ![](images/L100/p57.png)
 
-#### Move the company_name column to above street_address
+#### Move the company\_name column to above street_address
 - Click and drag the company_name column
-- Drop the column above the street_address column
+- Drop the column above the street\_address column
 
     ![](images/L100/p58.png)
 
 #### Normalize the value in the gender column
-- Select the gender column.  ***Notice that the values include male, female, M and F***.
+- Select the gender column.  **Notice that the values include male, female, M and F**.
 
     ![](images/L100/p59.png)
 

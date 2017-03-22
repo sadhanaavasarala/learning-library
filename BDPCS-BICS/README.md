@@ -10,14 +10,14 @@
 
 **Files Required for the Labs:** 
 - The workshop participants will need to download the following files, which will be used in the labs:
-    - [WS_CustomerAccts.zip](data/WS_CustomerAccts.zip)
-    - [WS_CustomerSalesActivity.xlsx](data/WS_CustomerSalesActivity.xlsx)
+    - [WS\_CustomerAccts.zip](data/WS\_CustomerAccts.zip)
+    - [WS\_CustomerSalesActivity.xlsx](data/WS\_CustomerSalesActivity.xlsx)
 
 **Datasheets:** 
 - These datasheets are not used in the labs, but may be of interest.
-    - [Agile Analytics](datasheets/agile_analytics.pdf)
+    - [Agile Analytics](datasheets/agile\_analytics.pdf)
     - [Big Data Preparation Cloud Service](datasheets/big-data-prep-cloud-service-ds.pdf)
-    - [BI Cloud Service](datasheets/Oracle_Business_Intelligence_Cloud_Service_DataSheet.pdf)
+    - [BI Cloud Service](datasheets/Oracle\_Business\_Intelligence\_Cloud\_Service\_DataSheet.pdf)
 
 **How to View the Lab Guides:**
 
@@ -36,7 +36,7 @@ The Oracle Big Data Preparation - BI Cloud Service Workshop is a one day worksho
 
 ## Lab 100: BDPCS - Preparing and Cleansing Data
 
-**Documentation**: [BDPCS_L100.md](BDPCS_L100.md)
+**Documentation**: [BDPCS\_L100.md](BDPCS\_L100.md)
 
 ### Objectives
 
@@ -47,7 +47,7 @@ The Oracle Big Data Preparation - BI Cloud Service Workshop is a one day worksho
 
 ## Lab 200: Blending and Publishing Data
 
-**Documentation**: [BDPCS_L200.md](BDPCS_L200.md)
+**Documentation**: [BDPCS\_L200.md](BDPCS\_L200.md)
 
 ### Objectives
 
@@ -59,7 +59,7 @@ The Oracle Big Data Preparation - BI Cloud Service Workshop is a one day worksho
 
 ## Lab 300: BICS - Visual Analyzer
 
-**Documentation**: [BDPCS_L300.md](BDPCS_L300.md)
+**Documentation**: [BICS\_L300.md](BICS\_L300.md)
 
 ### Objectives
 
@@ -69,7 +69,7 @@ The Oracle Big Data Preparation - BI Cloud Service Workshop is a one day worksho
 
 ## Lab 400: BICS - Answers and Dashboards
 
-**Documentation**: [BDPCS_L400.md](BDPCS_L400.md)
+**Documentation**: [BICS\_L400.md](BICS\_L400.md)
 
 ### Objectives
 
