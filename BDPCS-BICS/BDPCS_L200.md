@@ -66,7 +66,7 @@ The sections below provide examples of the configuration information that is req
 
 # Blending Datasets with Big Data Preparation Cloud Service
 ## Add a dataset to an existing transform
-### ** Step 1:**  Upload a File
+### **Step 1:**  Upload a File
 - From the Home Page, click the Upload button.
 
     ![](images/L200/p6.png)
@@ -83,7 +83,7 @@ The sections below provide examples of the configuration information that is req
 
     ![](images/L200/p10.png)
 
-### ** Step 2:**  Edit the Transform from Workshop Lab 100
+### **Step 2:**  Edit the Transform from Workshop Lab 100
 - Click the Catalog tab
 - Access the operations menu associated with your Customer\_Activity Transform from Lab 100 and select Edit menu item to edit the Transform.
 
