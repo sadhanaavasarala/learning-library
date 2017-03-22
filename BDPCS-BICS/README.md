@@ -4,7 +4,8 @@
 - The workshop participants should have a WiFi enabled laptop with the following web browser:
     - Google Chrome 29 and later or
     - Mozilla Firefox 24 and later
-**Logins :** 
+
+**Logins:** 
 - BDPCS: https://bdpinstance5-a423927.bigdatapreparation.us.oraclecloud.com/appui/
 - BICS:  https://analyticsteam1-bestofbusinessanalytics3.analytics.us2.oraclecloud.com:443/analytics
 
