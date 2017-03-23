@@ -1,6 +1,6 @@
 ## IMPORTANT: How to prepare for this Workshop
 
-**Laptop:** 
+__Laptop:__ 
 - The workshop participants should have a WiFi enabled laptop with the following web browser:
     - Google Chrome 29 and later or
     - Mozilla Firefox 24 and later
@@ -48,7 +48,7 @@ The Oracle Big Data Preparation - BI Cloud Service Workshop is a one day worksho
 - How to create a Transform and add a dataset.
 - How to configure a Transform, reviewing recommendations and tailoring the Transform script.
 
-### Lab 200: Blending and Publishing Data
+### Lab 200: BDPCS - Blending and Publishing Data
 
 **Documentation:** [BDPCS\_L200.md](BDPCS\_L200.md)
 
