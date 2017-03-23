@@ -22,7 +22,7 @@ The following shows the self service flow of information, as business users take
 # Business Intelligence Cloud Services
 
 ### **Step 1:** Log into BICS and review the Console
-- Log into BICS and select the Console.
+- Log into BICS and select the Console.  **Note:  YOU MUST FIRST LOG OUT OF BDPCS BEFORE LOGGING INTO BICS.**
 
     ![](images/L300/p2.png)
 
