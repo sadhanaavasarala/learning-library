@@ -1,12 +1,12 @@
 ## IMPORTANT: How to prepare for this Workshop
 
-### Laptop: 
+**Laptop:** 
 - The workshop participants should have a WiFi enabled laptop with the following web browser:
     - Google Chrome 29 and later or
     - Mozilla Firefox 24 and later
     - **Note: YOU CANNOT BE LOGGED INTO BDPCS AND BICS AT THE SAME TIME ON TWO DIFFERENT BROWSER TABS.  YOU MUST FIRST LOG OUT OF ONE BEFORE LOGGING INTO THE OTHER.**
 
-**URLs - Access:**
+**URLs/Access:**
 - All userids: bdpuser1...8 (see password on whiteboard) 
 - BDPCS: https://bdpinstance5-a423927.bigdatapreparation.us.oraclecloud.com/appui/
 - BICS:  https://analyticsteam1-bestofbusinessanalytics3.analytics.us2.oraclecloud.com:443/analytics
@@ -37,22 +37,22 @@ The Oracle Big Data Preparation - BI Cloud Service Workshop is a one day worksho
 
 **Reference the following Lab Guides by opening their Documentation Files:**
 
-## Lab 100: BDPCS - Preparing and Cleansing Data
+### Lab 100: BDPCS - Preparing and Cleansing Data
 
-**Documentation**: [BDPCS\_L100.md](BDPCS\_L100.md)
+**Documentation:** [BDPCS\_L100.md](BDPCS\_L100.md)
 
-### Objectives
+**Objectives**
 
 - How to connect to the Big Data Preparation Service (BDPCS).
 - Exploration of the basic features of the service.
 - How to create a Transform and add a dataset.
 - How to configure a Transform, reviewing recommendations and tailoring the Transform script.
 
-## Lab 200: Blending and Publishing Data
+### Lab 200: Blending and Publishing Data
 
-**Documentation**: [BDPCS\_L200.md](BDPCS\_L200.md)
+**Documentation:** [BDPCS\_L200.md](BDPCS\_L200.md)
 
-### Objectives
+**Objectives:**
 
 - How to connect to the Big Data Preparation Service (BDPCS).
 - Exploration of the basic features of the service.
@@ -60,21 +60,21 @@ The Oracle Big Data Preparation - BI Cloud Service Workshop is a one day worksho
 - How to configure a Transform, reviewing recommendations and tailoring the Transform script.
 - How to publish our results to the Business Intelligence Cloud Service so that one can begin analyzing the processed and enriched results.
 
-## Lab 300: BICS - Visual Analyzer
+### Lab 300: BICS - Visual Analyzer
 
-**Documentation**: [BICS\_L300.md](BICS\_L300.md)
+**Documentation:** [BICS\_L300.md](BICS\_L300.md)
 
-### Objectives
+**Objectives:**
 
 - Understand basic BICS Services.
 - Understand how to access and explore data prepared by Big Data Preparation Cloud Service.
 - How to create visual analyzer projects and visualizations.
 
-## Lab 400: BICS - Answers and Dashboards
+### Lab 400: BICS - Answers and Dashboards
 
-**Documentation**: [BICS\_L400.md](BICS\_L400.md)
+**Documentation:** [BICS\_L400.md](BICS\_L400.md)
 
-### Objectives
+**Objectives:**
 
 - Understand how to create analytics workbooks and various types of interactive visualizations.
 - Understand how to create dashboards and dashboard prompts.
