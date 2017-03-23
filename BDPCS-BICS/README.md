@@ -4,6 +4,7 @@
 - The workshop participants should have a WiFi enabled laptop with the following web browser:
     - Google Chrome 29 and later or
     - Mozilla Firefox 24 and later
+    - **Note: YOU CANNOT BE LOGGED INTO BDPCS AND BICS AT THE SAME TIME ON TWO DIFFERENT BROWSER TABS.  YOU MUST FIRST LOG OUT OF ONE BEFORE LOGGING INTO THE OTHER.**
 
 **URLs - Access:**
 - All userids: bdpuser1...8 (see password on whiteboard) 
