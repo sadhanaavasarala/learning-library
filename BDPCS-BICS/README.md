@@ -1,6 +1,6 @@
 ## IMPORTANT: How to prepare for this Workshop
 
-__Laptop:__ 
+The **Laptop** is bold: 
 - The workshop participants should have a WiFi enabled laptop with the following web browser:
     - Google Chrome 29 and later or
     - Mozilla Firefox 24 and later
