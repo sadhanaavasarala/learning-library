@@ -8,6 +8,14 @@ This is the third lab that is part of the Oracle Public Cloud Big Data Preparati
 
 This lab will walk you through accessing and exploring information you have first prepared in Lab 1, and how to create dashboards and analytic workbooks on your curated data. First, you will create a Visual Analyzer Project, and then add visualizations to your canvas to gain an understanding of patterns in the data.  After you create the VA project, in lab 400 you will create an ‘Analysis’ workbook for publishing into a dashboard.  Finally you will create a new dashboard and add your content to it.
 
+##Lab 300 and 400 Overview:
+- Lab 300:  Create Visual Analysis (VA) Project
+- Lab 400:
+    - Create Analysis with several views
+    - Create Dashboard Prompt
+    - Create Dashboard
+        - Add Analysis and Dashboard Prompt (created above)
+
 The following shows the self service flow of information, as business users take prepared data, explore it, and create dashboards off the curated data.
 
 ![](images/L300/p1.png)
