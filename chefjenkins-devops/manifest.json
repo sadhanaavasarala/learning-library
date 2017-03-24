@@ -5,6 +5,12 @@
 Orchestrations, and Chef.",
         "labs": [
             {
+                "number": "0",
+                "filename": "README.md",
+                "title": "README First",
+                "description": "Step-by-step workshop instructions"
+            },
+            {
                 "number": "100",
                 "filename": "LabGuide100.md",
                 "title": "Lab 100: Devops: Automation using Chef and Jenkins",
