@@ -45,7 +45,7 @@ Please direct comments to: Dennis Foley (dennis.foley@oracle.com)
 
 
 
-# Lab 1 Install Object Storage Tools
+# Install Object Storage Tools
 
 ### **STEP 1**: Install CloudBerry Explorer for OpenStack desktop Client
 
@@ -106,7 +106,7 @@ Please direct comments to: Dennis Foley (dennis.foley@oracle.com)
 -   We will be using PuTTY later in the workshop to access the newly
     create Cloud Instance. You can minimize or exit PuTTY for now.
 
-# Lab 2 Building the Client Machine (Stack Engineer Persona)
+# Building the Client Machine (Stack Engineer Persona)
 
 ## Building the Instance
 
@@ -158,7 +158,7 @@ TOD: Add what we are building
 
     ![](images/100/image15.png)
 
-# Lab 3 Creating the Instance (Stack Engineer Persona)
+# Creating the Instance (Stack Engineer Persona)
 
 ## Create the Network Configuration
 
@@ -223,7 +223,7 @@ TOD: Add what we are building
 
     ![](images/100/image25.png)
 
-1.  Upload Orchestration
+### **STEP 7**: Upload Orchestration
 
 -   Click on **Orchestrations** Tab. From the Orchestrations page click
     **Upload Orchestration**
@@ -251,7 +251,7 @@ TOD: Add what we are building
 
     ![](images/100/image32.png)
 
-### **STEP 7**: Upload SSH Key
+### **STEP 8**: Upload SSH Key
 
 -   Click on the **Network** Tab then click **SSH Pubic Keys**. Click
     **Add SSH Public Key**
@@ -271,7 +271,7 @@ TOD: Add what we are building
 
 ## Build Instance on Oracle Compute
 
-### **STEP 8**: Associate Image to upload disk
+### **STEP 9**: Associate Image to upload disk
 
 -   Navigate to the **Images** tab and click **Associate Image**
 
@@ -299,7 +299,7 @@ TOD: Add what we are building
 
     ![](images/100/image40.png)
 
-### **STEP 9**: Create Instance
+### **STEP 10**: Create Instance
 
 -   Now we will use the newly created image to create an Instance.
     Navigate to the **Instances** tab and click **Create Instance**
@@ -373,14 +373,14 @@ TOD: Add what we are building
 
 ## Log into Instance
 
-### **STEP 10**: Get Public IP of Instance
+### **STEP 11**: Get Public IP of Instance
 
 -   From the Summary page copy down the **Public IP** for your newly
     created instance.
 
     ![](images/100/image55.png)
 
-### **STEP 11**: Configure PuTTY to connect to Image
+### **STEP 12**: Configure PuTTY to connect to Image
 
 -   If you closed out PuTTY start it again.
 
@@ -413,7 +413,7 @@ TOD: Add what we are building
 
     ![](images/100/image61.png)
 
-### **STEP 12**: Test Jenkins
+### **STEP 13**: Test Jenkins
 
     ***Note:** Jenkins is a continuous integration and continuous
     delivery application, used to automate parts of the SDLC. Jenkins
@@ -439,7 +439,7 @@ TOD: Add what we are building
 
 ## Configure the Server for work
 
-### **STEP 13**: Configure Chef client (Knife)
+### **STEP 14**: Configure Chef client (Knife)
 
 -   Switch back to your **SSH** session. Switch to the **jenkins** user
     and change to the home directory
@@ -471,7 +471,7 @@ knife environment list
 
     ![](images/100/image67.png)
 
-### **STEP 14**: Download WebLogic Maven dependencies
+### **STEP 15**: Download WebLogic Maven dependencies
 
 -   Run the script **downloadWLSMavenfiles.sh** to install WebLogic
     Maven dependencies. Run to the following command:
@@ -482,7 +482,7 @@ knife environment list
 
     ![](images/100/image69.png)
 
-### **STEP 15**: Load Cookbooks to Chef
+### **STEP 16**: Load Cookbooks to Chef
 
 -   **Clone** the Git repository that contains the Cookbooks that will
     be used during the lab.
@@ -511,7 +511,7 @@ knife environment list
 
     ![](images/100/image70.png)
 
-### **STEP 16**: Configuring the Cookbook for your cloud environment
+### **STEP 17**: Configuring the Cookbook for your cloud environment
 
 -   Change directories to the WebLogic cookbook:
 
@@ -551,11 +551,11 @@ available to Chef Nodes, we must first upload it to the Chef server.
 
     ![](images/100/image76.png)
 
-# Lab 4 Application Development (Developer Persona)
+# Application Development (Developer Persona)
 
 ## Create Developer Cloud Service Project
 
-### **STEP 17**: Login to Developer Cloud Service
+### **STEP 18**: Login to Developer Cloud Service
 
 Oracle Developer Cloud Service provides a complete development platform
 that streamlines team development processes and automates software
@@ -582,7 +582,7 @@ Oracle Developer Cloud Service helps deliver better applications faster.
 
     ![](images/100/image79.png)
 
-### **STEP 18**: Create Developer Cloud Service Project
+### **STEP 19**: Create Developer Cloud Service Project
 
 -   Click **New Project** to start the project create wizard.
 
@@ -615,7 +615,7 @@ https://github.com/oraclenassolutionengineering/SampleMavenWLSApp
 
     ![](images/100/image84.png)
 
-### **STEP 19**: Clone Repository
+### **STEP 20**: Clone Repository
 
 Now that we have imported the Git repository into Developer Cloud
 Service, we will want to clone that into our Jenkins image.
@@ -639,11 +639,11 @@ Service, we will want to clone that into our Jenkins image.
 
     ![](images/100/image87.png)
 
-# Lab 5 Configure Jenkins for the Sample Application
+# Configure Jenkins for the Sample Application
 
 ## Configure Jenkins
 
-### **STEP 20**: Configure Jenkins
+### **STEP 21**: Configure Jenkins
 
 -   Switch back to the browser tab where you are logged into Jenkins. If
     you need to login again following the instructions outlined earlier
@@ -676,7 +676,7 @@ Service, we will want to clone that into our Jenkins image.
 
     ![](images/100/image94.png)
 
-### **STEP 21**: Configure Jenkins job wkshp\_build\_pipeline
+### **STEP 22**: Configure Jenkins job wkshp\_build\_pipeline
 
 -   Click on the job **wkshp\_build\_pipeline**
 
@@ -723,7 +723,7 @@ Service, we will want to clone that into our Jenkins image.
 
     ![](images/100/image103.png)
 
-### **STEP 22**: Configure Jenkins job Build\_And\_Deploy\_WebLogicApp
+### **STEP 23**: Configure Jenkins job Build\_And\_Deploy\_WebLogicApp
 
 -   Click on Jenkins to navigate back to main page.
 
@@ -745,7 +745,7 @@ Service, we will want to clone that into our Jenkins image.
 
 ## Configure DevCS & Jenkins Build Server Integration
 
-### **STEP 23**: Configure Developer Cloud Service
+### **STEP 24**: Configure Developer Cloud Service
 
 -   Switch back to the browser tab where you are logged into Developer
     Cloud Service. If you need to login again follow the instructions
@@ -793,11 +793,11 @@ Git repository.
 
     ![](images/100/image110.png)
 
-# Lab 6 Creating a new version of the Application
+# Creating a new version of the Application
 
 ## Creating a new version of the Application
 
-### **STEP 24**: Modify Application
+### **STEP 25**: Modify Application
 
 -   Switch back to your **ssh** session. If your ssh session has closed
     follow instructions described earlier in the lab guide. As the
@@ -846,7 +846,7 @@ Git repository.
 
     ![](images/100/image115.png)
 
-### **STEP 25**: Automatic deployment of Application
+### **STEP 26**: Automatic deployment of Application
 
 -   Click **Jenkins** to navigate back to the home page. It may take a
     minute to begin, but you should see a job running as shown below.
@@ -864,7 +864,7 @@ Git repository.
 
 ## Exploring the Jenkins Server
 
-### **STEP 26**: Explore Jenkins job wkshp\_build\_pipeline
+### **STEP 27**: Explore Jenkins job wkshp\_build\_pipeline
 
 **Description:** Jenkins is a continuous integration and continuous
 delivery application, used to automate parts of the SDLC. Jenkins can be
@@ -898,7 +898,7 @@ workshop today.
 
 ## Explore Chef
 
-### **STEP 27**: Log into Chef Web Console
+### **STEP 28**: Log into Chef Web Console
 
 **Description:** Chef is configuration management tool written in Ruby
 and Erlang. It uses a pure-Ruby, domain-specific language (DSL) for
@@ -944,7 +944,7 @@ again at the end of the workshop
 
 ## Verify Application Deployment
 
-### **STEP 28**: Verify Application Deployment
+### **STEP 29**: Verify Application Deployment
 
 -   Click **Jenkins** to navigate back to the home page.
 
@@ -980,10 +980,9 @@ again at the end of the workshop
 
 # Appendix
 
-
 ## MAC OSC - Cyberduck
 
-### **STEP 29**: Download Cyberduck App
+### **STEP 30**: Download Cyberduck App
 
 -   Download the MAC version of Cyberduck from the following URL:
     <http://cyberduck.io>
@@ -1009,7 +1008,7 @@ again at the end of the workshop
 
     ![](images/100/image131.png)
 
-1.  Download Oracle Profiles
+### **STEP 31**: Download Oracle Profiles
 
 -   Go to the following URL: <https://trac.cyberduck.io/wiki/help/en/howto/oraclecloud>
 
@@ -1024,7 +1023,7 @@ again at the end of the workshop
 
     ![](images/100/image133.png)
 
-1.  Create Cyberduck connection to Oracle Storage Container
+### **STEP 32**: Create Cyberduck connection to Oracle Storage Container
 
 -   Open the Cyberduck app, and click on the “+” sign at the bottom of
     the window to create a new connection
