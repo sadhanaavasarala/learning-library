@@ -87,7 +87,7 @@ Please direct comments to: Dennis Foley (dennis.foley@oracle.com)
 
     ![](images/100/image6.png)
 
-### Install SSH Client Tool
+## Install SSH Client Tool
 
 ### **STEP 2**: Install PuTTY
 
@@ -866,6 +866,8 @@ Git repository.
 
 ## Exploring the Jenkins Server
 
+### **STEP 26**: Explore Jenkins job wkshp\_build\_pipeline
+
 **Description:** Jenkins is a continuous integration and continuous
 delivery application, used to automate parts of the SDLC. Jenkins can be
 leveraged to build and test software projects continuously making it
@@ -877,8 +879,6 @@ pipelines and integrating with many testing and deployment technologies.
 All the jobs you see listed on the home page are being used for this
 lab. The master job is called **Wkshp\_build\_pipeline**. Click on the
 link for that job.
-
-### **STEP 26**: Explore Jenkins job wkshp\_build\_pipeline
 
 -   Click on the job **wkshp\_build\_pipeline**
 
@@ -900,13 +900,13 @@ workshop today.
 
 ## Explore Chef
 
+### **STEP 27**: Log into Chef Web Console
+
 **Description:** Chef is configuration management tool written in Ruby
 and Erlang. It uses a pure-Ruby, domain-specific language (DSL) for
 writing system configuration "recipes". Chef is used to streamline the
 task of configuring and maintaining a company's servers, and can
 integrate with cloud-based platforms
-
-### **STEP 27**: Log into Chef Web Console
 
 -   Open a browser and enter **140.86.12.215**. The Chef Login page
     should render. Enter Username and Password and click **Sign In**
