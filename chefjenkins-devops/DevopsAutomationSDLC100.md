@@ -87,9 +87,7 @@ Please direct comments to: Dennis Foley (dennis.foley@oracle.com)
 
     ![](images/100/image6.png)
 
-## Install SSH Client Tool
-
-### **STEP 2**: Install PuTTY
+### **STEP 2**: Install PuTTY - SSH Client Tool
 
 -   From any browser, go to this [URL](http://www.putty.org/)
 
