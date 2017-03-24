@@ -11,8 +11,8 @@
             },
             {
                 "number": "100",
-                "filename": "LabGuide100.md",
-                "title": "Lab 100: Devops: Automation using Chef and Jenkins",
+                "filename": "DevopsAutomationSDLC100.md",
+                "title": "Lab 100: Devops Automation using Chef and Jenkins",
                 "description": "Build and deploy code leveraging Developer Cloud Service, Jenkins, Orchestrations and Chef."
             }
         ]
