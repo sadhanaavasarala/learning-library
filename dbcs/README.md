@@ -1,6 +1,6 @@
 ## How to View the Lab Guides
 
-- The Labguides are best viewed using the Workshop's [GitHub Pages Website URL](https://snicholspa.github.io/Oracle-SolEng-Workshops/dbcs/) 
+- The Labguides are best viewed using the Workshop's [GitHub Pages Website URL](https://pcdavies.github.io/DatbaseCloudService/dbcs/) 
 
 - Once you are viewing the Workshop's GitHub Pages website, you can see a list of Lab Guides at any time by clicking on the **Menu Icon**
 
