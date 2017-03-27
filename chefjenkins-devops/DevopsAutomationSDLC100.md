@@ -4,25 +4,13 @@ Update: March 24th, 2017
 
 ## Introduction
 
-This is the first of several labs that are part
-of the **Oracle Public Cloud DevOps workshops**. This workshop will walk
-you through building an automated Software Development Lifecycle (SDLC)
-pipeline using the Oracle cloud and third party tools
+This workshop will walk you through building an automated Software Development Lifecycle (SDLC) pipeline using the Oracle cloud and third party tools
 
-This new pipeline will compile code, build environments in the cloud,
-and deploy the code into the new environment. You will assemble this
-pipeline leveraging Developer Cloud Service, Jenkins, Oracle Cloud
-Orchestrations, and Chef. You will take on 2 Personas during the
-workshop. The stack automation engineer will assemble the pipeline and
-make it available for developers. The developer will leverage the new
-SDLC stack and check in code leveraging the pipeline.
+This new pipeline will compile code, build environments in the cloud, and deploy the code into the new environment. You will assemble this pipeline leveraging Developer Cloud Service, Jenkins, Oracle Cloud Orchestrations, and Chef. You will take on 2 Personas during the workshop. The stack automation engineer will assemble the pipeline and make it available for developers. The developer will leverage the new SDLC stack and check in code leveraging the pipeline.
 
-At the end of the workshop you will have deployed a new application in
-the Oracle cloud as the developer persona leveraging the pipeline to
-complete all the tasks after the code is checked into source control.
+At the end of the workshop you will have deployed a new application in the Oracle cloud as the developer persona leveraging the pipeline to complete all the tasks after the code is checked into source control.
 
-Please direct comments to: Dennis Foley (dennis.foley@oracle.com)
-
+***To log issues***, click here to go to the [github oracle](https://github.com/pcdavies/DevopsAutomationChefJenkins/issues/new) repository issue submission form.
 
 ## Objectives
 
