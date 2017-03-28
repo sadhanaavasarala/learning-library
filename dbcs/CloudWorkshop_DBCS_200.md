@@ -398,11 +398,11 @@ In this lab, you will explore some common use cases for moving your data from on
 
 ## Export the Alpha Schema
 
+### **STEP 12**:  Create a Local Data Pump Directory
+
 **Note**: The default Data Pump directory object, DATA\_PUMP\_DIR, does
 not work with PDBs. Data Pump requires an explicit directory object
 within the PDB that is exporting or importing schemas or tables.
-
-### **STEP 12**:  Create a Local Data Pump Directory
 
 -   In the Connections Tab inside the "**On-Premise**" folder navigate to the **Alpha - PDB Directories** item, right-mouse click and select **Create Directory...**
 
@@ -632,14 +632,16 @@ within the PDB that is exporting or importing schemas or tables.
 
 # Cloud Migration Using SQL Developer Carts
 
+## SQL Developer Carts
+
+### **STEP 17**:  Create a new Cart
+
 The SQL Developer Cart is a convenient method for organizing the
 deployment of database objects and data from one database to another. In
 this trivial example, we want to update the data of just the CUSTOMERS
 and PRODUCTS table in the development cloud database. More elaborate
 usages of the cart can help package entire application deployments,
 including pre and post processes from multiple data sources.
-
-### **STEP 17**:  Create a new Cart
 
 -   Show the Cart using the **View -> Cart** menu option.
 
