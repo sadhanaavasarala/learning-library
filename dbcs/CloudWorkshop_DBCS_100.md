@@ -203,11 +203,11 @@ service.
 When providing a name, please note you may have another service instance
 already created in your account, so the name must be unique.
 
--   Enter **Alpha01B-DBCS** in the **Service Name** field
+-   Enter `Apha01B-DBCS` in the **Service Name** field
 
 	![](images/100/image21.png)
 
--   Enter **Alpha Office Database Cloud Service** in the **Description** field
+-   Enter `Alpha Office Database Cloud Service` in the **Description** field
 
 	![](images/100/image22.png)
 
@@ -237,15 +237,20 @@ already created in your account, so the name must be unique.
 
 -   In the **Database Configuration section**, provide the following:
 
-	```
-	DB Name (SID) = ORCL
-	PDB Name = PDB1
-	Administration Password = Alpha2014_
-	Confirm Password = Alpha2014_
-	Usable Database Storage (GB) = Use Default (25)
-	Total Data File Storage (GB) = Use Default (88.5)
-	Compute Shape = OC3 - 1 OCPU, 7.5 GB RAM
-	```
+	**DB Name (SID)**: `ORCL`
+
+	**PDB Name**: `PDB1`
+
+	**Administration Password**: `Alpha2014_`
+
+	**Confirm Password**: `Alpha2014_`
+
+	**Usable Database Storage (GB)**: `Use Default (25)`
+
+	**Total Data File Storage (GB)**: `Use Default (88.5)`
+
+	**Compute Shape**: `OC3 - 1 OCPU, 7.5 GB RAM`
+	
 	
 	![](images/100/image32.png)
 
@@ -265,16 +270,19 @@ already created in your account, so the name must be unique.
 
 	![](images/100/image26.png)
 
+-	Click on the **Enter** button to accept the new labkey. 
 
 -   In the **Backup and Recovery Configuration** section, provide the following:
 	
-	```
-	Backup Destination = Both Cloud Storage and Local Storage
-	Cloud Storage Container = Storage-<your domain name>/Alpha01B_DBCS_SC
-	Cloud Storage User Name = <your Cloud user name>
-	Cloud Storage Password = <your Cloud password>
-	Check the Create Cloud Storage Container box
-	```
+	**Backup Destination**: `Both Cloud Storage and Local Storage`
+
+	**Cloud Storage Container**: `Storage-<Your Domain Name>/Alpha01B_DBCS_SC`  Replace <Your Domain Name>
+
+	**Cloud Storage User Name**: `<Your Cloud user name>`
+
+	**Cloud Storage Password**: `<Your Cloud password>`
+
+	**Check** the **Create Cloud Storage Container** box
 	
 	![](images/100/image33.png)
 
@@ -292,7 +300,7 @@ already created in your account, so the name must be unique.
 
 -   The creation of the DBCS instance will take approximately 20
     minutes. While your DBCS instance is being created, you can monitor
-    the progress by clicking on the **In Progress** link, and view the
+    the progress by clicking on the **Status** link, and view the
     current status.
 
 	**NOTE**: We will continue with the lab by utilizing **Alpha01A-DBCS** DBCS instance already created. Alpha01A-DBCS was created following the exact steps you just performed.
@@ -325,7 +333,7 @@ For security reasons the default Oracle Public Cloud network
 configuration is locked down. You have the option of opening up ports to
 the various servers in your environment by ether using the Compute Cloud
 Service console and creating/re-using protocol definitions and access
-rules OR you can create SSH tunnels to the specific server/port
+rules, OR you can create SSH tunnels to the specific server/port
 combinations as needed. This lab and the rest of the labs require access
 via development tools and the browser to various admin consoles running
 on the cloud servers themselves.
@@ -380,7 +388,7 @@ via selected ports used in this and other labs.
 
 -   Close the edit session.
 
--   You can also do **ps -ef | grep DBCS** to see the running background
+-   You can also enter: `ps -ef | grep DBCS` to see the running background
     session.
 
 	```
@@ -406,7 +414,7 @@ demonstrate how to do an explicit SSH into your DB cloud server.
 	
 	![](images/100/image46.png)
 
--   Now that you are connected to **Alpha01A-DBCS,** let's look around. Issue a **df** command to see mounted disks.
+-   Now that you are connected to **Alpha01A-DBCS,** let's look around. Enter the **df** command to see mounted disks.
 
 	![](images/100/image47.png)
 
@@ -437,11 +445,11 @@ demonstrate how to do an explicit SSH into your DB cloud server.
 
 **Access DB Monitor, Apex, EM Consoles**
 
-**NOTE: For any of the URLs mentioned in this section you can also use
+***NOTE***: For any of the URLs mentioned in this section you can also use
 the predefined browser links. If blocked ports on the network cause an
 issue loading any of these consoles, the predefined browser links will
 help by routing the traffic through the SSH tunnel that should already
-be open:**
+be open:
 
 ![](images/100/image50.png)
 
@@ -471,7 +479,7 @@ access rule and protocol definition.
 
 	![](images/100/image54.png)
 
--   Rule name **ora\_p2\_httpssl** is setup to open port 443 to the public internet. Click on the **hamburger menu** ![](images/100/image55.png) for this rule and select **Enable**
+-   The Rule named **ora\_p2\_httpssl** is setup to open port 443 to the public internet. Click on the **hamburger menu** ![](images/100/image55.png) for this rule and select **Enable**
 
 	![](images/100/image56.png)
 
@@ -480,7 +488,7 @@ access rule and protocol definition.
 ![](images/100/image57.png)
 
 -   You should now see that the Access Rule **ora\_p2\_httpssl** is
-    enabled. Click on **Oracle Database Cloud Service** to navigate back
+    enabled. Click on **Oracle Database Cloud Service** link at the top of the window to navigate back
     to the Service Console
 
 	![](images/100/image58.png)
@@ -520,11 +528,11 @@ https://localhost:5500/em
 
 -   On the EM login page enter the following and click on **Login**:
 
-	```
-	User Name: sys
-	Password: Alpha2014_
-	Select the “as sysdba” box.
-	```
+	**User Name**: `sys`
+
+	**Password**: `Alpha2014_`
+
+	**Select** the **as sysdba** box.
 
 	![](images/100/image65.png)
 
@@ -539,7 +547,7 @@ https://localhost:5500/em
     **Note**: All traffic to the default https port (443) on local host
     is also routed through the ssh tunnel to the database cloud service.
 
-	https://localhost/apex/pdb1/
+	<https://localhost/apex/pdb1/>
 
 	![](images/100/image67.png)
 
@@ -549,11 +557,12 @@ https://localhost:5500/em
 
 -   Once the Apex login window is displayed, **enter the following** and click on **Sign In**:
 
-	```
-	Workspace: internal
-	Username: ADMIN
-	Password: Alpha2014_
-	```
+	**Workspace**: `internal`
+
+	**Username**: `ADMIN`
+	
+	**Password**: `Alpha2014_`
+	
 	![](images/100/image68.png)
 
 -   You are now connected to Apex. Feel free to explore the menu
