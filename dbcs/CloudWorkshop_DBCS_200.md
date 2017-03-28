@@ -1,24 +1,12 @@
 ![](images/200/image1.png)
 
-# Oracle Public Cloud Workshop: Database Cloud Services Cloud Migration
+Update March 28, 2017
 
-Update January 10, 2017
+## Introduction
 
-##Introduction
+In this lab, you will explore some common use cases for moving your data from on-premises to the cloud. There are multiple options for solving this data movement challenge. In this lab, we will use SQL\*Developer and command line tools to clone and move a pluggable database from your on-premises database (your Virtual Machine) to your cloud database. You will also use standard Oracle Data Pump tools to export a schema from the on-premises database, and then import that data to your cloud database in a new schema. The final exercise uses the SQL Developer cart feature to quickly move data from the local database to the cloud using only the privileges of a normal schema owner.
 
-In this lab, you will explore some common use
-cases for moving your data from on-premises to the cloud. There are
-multiple options for solving this data movement challenge. In this lab,
-we will use SQL\*Developer and command line tools to clone and move a
-pluggable database from your on-premises database (your Virtual Machine)
-to your cloud database. You will also use standard Oracle Data Pump
-tools to export a schema from the on-premises database, and then import
-that data to your cloud database in a new schema. The final exercise
-uses the SQL Developer cart feature to quickly move data from the local
-database to the cloud using only the privileges of a normal schema
-owner.
-
-Please direct comments to: Dennis Foley (dennis.foley@oracle.com)
+- To log issues and view the Lab Guide source, go to the [github oracle](https://github.com/pcdavies/DatabaseCloudService/tree/master/dbcs) repository.
 
 ## Objectives
 
@@ -34,7 +22,7 @@ Please direct comments to: Dennis Foley (dennis.foley@oracle.com)
 
 -   The SSH tunnels must be active in a terminal window.
 
-#Cloud Migration Using Pluggable Databases
+# Cloud Migration Using Pluggable Databases
 
 ## Configure the Environment
 
@@ -58,7 +46,7 @@ Please direct comments to: Dennis Foley (dennis.foley@oracle.com)
 
 	![](images/200/image4.png)
 
--   Select the **View** -&gt; **DBA** menu option from the top dropdown menu.
+-   Select the **View** -> **DBA** menu option from the top dropdown menu.
 
 	![](images/200/image5.png)
 
@@ -207,7 +195,7 @@ Please direct comments to: Dennis Foley (dennis.foley@oracle.com)
 
 ### **STEP 6**:  Copy ALPHACLONE pluggable database to the Cloud
 
--   Click on **ViewTask Progress** to open up the window.
+-   Click on **View -> Task Progress** to open up the window.
 
 -   In the DBA window right-click on **ALPHACLONE** and select “**Clone PDB to Oracle Cloud**”
 
@@ -225,7 +213,7 @@ Please direct comments to: Dennis Foley (dennis.foley@oracle.com)
 
 -   You will note in the Task Progress window the progress of moving the
     datafiles over to the cloud database. This task will take about a
-    minute to complete. An Error/Warning will display at the end of this
+    minute to complete. Note: An Error/Warning will display at the end of this
     task, which is Normal.
 
 	![](images/200/image30.jpeg)
@@ -349,7 +337,7 @@ Please direct comments to: Dennis Foley (dennis.foley@oracle.com)
 
 -   The final step is to close and reopen the ALPHACLONE pluggable
     database. Go back to EM Express, with the ALPHACLONE row highlighted
-    (DO NOT CLICK THE ALPHACLONE LINK). Select **ActionsClose**.
+    (DO NOT CLICK THE ALPHACLONE LINK). Select **Actions -> Close**.
 
 	![](images/200/image49.jpeg)
 
@@ -359,7 +347,7 @@ Please direct comments to: Dennis Foley (dennis.foley@oracle.com)
 
 -   Close the Confirmation pop up by clicking **OK**.
 
--   Now reopen the pluggable database via **ActionsOpen**. Take the default to open it Read / Write. Click **OK**.
+-   Now reopen the pluggable database via **Actions -> Open**. Take the default to open it Read / Write. Click **OK**.
 
 	![](images/200/image51.jpeg)
 
@@ -412,7 +400,7 @@ within the PDB that is exporting or importing schemas or tables.
 
 ### **STEP 12**:  Create a Local Data Pump Directory
 
--   In the Connections Tab inside the "On-Premise" folder navigate to the **Alpha - PDB Directories** item, right-mouse click and select **Create Directory...**
+-   In the Connections Tab inside the "**On-Premise**" folder navigate to the **Alpha - PDB Directories** item, right-mouse click and select **Create Directory...**
 
 	![](images/200/image58.png)
 
@@ -468,14 +456,14 @@ within the PDB that is exporting or importing schemas or tables.
 
 -   We do want a log for this export, and just like the actual export
     file, we must pick a directory from the list of directories in the
-    database. Select **ALPHA_BACKUP_DIR** from the list and click the
+    database. Select **ALPHA\_BACKUP\_DIR** from the list and click the
     **Next** button.
 
 	![](images/200/image70.png)
 
 -   The most important selection for any Data Pump operation is choosing
     the directory where the export file will be written. Select
-    **ALPHA_BACKUP_DIR** from the Directories drop down list. Then,
+    **ALPHA\_BACKUP\_DIR** from the Directories drop down list. Then,
     select the **Delete Existing Dump Files** radio button and click the
     **Next** button. 
 	
@@ -607,7 +595,7 @@ within the PDB that is exporting or importing schemas or tables.
 	
 	![](images/200/image91.png)
 
--   We want to see the log output so we will select the same directory as the import file directory. Select **ALPHA_IMPORT_DIR** and click the **Next** button.
+-   We want to see the log output so we will select the same directory as the import file directory. Select **ALPHA\_IMPORT\_DIR** and click the **Next** button.
 
 	![](images/200/image92.png)
 
@@ -664,8 +652,6 @@ including pre and post processes from multiple data sources.
 -   Drag the **CUSTOMERS** table from the **Alpha - PDB** connection to the cart.
 
 	![](images/200/image100.png)
-
-	![](images/200/image101.png)
 
 -   Now drag the **PRODUCTS** table to the cart.
 
