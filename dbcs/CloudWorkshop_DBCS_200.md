@@ -632,8 +632,6 @@ within the PDB that is exporting or importing schemas or tables.
 
 # Cloud Migration Using SQL Developer Carts
 
-## SQL Developer Cart
-
 The SQL Developer Cart is a convenient method for organizing the
 deployment of database objects and data from one database to another. In
 this trivial example, we want to update the data of just the CUSTOMERS
