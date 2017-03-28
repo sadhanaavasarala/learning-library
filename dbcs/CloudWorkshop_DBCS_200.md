@@ -412,10 +412,10 @@ within the PDB that is exporting or importing schemas or tables.
     SQL tab to review the actual DDL statement. Click **OK** to dismiss
     the confirmation.
 
-	```
-	Directory Name:				alpha_backup_dir (not case sensitive)
-	Database Server Directory:	/u01/OPCWorkshop
-	```
+	**Directory Name**:				`alpha_backup_dir` (not case sensitive)
+
+	**Database Server Directory**:	`/u01/OPCWorkshop`
+
 	**NOTE:** Sometimes an error msg shows up saying it cannot create the directory. Just right-click on **Alpha - PDB** and do a **Disconnect** and then a **Reconnect**. This is because if you were connected before doing the UNMOUNT / REMOUNT during the previous "cloning" of the pdb container the connection information is lost and you have to ReConnect from within the Connections window
 	
 	![](images/200/image59.jpeg)
@@ -539,7 +539,7 @@ within the PDB that is exporting or importing schemas or tables.
 
 ### **STEP 15**:  Create a directory in the Alpha Clone PDB
 
--   Back in SQL Developer Expand the **Alpha Clone - DBCS** connection.
+-   Back in SQL Developer in the Connection panel, expand the **Alpha Clone - DBCS** connection.
     Right-mouse-click on the **Directories** tree item and select the
     **Create  Directory...** menu item.
 
@@ -550,10 +550,9 @@ within the PDB that is exporting or importing schemas or tables.
     access the same directory where the Data Pump export file was
     copied.
 
-	```
-	Directory Name:				alpha_import_dir
-	Database Server Directory:	/home/oracle
-	```
+	**Directory Name**:				`alpha_import_dir`
+
+	**Database Server Directory**:	`/home/oracle`
 
 	![](images/200/image84.png)		![](images/200/image85.jpeg)
 	
@@ -569,7 +568,7 @@ within the PDB that is exporting or importing schemas or tables.
 
 	![](images/200/image86.png)
 
--   Expand **Alpha Clone - DBCS** **Data Pumps**, Right-mouse on the
+-   Expand **Alpha Clone - DBCS** > **Data Pumps**, Right-mouse on the
     **Import Jobs** menu item, and select **Data Pump Import Wizard...**
     menu item.
 
@@ -592,10 +591,9 @@ within the PDB that is exporting or importing schemas or tables.
     click **Add Row**. Enter the following values and click the **Next**
     button.
 
-	```
-	Source: 		ALPHA		(should be defaulted)
-	Destination:	ALPHA_COPY
-	```
+	**Source**: 		`ALPHA`		(should be defaulted)
+
+	**Destination**:	`ALPHA_COPY`
 	
 	![](images/200/image91.png)
 
@@ -632,7 +630,7 @@ within the PDB that is exporting or importing schemas or tables.
 
 -   If you desire to verify that the ALPHA_COPY schema is the same as the ALPHA schema, feel free to create a connection and compare.
 
-#Cloud Migration Using SQL Developer Carts
+# Cloud Migration Using SQL Developer Carts
 
 ## SQL Developer Cart
 
@@ -653,7 +651,7 @@ including pre and post processes from multiple data sources.
 
 	![](images/200/image99.png)
 
--   Drag the **CUSTOMERS** table from the **Alpha - PDB** connection to the cart.
+-   Drag the **CUSTOMERS** table from the **On-premise** > **Alpha - PDB** connection to the cart.
 
 	![](images/200/image100.png)
 
