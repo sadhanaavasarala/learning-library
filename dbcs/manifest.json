@@ -10,12 +10,6 @@
                 "description": "Step-by-step workshop instructions"
             },
             {
-                "number": "10",
-                "filename": "StudentGuide.md",
-                "title": "Student Guide",
-                "description": "Workshop guidance and prerequisites"
-            },
-            {
                 "number": "100",
                 "filename": "CloudWorkshop_DBCS_100.md",
                 "title": "Lab 100: Introduction",

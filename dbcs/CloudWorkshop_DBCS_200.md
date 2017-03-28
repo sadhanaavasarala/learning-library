@@ -28,15 +28,15 @@ In this lab, you will explore some common use cases for moving your data from on
 
 ### **STEP 1**:  Start the on-premise Oracle Database
 
--   From the VNC Session desktop, locate and double-click on the **StartDB** icon**.**
+-   From the VNC Session desktop, locate and double-click on the **StartDB** icon.
 
 	![](images/200/image2.png)
 
--   It will take a minute for the Database to fully start. Once started, the Log Window will automatically close.
+-   It will take a minute for the Database to fully start. Once the Database has succesfully started, the Log Window will automatically close.
 
 ### **STEP 2**:  Open a **DBA Navigator** connection to the on-premise database
 
--   From the VNC Session desktop, locate and double-click on the **SQL Developer** icon. **NOTE: The first time SQL Developer is brought up; it may take some time to instantiate.**
+-   From the VNC Session desktop, locate and double-click on the **SQL Developer** icon. ***NOTE***: The first time SQL Developer is brought up; it may take some time to instantiate.
 
 	![](images/200/image3.png)
 
@@ -78,9 +78,7 @@ In this lab, you will explore some common use cases for moving your data from on
 
 -   Enter the following:
 
-	```
-	Database Name: ALPHACLONE
-	```
+	**Database Name**: `ALPHACLONE`
 	
 	![](images/200/image10.png)
 
@@ -99,10 +97,9 @@ In this lab, you will explore some common use cases for moving your data from on
 	
 	Enter the following - please use the indicated upper and lower case letters:
 
-	```
-	Source File Pattern: AlphaPDB
-	Target File Pattern: AlphaClone
-	```
+	**Source File Pattern**: `AlphaPDB`
+
+	**Target File Pattern**: `AlphaClone`
 	
 	![](images/200/image12.png)
 
@@ -138,11 +135,11 @@ In this lab, you will explore some common use cases for moving your data from on
 
 -   We will now configure an SSH connection to our DBCS instance
 
-	```
-	Name = Alpha01-DBCS
-	Host = <public IP you obtained in lab 100>
-	Username = oracle
-	```
+	**Name**: `Alpha01-DBCS`
+
+	**Host**: `<public IP you obtained in lab 100>`
+
+	**Username**: `oracle`
 	
 	![](images/200/image21.png)
 
@@ -152,10 +149,9 @@ In this lab, you will explore some common use cases for moving your data from on
 
 -   Click **Add a Local Port Forward** and enter the following values:
 
-	```
-	Name = Database
-	Host = <Public IP you obtained in lab 100>
-	```
+	**Name**: `Database`
+
+	**Host**: `<Public IP you obtained in lab 100>`
 	
 -   Select **Use specific local port** and enter **1530**
 
@@ -167,18 +163,23 @@ In this lab, you will explore some common use cases for moving your data from on
 
 ### **STEP 5**:  Create a SQL Developer connection to the Public Cloud database SYS schema
 
--   Click the green plus sign ![](images/200/image24.png) in the Connections window to create a new connection; enter the following connection details:
+-   Click the green plus sign ![](images/200/image24.png) in the **Connections** window to create a new connection; enter the following connection details:
 
-	```
-	Connection Name: 	sys - OPCDBCS
-	Username: 			sys
-	Password:			Alpha2014_
-	Check 				"Save Password"
-	Optionally select a color for the connection
-	ConnectionType: 	SSH
-	Role:				SYSDBA
-	Service Name: 		ORCL.<Your ID Domain>.oraclecloud.internal
-	```
+	**Connection Name**: 	`sys - OPCDBCS`
+
+	**Username**: 			`sys`
+
+	**Password**:			`Alpha2014_`
+
+	**Check** 				"Save Password"
+
+	**Optionally select a color for the connection**
+
+	**ConnectionType**: 	`SSH`
+
+	**Role**:				`SYSDBA`
+
+	**Service Name**: 		`ORCL.<Your ID Domain>.oraclecloud.internal`
 	
 	![](images/200/image25.jpeg)
 
@@ -195,7 +196,7 @@ In this lab, you will explore some common use cases for moving your data from on
 
 ### **STEP 6**:  Copy ALPHACLONE pluggable database to the Cloud
 
--   Click on **View -> Task Progress** to open up the window.
+-   Click on **View -> Task Progress** to open up the Task Progress window.
 
 -   In the DBA window right-click on **ALPHACLONE** and select “**Clone PDB to Oracle Cloud**”
 
@@ -203,25 +204,25 @@ In this lab, you will explore some common use cases for moving your data from on
 
 -   Verify the defaults and include your Public Cloud Connection. Click **Apply**.
 
-	```
-	Source PDB: 			ALPHACLONE
-	Destination Connection: sys - OPCDBCS
-	Action after clone: 	RePlug
-	```
+	**Source PDB**: 			`ALPHACLONE`
+
+	**Destination Connection**: `sys - OPCDBCS`
+
+	**Action after clone**: 	`RePlug`
 	
 	![](images/200/image29.jpeg)
 
 -   You will note in the Task Progress window the progress of moving the
     datafiles over to the cloud database. This task will take about a
-    minute to complete. Note: An Error/Warning will display at the end of this
-    task, which is Normal.
+    minute to complete. ***Note: An Error/Warning will display*** at the end of this
+    task, which is **Normal**.
 
 	![](images/200/image30.jpeg)
 
 -   Upon completion, a couple of pop ups will reveal Plugin Violations.
     This is because the patch level of the local ALPHACLONE pluggable
     database is different than the Container database in the cloud. We
-    will remedy this shortly. Click **OK** for **each** popup. The
+    will remedy this shortly. Click **OK** as **each** of the popups is received. The
     datafiles are transferred despite what the pop up implies.
 
 	![](images/200/image31.jpeg)  ![](images/200/image32.jpeg)
@@ -245,12 +246,11 @@ In this lab, you will explore some common use cases for moving your data from on
 
 -   Enter the following login credentials, check the "**as sysdba**" box and click the Login button:
 
-	```
-	User Name:	sys
-	Password:	Alpha2014_
+	**User Name**:	`sys`
+
+	**Password**:	`Alpha2014_`
 	
-	Check **as sysdba**
-	```
+	**Check**: `as sysdba`
 	
 	![](images/200/image35.png)
 
@@ -260,19 +260,17 @@ In this lab, you will explore some common use cases for moving your data from on
 
 	![](images/200/image36.png)
 
--   Open the **Actions** list and select the **Plug** command
+-   Open the **Actions** list in the **Containers** panel, and select the **Plug** command
 
 	![](images/200/image37.png) ![](images/200/image38.png)
 
 -   Enter the following on the Plug PDB dialog box and then click the **OK** button:
 
-	```
-	Metadata File:	/u02/app/oracle/oradata/ORCL/ALPHACLONE/ALPHACLONE.XML
+	**Metadata File**:	`/u02/app/oracle/oradata/ORCL/ALPHACLONE/ALPHACLONE.XML`
 
-	Uncheck the Resuse source datafile location from Metadata File check box
+	**Uncheck** the **Resuse source datafile location from Metadata File** check box
 
-	Source Datafile Location: /u02/app/oracle/oradata/ORCL/ALPHACLONE
-	```
+	**Source Datafile Location**: `/u02/app/oracle/oradata/ORCL/ALPHACLONE`
 	
 	![](images/200/image39.jpeg)
 
@@ -287,8 +285,8 @@ In this lab, you will explore some common use cases for moving your data from on
 	![](images/200/image42.png)
 
 -   Using your open Terminal window, you now need to SSH into your Cloud
-    database server. An Example is shown below. Substitute your Cloud
-    database server IP address:
+    database server. An Example is shown below. Substitute **your Cloud
+    database server IP address**:
 
 	```
 	ssh -o ServerAliveInterval=60 -i /u01/OPCWorkshop/lab/labkey oracle@<your-IP-address>
@@ -312,7 +310,7 @@ In this lab, you will explore some common use cases for moving your data from on
 
 -   If the error message is “**The pluggable databases that need to be
     patched must be in upgrade mode**” complete this Upgrade PDB Step.
-    If not, move to the next step (Close and Reopen ALPHACLONE PDB).
+    If not, move to the next step titled **(Close and Reopen ALPHACLONE PDB)**.
 
 	![](images/200/image46.png)
 
@@ -357,7 +355,7 @@ In this lab, you will explore some common use cases for moving your data from on
 
     ![](images/200/image52.jpeg)
 
--   You will note that the violations are now gone.
+-   You will note that the violations are now gone for ALPHACLONE.
 
 	![](images/200/image53.png)
 
@@ -370,15 +368,21 @@ In this lab, you will explore some common use cases for moving your data from on
 
 -   Back in SQL Developer, click the green plus sign ![](images/200/image24.png) in the Connections window to create a new connection; enter the following connection details:
 
-	```
-	Connection Name:	Alpha Clone - DBCS
-	Username:			alpha
-	Password:			oracle
-	Check "Save Password"
-	Optionally select a color for the connection
-	ConnectionType:		SSH
-	Service Name:		alphaclone.<Your ID Domain>.oraclecloud.internal
-	```
+	
+	**Connection Name**:	`Alpha Clone - DBCS`
+
+	**Username**:			`alpha`
+
+	**Password**:			`oracle`
+
+	**Check** "Save Password"
+
+	**Optionally select a color for the connection**
+
+	**ConnectionType**:		`SSH`
+
+	**Service Name**:		`alphaclone.<Your ID Domain>.oraclecloud.internal`
+	
 	
 	![](images/200/image55.png)
 
@@ -390,7 +394,7 @@ In this lab, you will explore some common use cases for moving your data from on
 
 	![](images/200/image57.png)
 
-#Cloud Migration Using Data Pump
+# Cloud Migration Using Data Pump
 
 ## Export the Alpha Schema
 
