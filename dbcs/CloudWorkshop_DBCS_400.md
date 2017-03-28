@@ -1,8 +1,6 @@
 ![](images/400/image1.png)
 
-# Oracle Public Cloud Workshop:  Database Development Cloud Services
-
-Update: January 10, 2017
+Update: March 28, 2017
 
 ## Introduction
 
@@ -78,7 +76,9 @@ password in the cloned database.
     the Internet. Substitute your Public IP address from lab 100.
     (**Make sure the protocol is HTTPS**).
 
-	https://&lt;your-Public-IP&gt;/apex/alphaclone/apex\_admin
+	```
+	https://<your-Public-IP>/apex/alphaclone/apex_admin
+	```
 
 	![](images/400/image6.png)
 
@@ -199,7 +199,7 @@ password in the cloned database.
 
 	![](images/400/image21.png)
 
--   Click the **Create &gt;** button
+-   Click the **Create >** button
 
 	![](images/400/image22.png)
 
@@ -262,7 +262,7 @@ password in the cloned database.
 	![](images/400/image31.png)
 
 -   Enter the following URI Template. Note that the **{id}** syntax
-    indicates the REST call accepts one parameter named \"id\" - this is
+    indicates the REST call accepts one parameter named "id" - this is
     automatically available in later for SQL queries. When the entry is
     complete, click the **Create** button.
 
@@ -277,7 +277,7 @@ password in the cloned database.
 
 	![](images/400/image33.png)
 
--   Enter the following SQL statement. Notice the use of the \":id\"
+-   Enter the following SQL statement. Notice the use of the "**:id**"
     bind variable, this value comes from the URI template {id} provided
     when the service is invoked. When all entries are complete, click
     the **Create** button.
@@ -323,7 +323,7 @@ password in the cloned database.
 
 	![](images/400/image39.png)
 
--   Click the **Browse** button to locate the APEX application export
+-   Click the **Choose File** button to locate the APEX application export
     file.
 
 	![](images/400/image40.png)
