@@ -17,7 +17,7 @@ the image layout. Next you will learn how to create an ssh configuration
 file that can be used to tunnel simultaneously multiple ports to a
 remote OPC instance. Using the tunnels, you will learn how to access
 various Database consoles.
-
+ 
 - To log issues and view the Lab Guide source, go to the [github oracle](https://github.com/pcdavies/DatabaseCloudService/tree/master/dbcs) repository.
 
 ## Objectives
@@ -319,7 +319,7 @@ configuration file for **Alpha01A-DBCS**.
 
 **Create SSH config file and start tunnels**
 
-### **STEP 9**:  Run he SSH configuration script to start tunnels in the background
+### **STEP 9**:  Run the SSH configuration script to start tunnels in the background
 
 For security reasons the default Oracle Public Cloud network
 configuration is locked down. You have the option of opening up ports to
@@ -471,7 +471,7 @@ access rule and protocol definition.
 
 	![](images/100/image54.png)
 
--   Rule name **ora_p2_httpssl** is setup to open port 443 to the public internet. Click on the **hamburger menu** ![](images/100/image55.png) for this rule and select **Enable**
+-   Rule name **ora\_p2\_httpssl** is setup to open port 443 to the public internet. Click on the **hamburger menu** ![](images/100/image55.png) for this rule and select **Enable**
 
 	![](images/100/image56.png)
 
@@ -479,7 +479,7 @@ access rule and protocol definition.
 
 ![](images/100/image57.png)
 
--   You should now see that the Access Rule **ora_p2_httpssl** is
+-   You should now see that the Access Rule **ora\_p2\_httpssl** is
     enabled. Click on **Oracle Database Cloud Service** to navigate back
     to the Service Console
 
@@ -493,7 +493,7 @@ access rule and protocol definition.
 
 	![](images/100/image60.png)
 
--   When prompted, enter **dbaas_monitor** for the **User Name** and **Alpha2014_** for the **Password**.
+-   When prompted, enter **dbaas\_monitor** for the **User Name** and **Alpha2014\_** for the **Password**.
 
 	![](images/100/image61.png)
 	
