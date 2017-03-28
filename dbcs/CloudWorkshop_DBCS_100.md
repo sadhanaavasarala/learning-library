@@ -1,8 +1,6 @@
 ![](images/100/image1.png)
 
-# Oracle Public Cloud Workshop: Database Cloud Service
-
-Update January 11, 2017
+Update March 27, 2017
 
 ## Introduction
 
@@ -20,7 +18,7 @@ file that can be used to tunnel simultaneously multiple ports to a
 remote OPC instance. Using the tunnels, you will learn how to access
 various Database consoles.
 
-Please direct comments to: Dennis Foley (dennis.foley@oracle.com)
+- To log issues and view the Lab Guide source, go to the [github oracle](https://github.com/pcdavies/DatabaseCloudService/tree/master/dbcs) repository.
 
 ## Objectives
 
@@ -59,9 +57,7 @@ service.
 
 	![](images/100/image2.png)
 
--   **IMPORTANT** - Under My Services, ask your instructor which
-    **Region** to select from the drop down list, and **click** on the
-    **My Services** button.
+- **IMPORTANT** - Under my services, select from the drop down list the correct data center and click on **My Services**. If you are unsure of the data center you should select, and this is an in-person training event, ***ask your instructor*** which **Region** to select from the drop down list. If you received your account through an Oracle Trial, your Trial confirmation email should provide a URL that will pre-select the region for you.
 
 	![](images/100/image3.png)
 
@@ -165,9 +161,7 @@ service.
 
 -   Click **Sign In** in the upper right hand corner of the browser
 
--   **IMPORTANT** - Under My Services, ask your instructor which
-    **Region** to select from the drop down list, and **click** on the
-    **My Services** button.
+- **IMPORTANT** - Under my services, select from the drop down list the correct data center and click on **My Services**. If you are unsure of the data center you should select, and this is an in-person training event, ***ask your instructor*** which **Region** to select from the drop down list. If you received your account through an Oracle Trial, your Trial confirmation email should provide a URL that will pre-select the region for you.
 
 	![](images/100/image3.png)
 
@@ -206,10 +200,6 @@ service.
 
 ### **STEP 7**:  Identify the Instance Configuration
 
-This next step is very important when provisioning or creating a service
-instance. In this step, you will shape the service and provide an
-identity **SERVICE CONFIGURATION: **
-
 When providing a name, please note you may have another service instance
 already created in your account, so the name must be unique.
 
@@ -220,6 +210,44 @@ already created in your account, so the name must be unique.
 -   Enter **Alpha Office Database Cloud Service** in the **Description** field
 
 	![](images/100/image22.png)
+
+-   Select **Oracle Database Cloud Service** for the **Service Level**
+
+	![](images/100/image28.5.png)
+
+-   Select **Hourly** for the **Metering Frequency**
+
+	![](images/100/image29.png)
+
+-   Select **Oracle Database 12c Release 1** for the **Software	Release**
+
+	![](images/100/image27.png)
+
+-   Select **Enterprise Edition** for **Software Edition**
+
+	![](images/100/image28.png)
+
+-   Select **Database Type** for **Single Instance**
+
+	![](images/100/image29.5.png)
+
+-   Your selections should appear as below. Click on the **Next** Button to navigate to the Service Details page.
+
+	![](images/100/image30.png)
+
+-   In the **Database Configuration section**, provide the following:
+
+	```
+	DB Name (SID) = ORCL
+	PDB Name = PDB1
+	Administration Password = Alpha2014_
+	Confirm Password = Alpha2014_
+	Usable Database Storage (GB) = Use Default (25)
+	Total Data File Storage (GB) = Use Default (88.5)
+	Compute Shape = OC3 - 1 OCPU, 7.5 GB RAM
+	```
+	
+	![](images/100/image32.png)
 
 -   Click on the **Edit** button next to the **SSH Public Key** field
 
@@ -237,45 +265,6 @@ already created in your account, so the name must be unique.
 
 	![](images/100/image26.png)
 
--   Select **Oracle Database 12c Release 1** for the **Software	Release**
-
-	![](images/100/image27.png)
-
--   Select **Enterprise Edition** for the **Software Edition**
-
-	![](images/100/image28.png)
-
--   Select **Hourly** for the **Billing Frequency**
-
-	![](images/100/image29.png)
-
--   Your selections should appear as below. Click on the **Next** Button to navigate to the Service Details page.
-
-	![](images/100/image30.png)
-
--   In the **Service Configuration section**, provide the following:
-
-	```
-	Compute Shape = OC3 - 1 OCPU, 7.5 GB RAM
-	Timezone = Default (UTC)
-	```
-	
-	![](images/100/image31.png)
-
--   In the **Database Configuration section**, provide the following:
-
-	```
-	Usable Database Storage (GB) = Use Default (25)
-	Administration Password = Alpha2014_
-	Confirm Password = Alpha2014_
-	DB Name (SID) = ORCL
-	PDB Name = PDB1
-	```
-	
-	![](images/100/image32.png)
-
--   In the **Standby Database Configuration** section, **DO NOT** select
-    the **Standby Database with Data Guard**
 
 -   In the **Backup and Recovery Configuration** section, provide the following:
 	
@@ -285,11 +274,6 @@ already created in your account, so the name must be unique.
 	Cloud Storage User Name = <your Cloud user name>
 	Cloud Storage Password = <your Cloud password>
 	Check the Create Cloud Storage Container box
-	Create Instance from Existing Backup = NO
-	Character Set = (Default) AL32UTF8 - Unicode Universal...
-	National Character set = (Default) AL16UTF16 - Unicode Universal...
-	Enable Oracle GoldgenGate = NO	
-	Include “Demos” PDB = NO
 	```
 	
 	![](images/100/image33.png)
@@ -329,7 +313,7 @@ configuration file for **Alpha01A-DBCS**.
 
 	![](images/100/image38.png)
 
--   Note the IP address of **Alpha01A-DBCS**. In this example, we will note the IP address of 140.86.12.84
+-   Note the IP address of **Alpha01A-DBCS**. In this example, we will note the IP address of 129.144.19.238
 
 	![](images/100/image39.png)
 
