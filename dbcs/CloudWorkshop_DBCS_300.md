@@ -1,8 +1,6 @@
 ![](images/300/image1.png)
 
-# Oracle Public Cloud Workshop: Backup and Recovery Database Cloud Services 
-
-Update: January 10, 2017
+Update: March 28, 2017
 
 ## Introduction
 
@@ -21,7 +19,7 @@ of the client database is configured to use the cloud backup module to
 perform backups to ODBS. Using familiar RMAN commands, backups and
 restores are transparently handled by the backup module.
 
-Please direct comments to: Dennis Foley (dennis.foley@oracle.com)
+- To log issues and view the Lab Guide source, go to the [github oracle](https://github.com/pcdavies/DatabaseCloudService/tree/master/dbcs) repository.
 
 ## Objectives
 
@@ -59,20 +57,20 @@ Please direct comments to: Dennis Foley (dennis.foley@oracle.com)
 	```	
 	cd lab
 	pwd
-	ls \*.jar
+	ls *.jar
 	```
 	![](images/300/image3.jpeg)
 
 -   To eliminate potential typos, the installation command has been
-    saved into a **Workshop_Commands_URLs.txt** file that is
+    saved into a **Workshop\_Commands\_URLs.txt** file that is
     represented by an icon on the Desktop. Double click on this icon to
     open the file.
 
 	![](images/300/image4.jpeg)
 
 -   Find the **OPC Cloud Backup Installation** section in the text.
-    Replace **opc-identity-domain&gt; &lt;opc-username&gt;** and
-    **&lt;opc-passwd&gt;** (including replacing the &lt;&gt;) with the
+    Replace **\<opc-identity-domain\> \<opc-username\>** and
+    **\<opc-passwd\>** (including replacing the &lt;&gt;) with the
     Identity Domain, Username, and Password student account information
     you were assigned. Also, be sure to keep the single quotes around
     your password to avoid any issues with special characters.
@@ -86,9 +84,9 @@ Please direct comments to: Dennis Foley (dennis.foley@oracle.com)
 
 -   The installation creates a configuration file **opcorcl.ora** and
     wallet directory **opc\_wallet** and places these in
-    **\$ORACLE\_HOME/dbs**. It also downloads a library file
+    **$ORACLE\_HOME/dbs**. It also downloads a library file
     **opclib.so** that RMAN uses to communicate with the Oracle Database
-    Backup Service, and places that file in the \$ORACLE\_HOME/lib. You
+    Backup Service, and places that file in the $ORACLE\_HOME/lib. You
     specified these locations in the syntax of the install command.
 
 	![](images/300/image7.jpeg)
@@ -134,7 +132,7 @@ you need to configure several RMAN properties. These properties define:
 
 -   Commands in RMAN can be run in blocks, so you can do a sequence of
     commands all at once. **Copy and Paste** from the entire run block
-    in **Workshop_Commands_URLS.txt** under the **RMAN Config Params**
+    in **Workshop\_Commands\_URLS.txt** under the **RMAN Config Params**
     section as shown below:
 
 	![](images/300/image10.jpeg)
@@ -156,7 +154,7 @@ you need to configure several RMAN properties. These properties define:
 For backup and recovery, we could always run the following sequence of commands from a shell script or an RMAN run block, but we'll be copying and pasting each individual command in sequence, so you'll get a better feel for what is going on.
 
 -   Under the **RMAN FLOW BACKUP** section of the
-    **Workshop_Commands_URLS.txt** file **Copy and Paste**
+    **Workshop\_Commands\_URLS.txt** file **Copy and Paste**
 
     ```
     set encryption on identified by oracle only;
@@ -223,7 +221,7 @@ Now that we have a backup of our database we are going to “accidently” drop 
     the contents.
 
     ```
-    select \* from mstars;
+    select * from mstars;
     ```
 
     ![](images/300/image17.jpeg)
@@ -312,7 +310,7 @@ We need to set the de-encryption password we set when encrypting and backing up 
     ```
     sqlplus alpha/oracle@alphapdb
 
-    select \* from mstars;
+    select * from mstars;
     ```
 
     ![](images/300/image22.jpeg)
