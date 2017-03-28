@@ -401,7 +401,7 @@ demonstrate how to do an explicit SSH into your DB cloud server.
     following command using the IP address for your DBCS cloud instance.
 
 	```
-	ssh -o StrictHostKeyChecking=no -i ./labkey oracle@&lt;your-DB-IP&gt;
+	ssh -o StrictHostKeyChecking=no -i ./labkey oracle@<your-DB-IP>;
 	```
 	
 	![](images/100/image46.png)
@@ -423,7 +423,7 @@ demonstrate how to do an explicit SSH into your DB cloud server.
     directories.
 
 	```
-	cd \$ORACLE\_HOME\
+	cd $ORACLE_HOME
 	ls
 	```
 
@@ -433,7 +433,7 @@ demonstrate how to do an explicit SSH into your DB cloud server.
 
 	**NOTE:** By typing exit once, you are only exiting the Cloud DBCS Service. Do not exit the Terminal window, as we have the SSH Tunnels running in the background, and these SSH Tunnels will be used during the remainder of the lab.
 
-##Access the Database Consoles
+## Access the Database Consoles
 
 **Access DB Monitor, Apex, EM Consoles**
 
@@ -457,7 +457,7 @@ In this step you will open the port 443 on the VM using a pre-create
 access rule and protocol definition.
 
 -   If not already on the **Alpha01A-DBCS** details page, navigate back
-    to Database Cloud Service console and click on Alpha01A-DBCS to get
+    to Database Cloud Service console and click on **Alpha01A-DBCS** to get
     to this page.
 
 	![](images/100/image51.png)
