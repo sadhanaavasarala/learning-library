@@ -98,7 +98,7 @@ At the end of the workshop you will have deployed a new application in the Oracl
 
 ## Building the Instance
 
-TOD: Add what we are building
+In this section we are going to build Oracle Compute VM using a priviate disk image. This VM contains a fully configured Jenkens Server with all the jobs already created to support this workshop.
 
 ### **STEP 3**: Verify Image file has been uploaded
 
@@ -152,7 +152,11 @@ TOD: Add what we are building
 
 ### **STEP 5**: Login to your Oracle Cloud account
 
--   From any browser, go to the following URL: https://cloud.oracle.com
+-   From any browser, go to the following URL:
+
+```
+https://cloud.oracle.com
+```
 
 -   Click **Sign In** in the upper right hand corner of the browser:
 
@@ -307,18 +311,18 @@ TOD: Add what we are building
 
     ![](images/100/image44.png)
 
--   Click inside of the **Security Lists** field. Select **default**.
+-   Click in the **SSH Keys** field. Select **DevOpsDemoKey** that was
+    added previously
+
+    ![](images/100/image47.png)
+
+-   Click **Network**. Click inside of the **Security Lists** field. Select **ssh_access**.
 
     ![](images/100/image45.png)
 
 -   Also, select **web\_access** from the Security Lists.
 
     ![](images/100/image46.png)
-
--   Click in the **SSH Keys** field. Select **DevOpsDemoKey** that was
-    added previously
-
-    ![](images/100/image47.png){
 
 -   Click **Storage**. Click ![](images/100/image28.png) next to the default storage, and select **Remove**
 
@@ -403,14 +407,7 @@ TOD: Add what we are building
 
 ### **STEP 13**: Test Jenkins
 
-    ***Note:** Jenkins is a continuous integration and continuous
-    delivery application, used to automate parts of the SDLC. Jenkins
-    can be leveraged to build and test software projects continuously
-    making it easier for developers to integrate changes to the project,
-    and making it easier for users to obtain a fresh build. It also
-    allows for continuous delivery of software by providing powerful
-    ways to define build pipelines and integrating with many testing and
-    deployment technologies.*
+**Note:** Jenkins is a continuous integration and continuous     delivery application, used to automate parts of the SDLC. Jenkins    can be leveraged to build and test software projects continuously     making it easier for developers to integrate changes to the project,     and making it easier for users to obtain a fresh build. It also     allows for continuous delivery of software by providing powerful     ways to define build pipelines and integrating with many testing and     deployment technologies.
 
 -   Open a browser and enter the **Public IP** for your newly create
     instance. The Jenkins login page should render as shown below.
@@ -443,7 +440,9 @@ TOD: Add what we are building
     ![](images/100/image64.png)
 
     -   Run script **downloadcheffiles.sh** to load the needed chef
-    configuration files. ***Note***: The instructor will supply each group with an **Organization Id**. For our example, we will be using Org Id 1.
+    configuration files. 
+    
+    ***Note***: The instructor will supply each group with an **Organization Id**. For our example, we will be using Org Id 1.
 
     `./downloadcheffiles.sh <Username> <Password> <ID Domain> <groupnumber>`
 
@@ -455,31 +454,37 @@ TOD: Add what we are building
 
 -   Verify your connectivity to the Chef Server
 
+```
 knife environment list
+```
 
-    ![](images/100/image67.png)
+![](images/100/image67.png)
 
 ### **STEP 15**: Download WebLogic Maven dependencies
 
 -   Run the script **downloadWLSMavenfiles.sh** to install WebLogic
     Maven dependencies. Run to the following command:
 
-    `./downloadWLSMavenfiles.sh <Username> <Password> <ID Domain> <groupnumber>`
+```
+./downloadWLSMavenfiles.sh <Username> <Password> <ID Domain> <groupnumber>
+```
 
-    ![](images/100/image68.png)
+![](images/100/image68.png)
 
-    ![](images/100/image69.png)
+![](images/100/image69.png)
 
 ### **STEP 16**: Load Cookbooks to Chef
 
 -   **Clone** the Git repository that contains the Cookbooks that will
     be used during the lab.
 
-    `git clone https://github.com/oraclenassolutionengineering/Chef\_Cookbooks`
+```
+git clone https://github.com/pcdavies/Chef_Cookbooks.git
+```
 
-    **Note:**
+**Note:**
 
-    -   **git** is a source control tool used by developers and now with
+-   **git** is a source control tool used by developers and now with
         the emergence of DevOps, “DevOps Full Stack Engineers” are using
         git as well for the code that decribes the infrastructure.
 
@@ -503,17 +508,21 @@ knife environment list
 
 -   Change directories to the WebLogic cookbook:
 
-    `cd /home/jenkins/Chef\_Cookbooks/opcwls`
+```
+cd /home/jenkins/Chef_Cookbooks/opcwls
+```
 
-    ![](images/100/image71.png)
+![](images/100/image71.png)
 
 -   We will now update the **cloud-environment.rb** file with your
     Identity Domain and password. Edit file **cloud-environment.rb** in
     **attributes** directory:
 
-    `vi attributes/cloud-environment.rb`
+```
+vi attributes/cloud-environment.rb
+```
 
-    ![](images/100/image72.png)
+![](images/100/image72.png)
 
 -   Update **cloud\_identity\_domain** and **cloud\_password** with your
     credentials.
@@ -522,22 +531,28 @@ knife environment list
 
 -   Install the WebLogic cookbook: **Note**: berks is a command that comes with a Chef Client installation,it is used to manage and upload cookbooks to a Chef server. The berks install command finds all dependencies defined in a cookbook and downloads them to the local machine.
 
-    `berks install`
+```
+berks install
+```
 
-    ![](images/100/image74.png)
+![](images/100/image74.png)
 
 -   Upload Chef Cookbooks to Chef Server. **Note**: Nodes pull cookbooks from the Chef server; to make it
 available to Chef Nodes, we must first upload it to the Chef server.
 
-    `berks upload --ssl-verify false`
+```
+berks upload --ssl-verify false
+```
 
-    ![](images/100/image75.png)
+![](images/100/image75.png)
 
 -   Verify the cookbooks uploaded correctly
 
--   knife cookbook list
+```
+knife cookbook list
+```
 
-    ![](images/100/image76.png)
+![](images/100/image76.png)
 
 # Application Development (Developer Persona)
 
@@ -586,13 +601,15 @@ Oracle Developer Cloud Service helps deliver better applications faster.
 
     ![](images/100/image81.png)
 
--   Select your **Wiki Markup** preference to **MARKDOWN.** Click
-    **Import existing repository** and enter repository URL supplied by
-    the instructor. Click **Finish**.
+-   Select your **Wiki Markup** preference to **MARKDOWN.**
 
-https://github.com/oraclenassolutionengineering/SampleMavenWLSApp
+- Click **Import existing repository** and enter repository URL supplied by the instructor. Click **Finish**.
 
-    ![](images/100/image82.png)
+```
+https://github.com/pcdavies/SampleMavenWLSApp.git
+```
+
+![](images/100/image82.png)
 
 -   Project creation will take about 1 minute.
 
@@ -619,9 +636,11 @@ Service, we will want to clone that into our Jenkins image.
     **/home/jenkins** directory then enter the following command to
     clone the DevCS Git repository.
 
-    `git clone <copied URL>`
+```
+git clone <copied URL>
+```
 
-    ![](images/100/image86.png)
+![](images/100/image86.png)
 
 -   When prompted enter your **Oracle Cloud password**
 
@@ -664,7 +683,7 @@ Service, we will want to clone that into our Jenkins image.
 
     ![](images/100/image94.png)
 
-### **STEP 22**: Configure Jenkins job wkshp\_build\_pipeline
+### **STEP 22**: Configure Jenkins job **wkshp\_build\_pipeline**
 
 -   Click on the job **wkshp\_build\_pipeline**
 
@@ -744,23 +763,20 @@ Service, we will want to clone that into our Jenkins image.
 
     ![](images/100/image107.png)
 
-Developer Cloud Service provides out of the box integration with 3^rd^
-party systems via Webhooks. We will use the Hudson/Jenkins – Git Plugin
-webhook to notify our Jenkins build server of changes to our source code
-Git repository.
+Developer Cloud Service provides out of the box integration with 3rd
+party systems via Webhooks. We will use the Hudson/Jenkins – Git Plugin webhook to notify our Jenkins build server of changes to our source code Git repository.
 
--   Click **New Webhook** and enter the following information and click
-    **Done**
+-   Click **New Webhook** and enter the following information and click **Done**
 
     **Type**: `Hudson/Jenkins – Git Plugin`
 
-    **Name**: **`Jenkins Webhook`
+    **Name**: `Jenkins Webhook`
 
     **Active**: `<Leave checked>`
 
     **URL**: `<Jenkins Server IP>/git/notifyCommit`
 
-    **Expand URL Parameters**
+    **Expand Notification Parameters**
 
     **URL**: `HTTP Repository Address`
 
@@ -787,20 +803,21 @@ Git repository.
 
 ### **STEP 25**: Modify Application
 
--   Switch back to your **ssh** session. If your ssh session has closed
-    follow instructions described earlier in the lab guide. As the
-    **jenkins** user change to the project directory for the application
-    that you cloned from Developer cloud service.
+-   Switch back to your **ssh** session. If your ssh session has closed follow instructions described earlier in the lab guide. As the **jenkins** user change to the project directory for the application that you cloned from Developer cloud service.
 
-    `cd /home/jenkins/sample-application`
+```
+cd /home/jenkins/sample-application
+```
 
-    ![](images/100/image111.png)
+![](images/100/image111.png)
 
 -   Edit the **index.html** file and change Basic to your name.
 
-    `vi ./src/main/webapp/index.xhtml`
+```
+vi ./src/main/webapp/index.xhtml
+```
 
-- On line 15 change:**Basic Webapp** to **YOURNAME Webapp**
+- On line 15 change: **Basic Webapp** to **YOURNAME Webapp**
 
     Put your curser on the “**B**” of **Basic**,
 
@@ -817,22 +834,28 @@ Git repository.
 -   View all changes to Git repository: You should see that the
     **index.xhtml** file has been modified
 
-    `git status`
+```
+git status
+```
 
-    ![](images/100/image113.png)
+![](images/100/image113.png)
 
 -   Commit the changes to your local Git repository:
 
-    `git commit –am “changed title to my name”`
+```
+git commit -am “changed title to my name”
+```
 
-    ![](images/100/image114.png)
+![](images/100/image114.png)
 
 -   Push changes to the Developer Cloud Service Git repository. When
     prompted enter your **OPC password**:
 
-    `git push origin master`
+```
+git push origin master
+```
 
-    ![](images/100/image115.png)
+![](images/100/image115.png)
 
 ### **STEP 26**: Automatic deployment of Application
 
