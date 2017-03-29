@@ -44,7 +44,7 @@ restores are transparently handled by the backup module.
 ### **STEP 1**: Start the On-Premise Oracle Database
 
 -   If your local database is not running for some reason (it should be
-    at this point) locate and double-click on the **StartDB** icon**.**
+    at this point) locate and double-click on the **StartDB** icon.
 
 	![](images/300/image2.png)
 
@@ -69,13 +69,17 @@ restores are transparently handled by the backup module.
 	![](images/300/image4.jpeg)
 
 -   Find the **OPC Cloud Backup Installation** section in the text.
-    Replace **\<opc-identity-domain\> \<opc-username\>** and
+    Replace **\<opc-identity-domain\>**, **\<opc-username\>** and
     **\<opc-passwd\>** (including replacing the &lt;&gt;) with the
     Identity Domain, Username, and Password student account information
-    you were assigned. Also, be sure to keep the single quotes around
+    you were assigned. Also, be sure to keep the 'single quotes' around
     your password to avoid any issues with special characters.
 
-	![](images/300/image5.png)
+    ```
+    OPC Cloud Backup Installation
+    ----------------------------
+    java -jar opc_install.jar -serviceName Storage -identityDomain <opc-identity-domain> -opcId <opc-username> -opcPass '<opc-passwd>' -walletDir $ORACLE_HOME/dbs/opc_wallet -libDir $ORACLE_HOME/lib -libPlatform linux64
+    ```
 
 -   **Copy and Paste** the updated command from the text file into your
     terminal, and hit Enter.
@@ -126,7 +130,9 @@ you need to configure several RMAN properties. These properties define:
 
     7)  Configuring the sbt_tape device as the default for all backups
 
--   Connect RMAN to our local database by running the command **rman target /**
+-   Connect RMAN to our local database by running the command:
+
+    `rman target /`
 
 	![](images/300/image9.jpeg)
 
@@ -134,6 +140,18 @@ you need to configure several RMAN properties. These properties define:
     commands all at once. **Copy and Paste** from the entire run block
     in **Workshop\_Commands\_URLS.txt** under the **RMAN Config Params**
     section as shown below:
+
+    ```
+    run {
+    configure retention policy to recovery window of 30 days;
+    configure channel device type 'sbt_tape' MAXPIECESIZE 2 G FORMAT   'alphacloud_%d_%U' PARMS  'SBT_LIBRARY=libopc.so, ENV=(OPC_PFILE=/u01/app/oracle/product/12.1.0/dbhome_1/dbs/opcorcl.ora)';
+    configure encryption for database on;
+    configure device type 'sbt_tape' parallelism 3 backup type to backupset;
+    configure backup optimization on;
+    configure compression algorithm 'basic' as of release 'default' optimize for load true;
+    configure default device type to sbt_tape;
+    }
+    ```
 
 	![](images/300/image10.jpeg)
 
