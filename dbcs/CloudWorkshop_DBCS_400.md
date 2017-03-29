@@ -366,7 +366,7 @@ password in the cloned database.
     Use the device's browser (Safari), navigate to the following URL:
 
 	```
-	https://{your Public IP Address}/ords/alphaclone/f?p=100
+	https://{your Public IP Address}/ords/alphaclone/f?p=101
 	```
 
 	![](images/400/image47.png)
