@@ -124,23 +124,24 @@ password in the cloned database.
 -   At the **Identify Schema** dialog, select and enter the following
     values followed by the **Next** button.
 	
-    **Note:** Use the search icon ![](images/400/image11.png) to find the ALPHA schema.
+    **Note:** Use the search icon ![](images/400/image11.png) to find the **ALPHA** schema.
 
-	```
-	Re-use existing schema?	 	Yes
-	Schema Name: 	 			ALPHA
-	```
+	**Re-use existing schema?**: `Yes`
+
+	**Schema Name**: 	 		`ALPHA`
+	
 
 	![](images/400/image12.png)
 
 -   At the **Identify Administrator** dialog, enter the following values
     and click the **Next** button.
 
-	```
-	Administrator Username:	ADMIN
-	Administrator Password:	Alpha2014_ (we may be prompted to change)
-	Email:					dummy@localhost.localdomain
-	```
+	**Administrator Username**:	`ADMIN`
+
+	**Administrator Password**:	`Alpha2014_` (we may be prompted to change)
+
+	**Email**:					`dummy@localhost.localdomain`
+	
 	
 	![](images/400/image13.png)
 
@@ -209,28 +210,25 @@ password in the cloned database.
 
 -   For section one, enter the following values:
 
-	```
-	Name: 		alpha.office
-	URI Prefix:	alphaofc/
-	```
+	**Name**: 		`alpha.office`
+
+	**URI Prefix**:	`alphaofc/`
+	
 	
 	![](images/400/image24.png)
 
 -   For section two, enter the following value:
 
-	```
-	URI Template:	products/
-	```
+	**URI Template**:	`products/`
 	
 	![](images/400/image25.png)
 
 -   For section three, select the **GET** method and enter the following
     query:
 
-	```
-	Method: GET
-	Source: select * from products
-	```
+	**Method**: `GET`
+
+	**Source**: `select * from products`
 	
 	![](images/400/image26.png)
 
@@ -266,9 +264,7 @@ password in the cloned database.
     automatically available in later for SQL queries. When the entry is
     complete, click the **Create** button.
 
-	```
-	URI Template:	product/{id}
-	```
+	**URI Template**:	`product/{id}`
 	
 	![](images/400/image32.png)
 
@@ -292,7 +288,9 @@ password in the cloned database.
 	
 	![](images/400/image34.png)
 
--   Notice the success message at the top. We will test this service
+-   Notice the success message at the top. 
+
+-	We will test this service
     just like before, but we must provide a product number to the call.
     **Scroll** the page down click the **Set Bind Variable** button.
 
@@ -300,9 +298,7 @@ password in the cloned database.
 
 -   Enter the following product number and click the **Test** button.
 
-	```
-	ID:	1020
-	```
+	**ID**:	`1020`
 	
 	![](images/400/image36.png)
 
@@ -370,7 +366,7 @@ password in the cloned database.
     Use the device's browser (Safari), navigate to the following URL:
 
 	```
-	https://{your Public IP Address}/apex/alphaclone/f?p=101
+	https://{your Public IP Address}/ords/alphaclone/f?p=100
 	```
 
 	![](images/400/image47.png)
