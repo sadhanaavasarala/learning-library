@@ -12,11 +12,11 @@
 
 ***Cloud Accelerate for the Developer***
 
-This Cloud Devops Automation Using Chef and Jenkins Workshop is part of a **Free** Sales Program that Oracle offers. The Program is called **Cloud Accelerate for the Developer**. During this program Oracle can work with you to do the following:
+This Cloud DevOps Automation Using Chef and Jenkins Workshop is part of a **Free** Sales Program that Oracle offers. The Program is called **Cloud Accelerate for the Developer**. During this program Oracle can work with you to do the following:
 
 - Understand your Development Interests and Capabilities
 - Build your personalized Enablement Plan, including Hands-on Technical Enablement.
-- Help you Exercise your acquired knowledges. 
+- Help you Exercise your acquired knowledge. 
 - If you are interested, simply [Click on this Link](https://launch.oracle.com/?developeraccelerate), and provide us with your contact information. 
 
 ## Cloud Devops Automation Using Chef and Jenkins
@@ -32,7 +32,7 @@ At the end of the workshop you will have deployed a new application in the Oracl
 
 **Reference the following Lab Guides by opening their Documentation Files:**
 
-**Documenation**: [DevopsAutomationSDLC100.md](DevopsAutomationSDLC100.md)
+**Documentation**: [DevopsAutomationSDLC100.md](DevopsAutomationSDLC100.md)
 
 ## Lab 1: Install Tools
 
