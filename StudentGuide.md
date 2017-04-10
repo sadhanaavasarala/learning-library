@@ -8,7 +8,27 @@ This Student Guide will provide you with the instructions nessesary to install t
 
 ## Client Enviroment Options
 
-Your client enviroment **must be configured prior** to attempting the Hands on Workshop, or you will not be able to complete the Workshop labs. 
+Your client enviroment **must be configured prior** to attempting the Hands on Workshop, or you will not be able to complete the Workshop labs.
+
+### Check/Set Storage Replication Policy
+
+Depending on the state of your Cloud Account, you may need to set the replication policy, if it has not been previously set. In this step you will got to the Storage Cloud Service to check on the status of the Replicaton Policy. 
+
+- Click on the **Storage** Cloud Service
+
+    ![](images/100/Picture-01.png)
+
+- If you see a message requesting that you **Set Replication Policy** as is shown below, click on the message. If the message is not displayed, your replicatin policy has already been set and you can continue to the next step by clicking on the **Dashboard** icon in the top right corner of the page.
+
+    ![](images/100/Picture-02.png)
+
+- Care must be taking when setting your replication policy, because it cannot be changed. With Trial accounts, the first option available will generatlly set the replication policy sufficient for this workshop, so we will take the Default, and click on the **Set** button. 
+
+    ![](images/100/Picture-03.png)
+
+- Click on the **Dashboard** button
+
+    ![](images/100/Picture-04.png)
 
 You have two options for configuring your workshop client environment. 
 
@@ -19,71 +39,15 @@ You have two options for configuring your workshop client environment.
     - Refer to the ***Configure Client Tools Locally*** section of this document to use this option.
     - **This option is best** if you want to install and configure the opensource software on your laptop, or your corporate standards will not let you install a hypervisor, or your laptop's resorces are not adequate to run virtual images. 
 
-# Virtual Box Client Installation
-
-As an alternative to installing Eclipse, Brackets and Git on your laptop, you can follow these steps to download a Virtual Box image that will contain all those products pre-integrated together.
-
 ### Hardware Requirements
 
-- You will need a machine capable of running the wokrshop image within Oracle Virtual Box (MAC or PC / Minumum of 50GB of free storage / 8GB RAM)
+- You will need a machine capable of connecting to the internet and download files
 
-- You will need full Administrator privileges on your machines, and in some cases will need to set Hardware Virtualization in the BIOS.
+### You can pull the docker image here:
 
-    - Hardware Virtualization needs to be enabled in the BIOS to properly run Virtual Box.  If you getting virtualization errors, reboot into the BIOS and make sure that the setting to enable Hardware Virtualization is enabled. 
+- DockerHub.com
 
-- The latest version of Virtual Box should be installed and tested prior to the workhop.
-
-### Copy OVA file
-
-**Note**: you will download all 6 zip files. You can then use software such as winzip or 7zip to automatically unzip all 6 files into a single *.ova file that can be imported into virtual box. 
-
-- [Download](https://www.virtualbox.org/wiki/Downloads) and install Virtual box 
-
-- Download this workshops [Virtual box OVA zip files](https://publicdocs-corp.documents.us2.oraclecloud.com/documents/link/LFF42D5B385ADB4324B055CBF6C3FF17C1177E4725F3/folder/FA853951DE14FED12E559568F6C3FF17C1177E4725F3/_VM), and unzip.
-
-### Unzip and import OVA File
-
-- Startup **Oracle Virtual Box**
-
-    ![](images/studentguide/Picture22.png)
-
-- From top left menu select **File -> Import Appliance**
-
-    ![](images/studentguide/Picture23.png)
-
-- Click on **browse** icon to select file to import.
-
-- Navigate to the unzipped OVA file, and Click **Open**
-
-    ![](images/studentguide/Picture24.png)
-
-- Once the File is selected click **Next** to continue.
-
-    ![](images/studentguide/Picture25.png)
-
-- Keep all the defaults and click **Import**
-
-    ![](images/studentguide/Picture26.png)
-
-- Wait for import to complete. The time required to import will vary depending on the speed of your hard disk.
-
-    ![](images/studentguide/Picture27.png)
-
-### Start Virtual Box Image
-
-- After completion of the import, you should see the Oracle Public Cloud image in a Powered Off state. The default settings will work, but if you are familiar with Virtual Box, you are welcome to change any of the settings.
-
-    ![](images/studentguide/Picture28.png)
-
-- With the **Oracle Public Cloud** selected, click **Start**.
-
-    ![](images/studentguide/Picture29.png)
-
-- After a few minutes you will have a running image that will be used for all of the labs.
-
-    ![](images/studentguide/Picture30.png)
-
-# Configure Client Tools Locally
+# Optional: Configure Client Tools Locally (Connecting IDE is covered in supplimental lab)
 
 ## Verify your version of the Java JDK
 
