@@ -5,39 +5,39 @@
         "labs": [
             {
                 "number": "0",
-                "filename": "README.md",
-                "title": "Read Me First",
-                "description": "Step-by-step workshop instructions"
+                "filename": "Architecture.md",
+                "title": "Architecture Guide",
+                "description": "Architecture Overview and Guide"
             },
             {
                 "number": "0",
-                "filename": "StudentGuide.md",
-                "title": "Student Guide",
+                "filename": "PreReqGuide.md",
+                "title": "Prerequisite Guide",
                 "description": "Workshop guidance and prerequisites"
             },
             {
                 "number": "100",
                 "filename": "LabGuide100.md",
-                "title": "Lab 100: Agile Project Management",
-                "description": "Use Developer Cloud Service to create issues, tasks, and sprints"
+                "title": "Lab 100: Build and Deploy your UI",
+                "description": "Use Developer Cloud Service to a build and deploy a NodeJS and Oracle JET Application"
             },
             {
                 "number": "200",
                 "filename": "LabGuide200.md",
-                "title": "Lab 200:  Title of Lab 200",
-                "description": "Short description of lab 200"
+                "title": "Lab 200:  Your First Microservice",
+                "description": "Use Developer Cloud service to build and deploy a Java SE Microservice"
             },
             {
                 "number": "300",
                 "filename": "LabGuide300.md",
-                "title": "Lab 300:  Title of Lab 300",
-                "description": "Short description of lab 300"
+                "title": "Lab 300:  Create the Backend",
+                "description": "Create and Deploy a MySQL database for your application"
             },
             {
                 "number": "400",
                 "filename": "LabGuide400.md",
-                "title": "Lab 400: Title of Lab 400",
-                "description": "Short description of lab 400"
+                "title": "Lab 400: Your Second Microservice",
+                "description": "Use Developer cloud service to build and deploy a Google Go Microservice"
             }
         ]
     }

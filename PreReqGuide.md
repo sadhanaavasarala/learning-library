@@ -1,10 +1,10 @@
 
 ![](images/studentguide/Picture-Title.png)  
-Update: January 28, 2017
+Update: April 10, 2017
 
-## Student Guide
+# Prerequisites Guide
 
-This Student Guide will provide you with the instructions nessesary to install the Client Tools used during this workshop. This Workshop will allow you to gain exposure to the Oracle Developer Cloud Service, the Oracle Application Container Cloud Service, and open source products such as Eclipse, Maven, Git, and Brackets.
+This Guide will provide you with the instructions nessesary to ensure you have the proper tools and configuration done to execute ont he workshop. This Workshop will allow you to gain exposure to Oracle Developer Cloud Service, Oracle Application Container Cloud Service, Oracle Container Cloud Service, Oracle MySQL Cloud Service and Oracle's open source front end framework Oracle JET.
 
 ## Client Enviroment Options
 
@@ -47,13 +47,15 @@ You have two options for configuring your workshop client environment.
 
 - DockerHub.com
 
-# Optional: Configure Client Tools Locally (Connecting IDE is covered in supplimental lab)
+## Optional: Configure Client Tools Locally
 
-## Verify your version of the Java JDK
+Connecting via a local IDE to Oracle Developer Cloud Service will be covered in a supplimenal guide
+
+### Verify your version of the Java JDK
 
 Eclipse requires that you have the **JDK 8** installed.
 
-### JDK Verification on a MAC
+#### JDK Verification on a MAC
 
 **Note**: Eclipse requires that you have the a Java JDK 8 installed. Even if you have a JRE version 8, you still need to verify that you have a JDK 8 installed. 
 
@@ -65,7 +67,7 @@ ls /Library/java/JavaVirtualMachines/
 
 - If you do not have a JDK 1.8 folder, you will need to download the [JDK 8](http://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html) from the Oracle Technology Network website, and install.
 
-### JDK Verification on Windows
+#### JDK Verification on Windows
 
 - On Windows, open a **cmd** window and enter `java -version` 
 
@@ -78,9 +80,9 @@ Java HotSpot(TM) Client VM (build 25.121-b13, mixed mode, sharing)
 
 - If JDK/**Java version 1.8** is not installed,  you will need to download a [JDK](http://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html) from the Oracle Technology Network website, and install.
 
-## Download and Install Eclipse
+### Download and Install Eclipse
 
-### Download Eclipse
+#### Download Eclipse
 
 ***Note***: If you already have Eclipse installed, you will still want to install and use the version documented below, for this version of Eclipse contains the **Oracle Enterprise Pack for Eclipse**, which will be used during the workshop.
 
@@ -93,7 +95,7 @@ Java HotSpot(TM) Client VM (build 25.121-b13, mixed mode, sharing)
 - Once you’ve downloaded eclipse, extract the zip file and install.
 
 
-### Optionally Configure Proxies (if behind a firewall)
+#### Optionally Configure Proxies (if behind a firewall)
 
 If you are running Eclipse behind a firewall and need to configure the proxy setting, there are several updates to be made. First, you need to ensure that Eclipse’s proxy is set, next you need to update the maven proxy setting, and then finally, you need to ensure that the Oracle Plugin will work with your proxy settings.
 
@@ -117,7 +119,7 @@ If you are running Eclipse behind a firewall and need to configure the proxy set
 
     ![](images/studentguide/Picture6.png)
 
-### Optionally Update the Eclipse / Maven proxy (if behind a firewall)
+#### Optionally Update the Eclipse / Maven proxy (if behind a firewall)
 
 - From the **Eclipse > Preference or Window > Preferences** panel, enter **Maven** into the search box. Click on the Maven User Settings. Make note of the directory where the settings.xml file is to be located. In the example below, the Maven User Settings are to be located in the **/home/oracle/.m2** directory
 
@@ -158,9 +160,9 @@ If you are running Eclipse behind a firewall and need to configure the proxy set
 
 - Reload Eclipse to use the new maven settings
 
-## Download Installing Brackets and Git
+### Download Installing Brackets and Git
 
-### Download Git
+#### Download Git
 
 - Go to the following URL: https://git-scm.com/downloads
 
@@ -182,7 +184,7 @@ If you are running Eclipse behind a firewall and need to configure the proxy set
 
     ![](images/studentguide/Picture12.png)
 
-### Download Brackets Text Editor
+#### Download Brackets Text Editor
 
 - Go to the following URL: http://brackets.io    
 
@@ -202,7 +204,7 @@ If you are running Eclipse behind a firewall and need to configure the proxy set
 
 - Run through the installation process
 
-### Start Brackets and Configure Git
+#### Start Brackets and Configure Git
 
 - Create a directory called **TwitterMarketingUI**. From Windows Explorer navigate to the directory **TwitterMarketingUI**, right click and select **Open as Brackets Project**
 
