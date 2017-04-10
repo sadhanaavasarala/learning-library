@@ -6,7 +6,7 @@
 
 ![](images/WorkshopMenu.png)  
 
-- To log issues and view the Lab Guide source, go to the [github pcdavies](https://github.com/pcdavies/DatabaseCloudServiceInMemory/tree/master/dbcs-inmem) repository.
+- To log issues and view the Lab Guide source, go to the [github oracle](https://github.com/pcdavies/DatabaseCloudServiceInMemory/tree/master/dbcs-inmem) repository.
 
 ## Database Cloud Services Workshop
 
