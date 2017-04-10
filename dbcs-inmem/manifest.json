@@ -1,6 +1,6 @@
 {
     "workshop": {
-        "title": "Database Cloud Services Workshop",
+        "title": "Database Cloud Services Workshop In-Memory",
         "description": "This lab will guide you through the basic configuration of the In-Memory column store (IM column store), as well as illustrating the benefits of its key features.",
         "labs": [
             {
