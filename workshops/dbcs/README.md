@@ -1,12 +1,12 @@
 ## How to View the Lab Guides
 
-- The Labguides are best viewed using the Workshop's [GitHub Pages Website URL](https://pcdavies.github.io/DatabaseCloudService/dbcs/) 
+- The Labguides are best viewed using the Workshop's [GitHub Pages Website URL](https://pcdavies.github.io/DatabaseCloudService/workshops/dbcs/) 
 
 - Once you are viewing the Workshop's GitHub Pages website, you can see a list of Lab Guides at any time by clicking on the **Menu Icon**
 
 ![](images/WorkshopMenu.png)  
 
-- To log issues and view the Lab Guide source, go to the [github oracle](https://github.com/pcdavies/DatabaseCloudService/tree/master/dbcs) repository.
+- To log issues and view the Lab Guide source, go to the [github oracle](https://github.com/pcdavies/DatabaseCloudService/tree/master/workshops/dbcs) repository.
 
 ## Database Cloud Services Workshop
 
