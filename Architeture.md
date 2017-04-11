@@ -1,14 +1,34 @@
-# Tips for Workshop Developers
+# Workshop Architeture Guide
     
-## Steps for creating a new workshop
+## Workshop Goal
 
-- To start a new workshop, use git to create a branch from this (workshop-template) branch.
-- Rename the workshop-template folder in your new branch to the title of your new workshop, observing the naming convention of the rest of the folders in the repository
-- Rename the lab guide md files to be more specific to your workshop, if desired.
-- Update manifest.json with the titles and descriptions of your labs (and md filenames if you changed them).
-- Use LabGuide100.md as an example of how to format and structure your lab's markdown.
-- Preview your lab guides by loading index.html in your favorite editor's live view (Brackets - Live Preview, Atom - atom-live-server)
+- To inform and understand the AppDev services provided to you in your trial account
+- Understand Oracle's support for Polyglot Development
+- To build a modern microservice architecture in the cloud
+    - Our Applciation will display a catalog of informaiton provided by a catalog microservice that uses a MySQL DB. We will also leverage a currency microservice to provide echange rate information for that catalog
+- To apply DevOps techniques for Automation to build, configure and deploy your applications to the cloud
 
+## Workshop Technologies
+We will be executing the workshop running many different technologies behind the scenes, this section will outlne the main technologies we will be leveraging:
+
+ - Developer Cloud Service: is centralized hub of development and DevOps technologies and tools. Of which we will be using a few:
+    - Git for source code
+    - Maven for build scripting
+    - Shell for build scripting
+    - Continuous Integration platfrom to run automated builds
+    - Continuous delivery platform to run automated deploys
+- Our UI application:
+    - written in NodeJS
+    - uses Oracle JET as a client side UI framework
+- Our MySQL microservice
+    - written in Java
+    - Leverages JAX-WS and Grizzly IO to provide the REST and embedded web services
+    - Leverages a backend MySQL Cloud Service instance
+- Our Currency Microservice
+    - Built using Google's Go Programming Language
+    - Runs on a Docker container
+    
+ 
 ## Supporting Files
 
 - README
