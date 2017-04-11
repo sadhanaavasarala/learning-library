@@ -1,5 +1,5 @@
 
-![](images/studentguide/Picture-Title.png)  
+![](images/prerequisite/Picture-Title.png)  
 Update: April 10, 2017
 
 # Prerequisites Guide
@@ -90,7 +90,7 @@ Java HotSpot(TM) Client VM (build 25.121-b13, mixed mode, sharing)
 
 - Accept the **licensing agreement**, and then select the **Neon** version of Eclipse required for your operating system.
 
-    ![](images/studentguide/Picture1.png)
+    ![](images/prerequisite/Picture1.png)
 
 - Once you’ve downloaded eclipse, extract the zip file and install.
 
@@ -101,29 +101,29 @@ If you are running Eclipse behind a firewall and need to configure the proxy set
 
 - To set configure Eclipse’s proxy, open Eclipse and navigate to the Properties menu. Depending on the operating system, this drop down is found either from the **Eclipse > Preferences, or Window > Preferences**
 
-    ![](images/studentguide/Picture2.png)
+    ![](images/prerequisite/Picture2.png)
 
 - From the preferences panel, enter “**proxy**” into the search window, and click on **Network Connections**. Select **Native** for the Active Provider. This setting works well, but it requires that you have the proxy setting configured correctly on the system running Eclipse – e.g. Windows, MAC OS or Linux. Selecting Manual should also work, but some of the plugins require the underlying operating system’s proxy to be configured.
 
-    ![](images/studentguide/Picture3.png)
+    ![](images/prerequisite/Picture3.png)
 
 - To test that your connection works, select the menu option **Window > Show View > Other**
 
-    ![](images/studentguide/Picture4.png)
+    ![](images/prerequisite/Picture4.png)
 
 - Type “**web**” in the search field, select **Internal Web Browser** and click on **OK**
 
-    ![](images/studentguide/Picture5.png)
+    ![](images/prerequisite/Picture5.png)
 
 - Enter a **URL** into the browser and press **enter** to test your proxy settings.
 
-    ![](images/studentguide/Picture6.png)
+    ![](images/prerequisite/Picture6.png)
 
 #### Optionally Update the Eclipse / Maven proxy (if behind a firewall)
 
 - From the **Eclipse > Preference or Window > Preferences** panel, enter **Maven** into the search box. Click on the Maven User Settings. Make note of the directory where the settings.xml file is to be located. In the example below, the Maven User Settings are to be located in the **/home/oracle/.m2** directory
 
-    ![](images/studentguide/Picture7.png)
+    ![](images/prerequisite/Picture7.png)
 
 - Close Eclipse    
 
@@ -166,41 +166,41 @@ If you are running Eclipse behind a firewall and need to configure the proxy set
 
 - Go to the following URL: https://git-scm.com/downloads
 
-    ![](images/studentguide/Picture8.png)
+    ![](images/prerequisite/Picture8.png)
 
 - Select your OS. In our example, we will show how to install on Windows. Click **Windows** Download and click **Save File**
 
-    ![](images/studentguide/Picture9.png)
+    ![](images/prerequisite/Picture9.png)
 
 - Select your download location and click **Save**. We will use D:\Software    
 
-    ![](images/studentguide/Picture10.png)
+    ![](images/prerequisite/Picture10.png)
 
 - Open Windows Explorer and navigate you where you downloaded the Git executable. Double click on the Git executable to start the install process.
 
-    ![](images/studentguide/Picture11.png)
+    ![](images/prerequisite/Picture11.png)
 
 - Run through the installation process
 
-    ![](images/studentguide/Picture12.png)
+    ![](images/prerequisite/Picture12.png)
 
 #### Download Brackets Text Editor
 
 - Go to the following URL: http://brackets.io    
 
-    ![](images/studentguide/Picture13.png)
+    ![](images/prerequisite/Picture13.png)
 
 - Click **Download Brackets 1.X** then click **Save File**
 
-    ![](images/studentguide/Picture14.png)
+    ![](images/prerequisite/Picture14.png)
 
 - Select you download location and click **Save**. We will use D:\Software
 
-    ![](images/studentguide/Picture15.png)
+    ![](images/prerequisite/Picture15.png)
 
 - Open Windows Explorer and navigate you where you downloaded Brackets. Double click on the Brackets executable to start the install process.
 
-    ![](images/studentguide/Picture16.png)
+    ![](images/prerequisite/Picture16.png)
 
 - Run through the installation process
 
@@ -208,23 +208,23 @@ If you are running Eclipse behind a firewall and need to configure the proxy set
 
 - Create a directory called **TwitterMarketingUI**. From Windows Explorer navigate to the directory **TwitterMarketingUI**, right click and select **Open as Brackets Project**
 
-    ![](images/studentguide/Picture17.png)
+    ![](images/prerequisite/Picture17.png)
 
 - Select **File -> Extension Manager…**
 
 - In the search field, type **GIT**. Click **Install** for Brackets Git
 
-    ![](images/studentguide/Picture18.png)
+    ![](images/prerequisite/Picture18.png)
 
 - After the install completes, leave the defaults for Git Settings and click **Save**
 
-    ![](images/studentguide/Picture19.png)
+    ![](images/prerequisite/Picture19.png)
 
 - Click **OK** to restart Brackets
 
-    ![](images/studentguide/Picture20.png)
+    ![](images/prerequisite/Picture20.png)
 
 - You will now see the Git icon on the right-hand panel
 
-    ![](images/studentguide/Picture21.png)
+    ![](images/prerequisite/Picture21.png)
 
