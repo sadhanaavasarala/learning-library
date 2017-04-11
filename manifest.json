@@ -38,6 +38,12 @@
                 "filename": "LabGuide400.md",
                 "title": "Lab 400: Your Second Microservice",
                 "description": "Use Developer cloud service to build and deploy a Google Go Microservice"
+            },
+            {
+                "number": "Supplemental Guide: Local Development",
+                "filename": "localDevSupplement.md",
+                "title": "Supplemental guide to wire up local development",
+                "description": "Use IDE of choice to connect in via GIT to Developer Cloud Service"
             }
         ]
     }
