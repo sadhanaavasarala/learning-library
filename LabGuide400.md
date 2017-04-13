@@ -75,7 +75,7 @@ Welcome to lab 400. In this lab we will be completing our application architectu
 - Fill in the form and click Next
 
 ```
-Service Name: CurrencyMicroservice
+Service Name: TouchTheCloudDemo
 SSH Public Key: Use the one provided (or select new key to have on generated for you)
 Admin Username: admin
 Admin Password: Oracle123
