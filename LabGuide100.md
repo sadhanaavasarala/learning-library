@@ -4,26 +4,35 @@ Updated: February 10, 2017
 
 ## Introduction
 
-This is the first of several labs that are part of the **Touch the Cloud for DevOps.** This workshop will walk you through the Software Development Lifecycle (SDLC) for a Cloud Native project that will create and use several Microservices.
+This is the first of several labs that are part of the **Touch the Cloud for DevOps.** This workshop will walk you through building a microservices architecture for a Cloud Native project that will create and use several Microservices built using various technologies.
 
-You will take on 3 Personas during the workshop. The **Project Manager Persona** will create the projects, add tasks and features to be worked on, and assign tasks to developers.  The Project Manager will then start the initial sprint. The Java Developer persona will develop a new twitter feed service that will allow for retrieval and filtering of twitter data. The **JavaScript Developer** persona will develop a new Twitter Marketing UI that will display the twitter data to allow for analysis.  During the workshop, you will get exposure to Oracle Developer Cloud Service and Oracle Application Container Cloud Service.
+You will be applying DevOps principles to build you applications, provision your services and automate deployment of your applications.
 
-Please direct comments to: Dennis Foley (dennis.foley@oracle.com)
+Please direct comments to: Cam Crockett (cam.crockett@oracle.com)
 
 ## Objectives
 - Create Initial Project
-    - Add Users to Project
-- Create Product Issues
-    - Create Issues for Twitter Feed Microservice
-    - Create Issues for Twitter Feed Marketing UI
-- Create Agile Board and initial Sprint
-- Add Issues to Sprint
+- Import UI application from GitHub
+- Setup automated build to create application artifacts
+- Setup an automated deployment to provisiona dn deploy your applciation into the Oracle Cloud
 
 ## Required Artifacts
-- The following lab requires an Oracle Public Cloud account that will be supplied by your instructor.
+- We will be leveraging a preparred application found on [GitHub: https://github.com/c-rocket/TTC-CatalogApp.git](https://github.com/c-rocket/TTC-CatalogApp.git)
 
+## Technologies Involved
+- Oracle Cloud Serivce:
+    - Developer Coud Service
+    - Application Container Cloud Service
+- Application Technologies
+    - Written in NodeJS
+    - Leverages Oracle JET for front-end widgets and scripting
 
-# Create Twitter Feed Marketing Project
+## Architecture
+You will be building out the first component of your Microservices Application
+
+![](images/100/target-architecture.png)
+
+# Create Your Project
 
 ## Create Developer Cloud Service Project
 
@@ -47,9 +56,6 @@ Please direct comments to: Dennis Foley (dennis.foley@oracle.com)
 
 - Once your Identity Domain is set, enter your User Name and Password and click **Sign In**
 
-  **NOTE:** For this lab you will assume the role of Project Manager ***Lisa Jones***. Although you are assuming the identify of Lisa Jones, you will log into the account using the **username** provided to you by your instructor, given to you by your corporation, or supplied to you as part of an Oracle Trial. As you progress through the workshop, you will remain logged in as a single user, but you will make “logical” changes from Lisa Jones the Project Manager to other personas.
-
-    ![](images/lisa.png)
 
     ![](images/100/Picture100-3.5.png)
 
@@ -63,23 +69,7 @@ Please direct comments to: Dennis Foley (dennis.foley@oracle.com)
 
 ### **STEP 2**: Check/Set Storage Replication Policy
 
-Depending on the state of your Cloud Account, you may need to set the replication policy, if it has not been previously set. In this step you will got to the Storage Cloud Service to check on the status of the Replicaton Policy. 
-
-- Click on the **Storage** Cloud Service
-
-    ![](images/100/Picture-01.png)
-
-- If you see a message requesting that you **Set Replication Policy** as is shown below, click on the message. If the message is not displayed, your replicatin policy has already been set and you can continue to the next step by clicking on the **Dashboard** icon in the top right corner of the page.
-
-    ![](images/100/Picture-02.png)
-
-- Care must be taking when setting your replication policy, because it cannot be changed. With Trial accounts, the first option available will generatlly set the replication policy sufficient for this workshop, so we will take the Default, and click on the **Set** button. 
-
-    ![](images/100/Picture-03.png)
-
-- Click on the **Dashboard** button
-
-    ![](images/100/Picture-04.png)
+- If you have not already done so please set your replication policy as described in the Pre-requisite guide.
 
 ### **STEP 3**: Login to Developer Cloud Service
 
@@ -101,128 +91,160 @@ Oracle Developer Cloud Service provides a complete development platform that str
 
 - Click **New Project** to start the project create wizard.
 
-    ![](images/100/Picture100-8.png)
+    ![](images/100/step02.png)
 
 - On Details screen enter the following data and click on **Next**.
 
-    **Name:** `Twitter Feed Marketing Project`
 
-    **Description:** `Project to gather and analyze twitter data`
+```
+    Name: Touch The Cloud Demo
+```
 
-    **Note:** A Private project will only be seen by you. A Shared project will be seen by all Developer Cloud users. In either case, users need to be added to a project in order to interact with the project.
+> **Note:** A Private project will only be seen by you. A Shared project will be seen by all Developer Cloud users. In either case, users need to be added to a project in order to interact with the project.
 
-    ![](images/100/Picture100-9.png)
+![](images/100/step03.png)
 
 - Leave default template set to **Empty Project** and click **Next**
 
-    ![](images/100/Picture100-10.png)
+    ![](images/100/step04.png)
 
 - Select your **Wiki Markup** preference to **MARKDOWN** and click **Finish**.
 
-    ![](images/100/Picture100-11.png)
+    ![](images/100/step05.png)
 
-- The Project Creation will take about 1 minute.
+- The Project Creation on average will take about 1-2 minutes.
 
-    ![](images/100/Picture100-12.png)
+    ![](images/100/step06.png)
 
 - You now have a new project, in which you can manage your software development.
 
-    ![](images/100/Picture100-13.png)
+    ![](images/100/step07.png)
 
 
 
-# Create Product Issues
+# Setup your Application
 
-## Create Issues for Twitter Feed Microservice
+## Import the Catalog Application
 
-### **STEP 5**: Create Issue for the initial GIT Repository Creation
+### **STEP 5**: Create a New Repository
 
-In this step you are still assuming the identity of the Project Manager, ***Lisa Jones***.
+In this step we will be importing the NodeJS and Oracle JET application from GitHub directly into our Developer cloud isntance
 
-![](images/lisa.png)
+- From the main page click **New Repository**.
 
-- Click **Issues** on left hand navigation panel to display the Track Issues page.
+![](images/100/step07.png)
 
-    ![](images/100/Picture100-16.png)
-
-- Click **New Issue**. Enter the following data in the New Issue page and click **Create Issue**.
-
-    **Note:** Throughout the lab you will assign your own account as the “physical” owner of the issue, but for the sake of this workshop, **Bala Gupta** will be the “logical” owner of the following issues.
-
-    ![](images/bala.png)
-
-    **Summary:**
-    `Create Initial GIT Repository for Twitter Feed Service`
-
-    **Description:**
-    `Create Initial GIT Repository for Twitter Feed Service`
-
-    **Type:** `Task`
-
-    **Owner:** `Select your account provided in the dropdown [Logical Owner: Bala Gupta]`
-
-    **Story Points:** `1`
-
-    Note: Story point is an arbitrary measure used by Scrum teams. They are used to measure the effort required to implement a story. This [Site](https://agilefaq.wordpress.com/2007/11/13/what-is-a-story-point/) will provide more information. 
-
-    ![](images/100/Picture100-17.png)
-
-### **STEP 6**: Create Issue for Update Twitter Credentials
-
-- Click **New Issue**. Enter the following data in the New Issue page and click **Create Issue**.
-
-    ![](images/bala.png)
-
-    **Summary:** `Create Filter on Twitter Feed`
-
-    **Description:** `Create Filter to allow user to supply text to reduce the amount of data returned by the Twitter feed`
-
-    **Type:** `Feature`
-
-    **Owner:** `Select your account provided in the dropdown [Logical Owner: Bala Gupta]`
-
-    **Story Points:** `2`
-
-    ![](images/100/Picture100-18.png)
-
-### **STEP 7**: Create Issue for initial GIT Repository creation
-
-- Click **New Issue**. Enter the following data in the New Issue page and click **Create Issue**. Note: The next two issues will logically be owned by John Dunbar.
-
-    ![](images/john.png)
-
-    **Summary:** `Create Initial GIT Repository for Twitter Feed Marketing UI`
-
-    **Description:** `Create Initial GIT Repository for Twitter Feed Marketing UI`
-
-    **Type:** `Task`
-
-    **Owner:** `Select your account provided in the dropdown [Logical Owner: John Dunbar]`
-
-    **Story Points:** `1`
-
-    ![](images/100/Picture100-19.png)
-
-### **STEP 8**: Create Issue for Displaying Twitter Feed
-
-- Click **New Issue**. Enter the following data in the New Issue page and click **Create Issue**.
-
-    ![](images/john.png)
-
-    **Summary:** `Display Twitter Feed in Table Format`
-
-    **Description:** `Display Twitter Feed in Table Format`
-
-    **Type:** `Feature`
-
-    **Owner:** `Select account provided in the dropdown [Logical Owner: John Dunbar]`
-
-    **Story Points:** `2`
-
-    ![](images/100/Picture100-20.png)
-
-- Click the back arrow ![](images/100/Picture100-21.png) on the **left side** of the window, or click on the **Issues** menu option to view all newly created issues.
-
-    ![](images/100/Picture100-22.png)
+- Fill out the form and hit **create**
 
 
+> 
+> Name: CatalogUI
+
+> Select Import from Existing Repository:
+
+> https://github.com/c-rocket/TTC-CatalogApp.git
+
+> 
+
+![](images/100/step08.png)
+
+- Your code is now being imported into a new Git repository in Developer Cloud Service
+
+![](images/100/step09.png)
+
+- Once finished the code in the repository will be available to browse through
+
+![](images/100/step10.png)
+
+
+### **STEP 6**: Create Deployment Articfacts through an Automated Build
+
+- Click **Build** on the left menu
+
+![](images/100/step11.png)
+
+- Create a **New Job**. Fill out the form and click **Save**
+
+> Name: CatalogUIBuild
+
+![](images/100/step12.png)
+
+- You will now be able to configure your build.
+
+![](images/100/step13.png)
+
+- Select the **Source Control** tab and select **Git**, followed by the catalog repository. Add the **Master branch**.
+
+![](images/100/step14.png)
+
+- Select the **Build Step** Add a Shell Build
+
+![](images/100/step15.png)
+
+- Enter the command:
+
+`npm install`
+
+![](images/100/step16.png)
+
+- Select the **Post Build** step and Archive the Artifactat by adding `**/target/*`
+
+![](images/100/step17.png)
+
+- **Save** and **Build Now**
+
+![](images/100/step19.png)
+
+### **STEP 7**: Create an Application Deployment Tied to the build
+
+- Click **Deploy** from the left menu
+
+![](images/100/step20.png)
+
+- Select Create **New Configuration** and fill out the form and select Application Cotnainer from the Deployment Target
+
+> ConfigurationName: CatalogUIDeploy
+
+![](images/100/step21.png)
+
+- Enter in your domain credentials and Test the Connection. Once successfully tested, select connection.
+
+![](images/100/step23.png)
+
+- Select the following options:
+
+
+```
+Runtime: Node
+Billing: Hourly
+Type: Automatic
+Deploy Stable Builds Only
+Job: CatalogUIBuild
+Artifact: TTC-CatalogApp.zip
+```
+
+![](images/100/step24.png)
+
+- Save and Start the Deployment
+
+![](images/100/step25.png)
+
+- The deployment should execute successfully
+
+![](images/100/step26.png)
+
+### **STEP 8**: Verify Deployment
+
+- Open your main Dashboard Console. Select Application Container and open the service console
+
+![](images/100/step27.png)
+
+- You will now see the Deployed Aplication Running
+
+![](images/100/step28.png)
+
+- Open the link provided to view the Deployed Application
+
+![](images/100/step29.png)
+
+**YOU have now completed lab 100**
