@@ -1,6 +1,7 @@
 ![](images/400/Picture400-lab.png)  
-Updated: April 13, 2017
-Please direct comments to: Cam Crockett
+Updated: April 19, 2017
+
+Please direct comments to: Cam Crockett (cam.crockett@oracle.com
 
 ## Introduction
 
@@ -14,7 +15,7 @@ Welcome to lab 400. In this lab we will be completing our application architectu
 
 ## Required Artifacts
 - The following lab requires an Oracle Public Cloud account that will be supplied by your instructor.
-- SSHKey: Download zip from [https://github.com/c-rocket/TTC-CurrencyMicroservice](https://github.com/c-rocket/TTC-CurrencyMicroservice) and extract labkey.pub
+- You will need an ssh key: [labkey](labkey)
 
 ## Optional Artifacts
 
@@ -76,7 +77,7 @@ Welcome to lab 400. In this lab we will be completing our application architectu
 
 ```
 Service Name: TouchTheCloudDemo
-SSH Public Key: Use the one provided (or select new key to have on generated for you)
+SSH Public Key:<use labkey found in required artifacts>
 Admin Username: admin
 Admin Password: Oracle123
 ```
@@ -98,7 +99,6 @@ Admin Password: Oracle123
 ![](images/400/step09.png)
 
 - Use the admin username and password you setup in the instance configuration to login
-
 
 ```
 Username: admin
@@ -131,7 +131,7 @@ Image: camcrockett/ttc-currencymicroservice
 
 ![](images/400/step14.png)
 
-- Select Ports from the Available Options and Add a new TCP port mapping for port 8090 and Save
+- Select Ports from the Available Options and Add a new TCP port mapping for port 8089 and Save
 
 ![](images/400/step15.png)
 
@@ -175,9 +175,8 @@ Image: camcrockett/ttc-currencymicroservice
 
 - To Verify the microservice, open a new web browser tab and use the public IP to hit the following URL:
 
-
 ```
-http://<Public_IP>:8090/currencies/v1/usd
+http://<Public_IP>:8089/currencies/v1/usd
 ```
 
 ![](images/400/step23.png)
@@ -190,25 +189,33 @@ http://<Public_IP>:8090/currencies/v1/usd
 
 - Select Application Container Cloud Service to view your previously deployed Applications from Labs 100 and 200
 
-![](images/200/step.png)
+![](images/200/step21.png)
 
 - From the applicaiton dashbaord step into your Ui application
 
-![](images/400/step.png)
+![](images/200/step23.png)
 
-- Select the <somthing> tab on the left
+- Select the Deployments tab on the left
 
-![](images/400/step.png)
+![](images/400/step24.png)
 
-- Add in a binding for the new Currency microservice
+- Add a new environment variable
 
-![](images/400/step.png)
+```
+Name: CURRENCY_MICROSERVICE_URL
+Value: <Currency Microservice URL>
+ex: http://129.144.158.167:8089/currencies/v1/usd
+```
+
+![](images/400/step25.png)
 
 - Save and apply your biding
 
-![](images/400/step.png)
+![](images/400/step26.png)
 
-- You should now be able to open your UI where the Lab 400 achievement is unlocked and a currency selector is now enabled on screen.
+- Once the Applicaiton is recreated, open the URL to see the new bdinging in action.
 
-![](images/400/step.png)
+![](images/400/step29.png)
+
+**Lab 400 is now Complete**
 

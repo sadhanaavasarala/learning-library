@@ -11,8 +11,33 @@ This Guide will provide you with the instructions nessesary to ensure you have t
 Your client enviroment **must be configured prior** to attempting the Hands on Workshop, or you will not be able to complete the Workshop labs.
 
 ### Check/Set Storage Replication Policy
+Depending on the state of your Cloud Account, you may need to set the replication policy, if it has not been previously set. In this step you will got to the Storage Cloud Service to check on the status of the Replicaton Policy
 
-Depending on the state of your Cloud Account, you may need to set the replication policy, if it has not been previously set. In this step you will got to the Storage Cloud Service to check on the status of the Replicaton Policy. 
+- From any browser, go to the URL:
+    `https://cloud.oracle.com`
+
+- click **Sign In** in the upper right hand corner of the browser
+
+    ![](images/100/Picture100-1.png)
+
+- **IMPORTANT** - Under my services, select from the drop down list the correct data center and click on **My Services**. If you are unsure of the data center you should select, and this is an in-person training event, ***ask your instructor*** which **Region** to select from the drop down list. If you received your account through an Oracle Trial, your Trial confirmation email should provide a URL that will pre-select the region for you.
+
+    ![](images/100/Picture100-2.png)
+
+- Enter your identity domain and click **Go**.
+
+    **NOTE:** The **Identity Domain, User Name** and **Password** values will be given to you by the instructor or Trial confirmation email.
+
+    ![](images/100/Picture100-3.png)
+
+- Once your Identity Domain is set, enter your User Name and Password and click **Sign In**
+
+
+    ![](images/100/Picture100-3.5.png)
+
+- You will be presented with a Dashboard displaying the various cloud services available to this account.
+
+    ![](images/100/Picture100-4.png). 
 
 - Click on the **Storage** Cloud Service
 
@@ -41,11 +66,7 @@ You have two options for configuring your workshop client environment.
 
 ### Hardware Requirements
 
-- You will need a machine capable of connecting to the internet and download files
-
-### You can pull the docker image here:
-
-- DockerHub.com
+- You will need a machine capable of connecting to the internet and downloading files
 
 ## Optional: Configure Client Tools Locally
 
