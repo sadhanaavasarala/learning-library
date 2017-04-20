@@ -14,7 +14,7 @@ Please direct comments to: Cam Crockett (cam.crockett@oracle.com)
 
 ## Required Artifacts
 - We will be leveraging scripts found within the MySQL Microservice from lab 200 that was pulled from [GitHub: https://github.com/c-rocket/TTC-MySQLMicroservice.git](https://github.com/c-rocket/TTC-MySQLMicroservice.git)
-- We will require an ssh key: [labkey](labkey)
+- We will require an ssh key: [labkey](labkey.pub)
 
 ## Prerequisites
 
@@ -61,8 +61,9 @@ Name: CatalogDB
 
 
 ```
+
 Compute Shape: OC3
-SSH Key: <use labkey found in required artifacts>
+SSH Key: <use labkey.pub found in required artifacts>
 Usable DB Storage: 25
 Administration Username: root
 Password: Oracle123!
@@ -117,6 +118,7 @@ Backup Destination: none
 
 
 ```
+
 Name: MYSQL_IP
 Default Value: <Public IP of MySQL DB>
 ```
@@ -130,6 +132,7 @@ Default Value: <Public IP of MySQL DB>
 - Select the **Build Step** and add a Shell Build step
 
 ```shell
+
 cd src/main/resources/db/setup
 sudo -su scp -i mysqlkey -o StrictHostKeyChecking=no mysql_setup.sql opc@${MYSQL_IP}:/tmp/mysql_setup.sql
 sudo -su ssh -i mysqlkey -o StrictHostKeyChecking=no opc@${MYSQL_IP} sudo su - oracle -c 'mysql "catalog" < "/tmp/mysql_setup.sql"'
@@ -165,6 +168,7 @@ sudo -su ssh -i mysqlkey -o StrictHostKeyChecking=no opc@${MYSQL_IP} sudo su - o
 - Select Add under Service Bindings
 
 ```
+
 Service Type: MySQL CS Service
 Service name: Catalog DB
 Username: root
@@ -183,7 +187,7 @@ Password: Oracle123!
 
 ![](images/300/step24.png)
 
-### **STEP 6**: Verify the Catalog Data
+### **STEP 5**: Verify the Catalog Data
 
 - Return to the main screen for Application Container Cloud Service
 
