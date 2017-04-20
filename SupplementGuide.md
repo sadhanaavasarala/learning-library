@@ -40,4 +40,8 @@ Please direct comments to: Cam Crockett (cam.crockett@oracle.com)
 
 ## Create an Automated build for Adding serivce bindings
 
-## Create an automated docker build for your CurrencyMicroservice from Developer CloudService
+## Create an Automated docker build for your CurrencyMicroservice from Developer CloudService
+
+## Automate MySQL Provisioning
+
+## Automate MySQL Schema Migrations using FlywayDB
