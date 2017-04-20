@@ -46,10 +46,10 @@
                 "description": "Use Developer cloud service to build and deploy a Google Go Microservice"
             },
             {
-                "number": "Supplemental Guide: Local Development",
+                "number": "Supplemental Guide",
                 "filename": "localDevSupplement.md",
-                "title": "Supplemental guide to wire up local development",
-                "description": "Use IDE of choice to connect in via GIT to Developer Cloud Service"
+                "title": "Fun extras to try",
+                "description": "Connect IDE to DevCS, Extra Automation excercises and more"
             }
         ]
     }
