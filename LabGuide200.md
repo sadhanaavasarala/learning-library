@@ -3,7 +3,7 @@ Updated: April 19, 2017
 
 ## Introduction
 
-In Lab 200 we will be building and deploying our first microservice, this microservice will provide a RESTful interface for our catalog database. The microservice is built using Java and leverages lightweight libraries Jax-ws and Grizzly IO to create RESTful endpoints. In Lab 300 we will be wiring up a MySQL Database to the microservice.
+In Lab 200 we will be building and deploying our first microservice, this microservice will provide a RESTful interface for our catalog database. The microservice is built using Java and leverages lightweight libraries JAX-WS and Grizzly IO to create RESTful endpoints. In Lab 300 we will be wiring up a MySQL Database to the microservice.
 
 Please direct comments to: Cam Crockett (cam.crockett@oracle.com)
 
@@ -27,7 +27,7 @@ Please direct comments to: Cam Crockett (cam.crockett@oracle.com)
     - Application Container Cloud Service
 - Application Technologies
     - Written in Java
-    - Leverages Jax-ws and Grizzly IO to provide a RESTful interface
+    - Leverages JAX-WS and Grizzly IO to provide a RESTful interface
     - Uses MySQL drivers for DB interface
     - Uses Maven for build scripting and library management
 
@@ -123,7 +123,7 @@ clean assembly:assembly
 
 ```
 Archive the artifacts: **/target/*
-Public JUnit test result report: **/target/surefire-reports/*.xml
+Publish JUnit test result report: **/target/surefire-reports/*.xml
 ```
 
 ![](images/200/step11.png)
