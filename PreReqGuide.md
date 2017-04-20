@@ -43,7 +43,7 @@ Depending on the state of your Cloud Account, you may need to set the replicatio
 
     ![](images/100/Picture-01.png)
 
-- If you see a message requesting that you **Set Replication Policy** as is shown below, click on the message. If the message is not displayed, your replicatin policy has already been set and you can continue to the next step by clicking on the **Dashboard** icon in the top right corner of the page.
+- If you see a message requesting that you **Set Replication Policy** as is shown below, click on the message. If the message is not displayed, your replication policy has already been set and you can continue to the next step by clicking on the **Dashboard** icon in the top right corner of the page.
 
     ![](images/100/Picture-02.png)
 
