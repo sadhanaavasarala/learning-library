@@ -3,7 +3,7 @@ Updated: April 19, 2017
 
 ## Introduction
 
-In Lab 200 we will be building and deploying our first microservice, this microservice will provide a RESTFul interface for our catalog database. The microservice is built using Java and leverages lightweight libraries Jax-ws and Grizzly IO to create RESTful endpoints. In Lab 300 we will be wiring up a MySQL Database to the microservice.
+In Lab 200 we will be building and deploying our first microservice, this microservice will provide a RESTful interface for our catalog database. The microservice is built using Java and leverages lightweight libraries Jax-ws and Grizzly IO to create RESTful endpoints. In Lab 300 we will be wiring up a MySQL Database to the microservice.
 
 Please direct comments to: Cam Crockett (cam.crockett@oracle.com)
 
@@ -22,8 +22,8 @@ Please direct comments to: Cam Crockett (cam.crockett@oracle.com)
 - Expected that your storage policy has been set as described in the [prerequisite guide](PreReqGuide.md)
 
 ## Technologies Involved
-- Oracle Cloud Serivce:
-    - Developer Coud Service
+- Oracle Cloud Services:
+    - Developer Cloud Service
     - Application Container Cloud Service
 - Application Technologies
     - Written in Java
@@ -66,7 +66,7 @@ Oracle Developer Cloud Service provides a complete development platform that str
 
 ![](images/200/step01.png)
 
-- On the Home screen you should see a list of current repositories int he project.
+- On the Home screen you should see a list of current repositories in the project.
 
 
 ![](images/200/step02.png)
