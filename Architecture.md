@@ -1,4 +1,4 @@
-# Workshop Architeture Guide
+# Workshop Architecture Guide
     
 ## Workshop Goal
 
