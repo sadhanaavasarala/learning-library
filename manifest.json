@@ -5,6 +5,12 @@
         "labs": [
             {
                 "number": "0",
+                "filename": "README.md",
+                "title": "README Guide",
+                "description": "Home README"
+            },
+            {
+                "number": "0",
                 "filename": "Architecture.md",
                 "title": "Architecture Guide",
                 "description": "Architecture Overview and Guide"
