@@ -14,10 +14,10 @@ Please direct comments to: Cam Crockett (cam.crockett@oracle.com)
 - Create Initial Project
 - Import UI application from GitHub
 - Setup automated build to create application artifacts
-- Setup an automated deployment to provisiona dn deploy your applciation into the Oracle Cloud
+- Setup an automated deployment to provision and deploy your application into the Oracle Cloud
 
 ## Required Artifacts
-- We will be leveraging a preparred application found on [GitHub: https://github.com/c-rocket/TTC-CatalogApp.git](https://github.com/c-rocket/TTC-CatalogApp.git)
+- We will be leveraging a prepared application found on GitHub: [https://github.com/c-rocket/TTC-CatalogApp.git](https://github.com/c-rocket/TTC-CatalogApp.git)
 
 ## Technologies Involved
 - Oracle Cloud Serivce:
@@ -73,7 +73,7 @@ You will be building out the first component of your Microservices Application
 
 ### **STEP 3**: Login to Developer Cloud Service
 
-Oracle Developer Cloud Service provides a complete development platform that streamlines team development processes and automates software delivery. The integrated platform includes an issue tracking system, agile development dashboards, code versioning and review platform, continuous integration and delivery automation, as well as team collaboration features such as wikis and live activity stream. With a rich web based dashboard and integration with popular development tools, Oracle Developer Cloud Service helps deliver better applications faster.
+Oracle Developer Cloud Service provides a complete development platform that streamlines team development processes and automates software delivery. The integrated platform includes an issue tracking system, agile development dashboards, code versioning and review platform, continuous integration and delivery automation, as well as team collaboration features such as wikis and live activity stream. With a rich web-based dashboard and integration with popular development tools, Oracle Developer Cloud Service helps deliver better applications faster.
 
 - From the Cloud UI dashboard click on the **Developer** service. In our example, the Developer Cloud Service is named **developer99019**.
 
@@ -128,7 +128,7 @@ Oracle Developer Cloud Service provides a complete development platform that str
 
 ### **STEP 5**: Create a New Repository
 
-In this step we will be importing the NodeJS and Oracle JET application from GitHub directly into our Developer cloud isntance
+In this step we will be importing the NodeJS and Oracle JET application from GitHub directly into our Developer cloud instance
 
 - From the main page click **New Repository**.
 
@@ -157,7 +157,7 @@ In this step we will be importing the NodeJS and Oracle JET application from Git
 ![](images/100/step10.png)
 
 
-### **STEP 6**: Create Deployment Articfacts through an Automated Build
+### **STEP 6**: Create Deployment Artifacts through an Automated Build
 
 - Click **Build** on the left menu
 
@@ -187,7 +187,7 @@ In this step we will be importing the NodeJS and Oracle JET application from Git
 
 ![](images/100/step16.png)
 
-- Select the **Post Build** step and Archive the Artifactat by adding `**/target/*`
+- Select the **Post Build** tab and check Archive the artifacts: `*.zip`
 
 ![](images/100/step17.png)
 
@@ -201,7 +201,7 @@ In this step we will be importing the NodeJS and Oracle JET application from Git
 
 ![](images/100/step20.png)
 
-- Select Create **New Configuration** and fill out the form and select Application Cotnainer from the Deployment Target
+- Select Create **New Configuration** and fill out the form and select Application Container from the Deployment Target
 
 > ConfigurationName: CatalogUIDeploy
 
@@ -239,12 +239,12 @@ Artifact: TTC-CatalogApp.zip
 
 ![](images/100/step27.png)
 
-- You will now see the Deployed Aplication Running
+- You will now see the Deployed Application Running
 
 ![](images/100/step28.png)
 
 - Open the link provided to view the Deployed Application
 
-![](images/100/step29.png)
+![](images/100/step30.png)
 
 **YOU have now completed lab 100**
