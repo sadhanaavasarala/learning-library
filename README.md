@@ -57,9 +57,9 @@ This Oracle Public Cloud workshop will walk you through AppDev services found in
 
 ### Objectives
 
+- Provision your [MySQL Cloud Service](https://cloud.oracle.com/en_US/mysql) backend
 - Access [Developer Cloud Service](https://cloud.oracle.com/en_US/developer-service)
-- Build your [MySQL Cloud Service](https://cloud.oracle.com/en_US/mysql) backend
-- Deploy your setup script automatically
+- Deploy your setup script automatically to your MySQL instance
 - Bind the databse to your microservice
 
 ## Lab 400:  Your Second Microservice
@@ -68,7 +68,6 @@ This Oracle Public Cloud workshop will walk you through AppDev services found in
 
 ### Objectives
 
-- Access [Developer Cloud Service](https://cloud.oracle.com/en_US/developer-service)
-- Import the microservice written in [Google's Go Programming Language](https://golang.org/)
-- Build and deploy to [Container Cloud service](https://cloud.oracle.com/en_US/container) running a Docker image
+- Provision your [Container Cloud service](https://cloud.oracle.com/en_US/container) instance
+- Deploy a docker image from Docker Hub to your container cloud service
 - Bind the microservice to your UI
