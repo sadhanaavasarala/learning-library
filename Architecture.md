@@ -5,7 +5,7 @@
 - To inform and understand the AppDev services provided to you in your trial account
 - Understand Oracle's support for Polyglot Development
 - To build a modern microservice architecture in the cloud
-    - Our Applciation will display a catalog of informaiton provided by a catalog microservice that uses a MySQL DB. We will also leverage a currency microservice to provide echange rate information for that catalog
+    - Our Applciation will display a catalog of information provided by a catalog microservice that uses a MySQL DB. We will also leverage a currency microservice to provide echange rate information for that catalog
 - To apply DevOps techniques for Automation to build, configure and deploy your applications to the cloud
 
 ## Workshop Technologies
