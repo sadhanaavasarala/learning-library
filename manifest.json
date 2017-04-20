@@ -48,8 +48,8 @@
             {
                 "number": "Supplemental Guide",
                 "filename": "localDevSupplement.md",
-                "title": "Fun extras to try",
-                "description": "Connect IDE to DevCS, Extra Automation excercises and more"
+                "title": "Supplemental Guide",
+                "description": "Fun extras to try: Connect IDE to DevCS, Extra Automation excercises and more"
             }
         ]
     }
