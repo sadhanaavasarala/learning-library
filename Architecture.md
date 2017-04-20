@@ -16,12 +16,12 @@ We will be executing the workshop running many different technologies behind the
     - Maven for build scripting
     - Shell for build scripting
     - Continuous Integration platfrom to run automated builds
-    - Continuous delivery platform to run automated deploys
+    - Continuous Delivery platform to run automated deploys
 - Our UI application:
-    - written in NodeJS
-    - uses Oracle JET as a client side UI framework
+    - Written in NodeJS
+    - Uses (Oracle JET)[www.oraclejet.org] as a client side UI framework
 - Our MySQL microservice
-    - written in Java
+    - Written in Java
     - Leverages JAX-WS and Grizzly IO to provide the REST and embedded web services
     - Leverages a backend MySQL Cloud Service instance
 - Our Currency Microservice
