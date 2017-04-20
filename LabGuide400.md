@@ -15,14 +15,14 @@ Welcome to lab 400. In this lab we will be completing our application architectu
 
 ## Required Artifacts
 - The following lab requires an Oracle Public Cloud account that will be supplied by your instructor.
-- You will need an ssh key: [labkey](labkey)
+- You will need an ssh key: [labkey](labkey.pub)
 
 ## Optional Artifacts
 
 - The Code Base for Docker Hub Build is located here: [https://github.com/c-rocket/TTC-CurrencyMicroservice](https://github.com/c-rocket/TTC-CurrencyMicroservice)
 - Google's Go Programming Language is described here: [https://golang.org/](https://golang.org/)
-- Docker informaiton can be found here: [https://www.docker.com/](https://www.docker.com/)
-- Oracle's Container Cloud Service is deatiled here: [https://cloud.oracle.com/en_US/container](https://cloud.oracle.com/en_US/container)
+- Docker information can be found here: [https://www.docker.com/](https://www.docker.com/)
+- Oracle's Container Cloud Service is detailed here: [https://cloud.oracle.com/en_US/container](https://cloud.oracle.com/en_US/container)
 
 ## Prerequisites
 
@@ -65,7 +65,7 @@ Welcome to lab 400. In this lab we will be completing our application architectu
 
 ![](images/400/step02.png)
 
-- You will now be on the landing page for Oracl'e Container Cloud Service
+- You will now be on the landing page for Oracle's Container Cloud Service
 
 ![](images/400/step03.png)
 
@@ -76,10 +76,11 @@ Welcome to lab 400. In this lab we will be completing our application architectu
 - Fill in the form and click Next
 
 ```
+
 Service Name: TouchTheCloudDemo
-SSH Public Key:<use labkey found in required artifacts>
+SSH Public Key:<use labkey.pub found in required artifacts>
 Admin Username: admin
-Admin Password: Oracle123
+Admin Password: Oracle123!
 ```
 
 ![](images/400/step05.png)
@@ -88,21 +89,22 @@ Admin Password: Oracle123
 
 ![](images/400/step06.png)
 
-- Wait for a few minutes while your host provisions
+- Wait for a few minutes while your host provisions (approx 10 minutes to setup your host)
 
 ![](images/400/step07.png)
 
 ### **STEP 3**: Create a new container service
 
-- Once your Container Service instance is provisioned, click on the menu to open the Container Console
+- Once your Container Service instance is provisioned, click on the menu to open the Container Console (you may have to add a browser security exception)
 
 ![](images/400/step09.png)
 
 - Use the admin username and password you setup in the instance configuration to login
 
 ```
+
 Username: admin
-Password: Oracle123
+Password: Oracle123!
 ```
 
 ![](images/400/step10.png)
@@ -124,6 +126,7 @@ Password: Oracle123
 
 
 ```
+
 Service Name: Currency Microservice
 Image: camcrockett/ttc-currencymicroservice
 
@@ -131,7 +134,16 @@ Image: camcrockett/ttc-currencymicroservice
 
 ![](images/400/step14.png)
 
-- Select Ports from the Available Options and Add a new TCP port mapping for port 8089 and Save
+- Select Ports from the Available Options and Add a new port mapping
+
+```
+
+Host Port: 80
+Container Port: 8089
+Protocol: TCP
+```
+
+
 
 ![](images/400/step15.png)
 
@@ -158,7 +170,7 @@ Image: camcrockett/ttc-currencymicroservice
 
 ![](images/400/step19.png)
 
-- Once sucessfully deployed the status should update
+- Once successfully deployed the status should update
 
 ![](images/400/step20.png)
 
@@ -176,7 +188,9 @@ Image: camcrockett/ttc-currencymicroservice
 - To Verify the microservice, open a new web browser tab and use the public IP to hit the following URL:
 
 ```
-http://<Public_IP>:8089/currencies/v1/usd
+
+http://<Public_IP>/currencies/v1/usd
+ex: http://129.144.154.28/currencies/v1/usd
 ```
 
 ![](images/400/step23.png)
@@ -191,7 +205,7 @@ http://<Public_IP>:8089/currencies/v1/usd
 
 ![](images/200/step21.png)
 
-- From the applicaiton dashbaord step into your Ui application
+- From the application dashboard step into your UI application
 
 ![](images/200/step23.png)
 
@@ -202,9 +216,10 @@ http://<Public_IP>:8089/currencies/v1/usd
 - Add a new environment variable
 
 ```
+
 Name: CURRENCY_MICROSERVICE_URL
 Value: <Currency Microservice URL>
-ex: http://129.144.158.167:8089/currencies/v1/usd
+ex: http://129.144.154.28/currencies/v1/usd
 ```
 
 ![](images/400/step25.png)
@@ -213,9 +228,9 @@ ex: http://129.144.158.167:8089/currencies/v1/usd
 
 ![](images/400/step26.png)
 
-- Once the Applicaiton is recreated, open the URL to see the new bdinging in action.
+- Once the Application is recreated, open the URL to see the new binding in action.
 
 ![](images/400/step29.png)
 
-**Lab 400 is now Complete**
+**Lab 400 is now complete**
 

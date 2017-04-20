@@ -134,8 +134,8 @@ Default Value: <Public IP of MySQL DB>
 ```shell
 
 cd src/main/resources/db/setup
-sudo -su scp -i mysqlkey -o StrictHostKeyChecking=no mysql_setup.sql opc@${MYSQL_IP}:/tmp/mysql_setup.sql
-sudo -su ssh -i mysqlkey -o StrictHostKeyChecking=no opc@${MYSQL_IP} sudo su - oracle -c 'mysql "catalog" < "/tmp/mysql_setup.sql"'
+scp -i mysqlkey -o StrictHostKeyChecking=no mysql_setup.sql opc@${MYSQL_IP}:/tmp/mysql_setup.sql
+ssh -i mysqlkey -o StrictHostKeyChecking=no opc@${MYSQL_IP} sudo su - oracle -c 'mysql "catalog" < "/tmp/mysql_setup.sql"'
 ```
 
 ![](images/300/step17.png)
@@ -179,7 +179,7 @@ Password: Oracle123!
 
 - Apply and Edit the changes to the MySQLMicroserviceDeploy application
 
-![](images/200/step26.png)
+![](images/300/step28.png)
 
 - Once redeployment has finished you will see the service binding in the deployment details
 
@@ -194,6 +194,11 @@ Password: Oracle123!
 ![](images/300/step25.png)
 
 - Open the URL for the MySQLMicroserviceDeploy Application and append "/catalog/v1" to see the JSON data now available
+
+```
+
+ex: https://mysqlmicroservicedeploy-a458023.apaas.us6.oraclecloud.com/catalog/v1
+```
 
 ![](images/300/step26.png)
 
