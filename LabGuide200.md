@@ -121,7 +121,6 @@ clean assembly:assembly
 
 - Select the **Post Build** tab
 
-
 ```
 Archive the artifacts: **/target/*
 Public JUnit test result report: **/target/surefire-reports/*.xml
@@ -184,6 +183,10 @@ Artifact: target/catalog-microservice-dist.zip
 ![](images/200/step21.png)
 
 - Open the link provided to view the Deployed Application and append "/catalog/v1/" to the end of the URL.
+
+```
+ex: https://mysqlmicroservicedeploy-a458023.apaas.us6.oraclecloud.com/catalog/v1/
+```
 
 > Note that until the Database is connected we are expecting a 500 (internal server error) to occur
 > Take record of the full URL create as it will be used later in the lab
