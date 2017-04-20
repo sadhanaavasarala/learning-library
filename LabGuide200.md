@@ -60,7 +60,7 @@ Oracle Developer Cloud Service provides a complete development platform that str
 
     ![](images/100/Picture100-7.5.png)
 
-### **STEP 2**: Add MySQL Microserivce to your Project
+### **STEP 2**: Add MySQL Microservice to your Project
 
 - From the home screen select your Touch the Cloud project.
 

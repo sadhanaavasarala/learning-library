@@ -20,8 +20,8 @@ Please direct comments to: Cam Crockett (cam.crockett@oracle.com)
 - We will be leveraging a prepared application found on GitHub: [https://github.com/c-rocket/TTC-CatalogApp.git](https://github.com/c-rocket/TTC-CatalogApp.git)
 
 ## Technologies Involved
-- Oracle Cloud Serivce:
-    - Developer Coud Service
+- Oracle Cloud Services:
+    - Developer Cloud Service
     - Application Container Cloud Service
 - Application Technologies
     - Written in NodeJS
