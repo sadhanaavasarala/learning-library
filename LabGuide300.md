@@ -3,7 +3,7 @@ Updated: April 17, 2017
 
 ## Introduction
 
-In Lab 300 we will be adding a MySQL databse to our microservice from lab 200. We will be using an automated build process to load our baseline schema onto the database after we have provisioned it.
+In Lab 300 we will be adding a MySQL database to our microservice from lab 200. We will be using an automated build process to load our baseline schema onto the database after we have provisioned it.
 
 Please direct comments to: Cam Crockett (cam.crockett@oracle.com)
 
@@ -22,8 +22,8 @@ Please direct comments to: Cam Crockett (cam.crockett@oracle.com)
 - Expected that your storage policy has been set as described in the [prerequisite guide](PreReqGuide.md)
 
 ## Technologies Involved
-- Oracle Cloud Serivce:
-    - Developer Coud Service
+- Oracle Cloud Services:
+    - Developer Cloud Service
     - MySQL Cloud Service
 
 ## Architecture
@@ -31,7 +31,7 @@ You will be building out the first component of your Microservices Application
 
 ![](images/300/targeted-architecture.png)
 
-# Provisiona dn Setup a MySQL Cloud Service Instance
+# Provision and Setup a MySQL Cloud Service Instance
 
 ## Provision your Database
 
@@ -39,7 +39,7 @@ You will be building out the first component of your Microservices Application
 
 MySQL Cloud service provides a complete MySQL instance easily provisioned in the cloud.
 
-- Return to the the main Cloud UI Dashboard
+- Return to the main Cloud UI Dashboard
 
 ![](images/300/step01.png)
  
@@ -47,7 +47,7 @@ MySQL Cloud service provides a complete MySQL instance easily provisioned in the
 
 ![](images/300/step02.png)
 
-### **STEP 2**: Createa new MySQL Databse
+### **STEP 2**: Create a new MySQL Database
 
 - Click **create service**. Give your service a name.
 
@@ -85,13 +85,13 @@ Backup Destination: none
 
 ![](images/300/step07.png)
 
-- Click on the insance to view details. Record the public IP of the database
+- Click on the instance to view details. Record the public IP of the database
 
 ![](images/300/step08.png)
 
 ### **STEP 3**: Add a build for the baseline schema setup
 
-- Return to the main project dashbaord for your Touch the Cloud Demo in Developer Cloud Service
+- Return to the main project dashboard for your Touch the Cloud Demo in Developer Cloud Service
 
 ![](images/300/step09.png)
 
@@ -113,7 +113,7 @@ Backup Destination: none
 
 ![](images/300/step13.png)
 
-- Add a String Pamerter
+- Add a String Parameter
 
 
 ```
@@ -137,7 +137,7 @@ sudo -su ssh -i mysqlkey -o StrictHostKeyChecking=no opc@${MYSQL_IP} sudo su - o
 
 ![](images/300/step17.png)
 
-- Save and Execute the Build. Note you will get a pop-up from your praramaterized build to confirm the MYSQL_IP. Leave the default value in place.
+- Save and Execute the Build. Note you will get a pop-up from your parameterized build to confirm the MYSQL_IP. Leave the default value in place.
 
 ![](images/300/step19.png)
 
@@ -177,7 +177,7 @@ Password: Oracle123!
 
 ![](images/200/step26.png)
 
-- Once redeployment has finished you will see the service bindingin the deployment detials
+- Once redeployment has finished you will see the service binding in the deployment details
 
 > Note: Selecting the show all variables under environment variables will display all variables added that are associated with the binding
 
@@ -185,7 +185,7 @@ Password: Oracle123!
 
 ### **STEP 6**: Verify the Catalog Data
 
-- Return to the main screen for Application Container Cloud Serivce
+- Return to the main screen for Application Container Cloud Service
 
 ![](images/300/step25.png)
 
@@ -193,7 +193,7 @@ Password: Oracle123!
 
 ![](images/300/step26.png)
 
-- Return to the main screen for Applicaiton Container Cloud Serivce
+- Return to the main screen for Application Container Cloud Service
 
 ![](images/300/step25.png)
 
