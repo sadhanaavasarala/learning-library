@@ -75,7 +75,7 @@ Oracle Developer Cloud Service provides a complete development platform that str
 
 
 ```
-Name: MySQL Microservice
+Name: MySQLMicroservice
 Select Import from Existing Repository:
 https://github.com/c-rocket/TTC-MySQLMicroservice.git
 ```
@@ -107,7 +107,7 @@ https://github.com/c-rocket/TTC-MySQLMicroservice.git
 
 ![](images/200/step08.png)
 
-- Select the **Build Step** Add a Maven Build
+- Select the **Build Step** Add a **Maven 3** build step
 
 ![](images/200/step09.png)
 
@@ -119,7 +119,13 @@ clean assembly:assembly
 
 ![](images/200/step10.png)
 
-- Select the **Post Build** step and Archive the artifacts by adding `**/target/*`
+- Select the **Post Build** tab
+
+
+```
+Archive the artifacts: **/target/*
+Public JUnit test result report: **/target/surefire-reports/*.xml
+```
 
 ![](images/200/step11.png)
 
