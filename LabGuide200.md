@@ -1,4 +1,3 @@
-
 ![](images/200/Picture200-lab.png)  
 Updated: April 19, 2017
 
@@ -11,11 +10,11 @@ Please direct comments to: Cam Crockett (cam.crockett@oracle.com)
 ## Objectives
 - Import microservice from GitHub
 - Setup automated build to create application artifacts
-- Setup an automated deployment to provision and deploy your applciation into the Oracle Cloud
+- Setup an automated deployment to provision and deploy your application into the Oracle Cloud
 - Bind your microservice to the UI
 
 ## Required Artifacts
-- We will be leveraging a preparred application found on [GitHub: https://github.com/c-rocket/TTC-MySQLMicroservice.git](https://github.com/c-rocket/TTC-MySQLMicroservice.git)
+- We will be leveraging a prepared application found on [GitHub: https://github.com/c-rocket/TTC-MySQLMicroservice.git](https://github.com/c-rocket/TTC-MySQLMicroservice.git)
 
 ## Prerequisites
 
@@ -28,7 +27,7 @@ Please direct comments to: Cam Crockett (cam.crockett@oracle.com)
     - Application Container Cloud Service
 - Application Technologies
     - Written in Java
-    - Leverages Jax-ws and Grizzly IO to provide a RESTful inerface
+    - Leverages Jax-ws and Grizzly IO to provide a RESTful interface
     - Uses MySQL drivers for DB interface
     - Uses Maven for build scripting and library management
 
@@ -43,9 +42,9 @@ You will be building out the first component of your Microservices Application
 
 ### **STEP 1**: Login to Developer Cloud Service
 
-Oracle Developer Cloud Service provides a complete development platform that streamlines team development processes and automates software delivery. The integrated platform includes an issue tracking system, agile development dashboards, code versioning and review platform, continuous integration and delivery automation, as well as team collaboration features such as wikis and live activity stream. With a rich web based dashboard and integration with popular development tools, Oracle Developer Cloud Service helps deliver better applications faster.
+Oracle Developer Cloud Service provides a complete development platform that streamlines team development processes and automates software delivery. The integrated platform includes an issue tracking system, agile development dashboards, code versioning and review platform, continuous integration and delivery automation, as well as team collaboration features such as wikis and live activity stream. With a rich web-based dashboard and integration with popular development tools, Oracle Developer Cloud Service helps deliver better applications faster.
 
-- Return to the the main Cloud UI Dashboard
+- Return to the main Cloud UI Dashboard
 
 ![](images/100/step01.png)
  
@@ -88,7 +87,7 @@ https://github.com/c-rocket/TTC-MySQLMicroservice.git
 ![](images/200/step04.png)
 
 
-### **STEP 3**: Create Deployment Articfacts through an Automated Build
+### **STEP 3**: Create Deployment Artifacts through an Automated Build
 
 - Click **Build** on the left menu
 
@@ -112,7 +111,7 @@ https://github.com/c-rocket/TTC-MySQLMicroservice.git
 
 ![](images/200/step09.png)
 
-- Enter the goal:
+- Enter the maven goal:
 
 ```maven
 clean assembly:assembly
@@ -120,7 +119,7 @@ clean assembly:assembly
 
 ![](images/200/step10.png)
 
-- Select the **Post Build** step and Archive the Artifactat by adding `**/target/*`
+- Select the **Post Build** step and Archive the artifacts by adding `**/target/*`
 
 ![](images/200/step11.png)
 
@@ -134,7 +133,7 @@ clean assembly:assembly
 
 ![](images/200/step14.png)
 
-- Select Create **New Configuration** and fill out the form and select Application Cotnainer from the Deployment Target
+- Select Create **New Configuration** and fill out the form and select Application Container from the Deployment Target
 
 
 ```
@@ -174,7 +173,7 @@ Artifact: target/catalog-microservice-dist.zip
 
 ![](images/100/step27.png)
 
-- You will now see the Deployed MySQL Microservice Aplication Running
+- You will now see the Deployed MySQL Microservice Application Running
 
 ![](images/200/step21.png)
 
@@ -187,7 +186,7 @@ Artifact: target/catalog-microservice-dist.zip
 
 ### **STEP 6**: Bind your Microservice to the UI Application
 
-- Return to the main screen for Application Container Cloud Serivce
+- Return to the main screen for Application Container Cloud Service
 
 ![](images/200/step21.png)
 
@@ -209,7 +208,7 @@ ex: https://mysqlmicroservicedeploy-a458023.apaas.us6.oraclecloud.com/catalog/v1
 
 ![](images/200/step25.png)
 
-- Press the Apply Edits button and wait for the container to be re-created witht he new variable
+- Press the Apply Edits button and wait for the container to be re-created with the new variable
 
 ![](images/200/step26.png)
 
