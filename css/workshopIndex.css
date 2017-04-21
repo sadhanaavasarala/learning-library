@@ -18,3 +18,18 @@ md-toolbar.md-default-theme.md-hue-2:not(.md-menu-toolbar), md-toolbar.md-hue-2:
     background-color: #006E87;
     color: rgba(255,255,255,0.87);
 }
+
+td {
+    border: 1px solid #D3D3D3;
+    padding: 3px;
+}
+
+th {
+    background-color: #EEEEEE;
+    border: 1px solid #D3D3D3;
+    padding: 3px;
+}
+
+table {
+    border-spacing: 0;
+}

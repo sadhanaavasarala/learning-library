@@ -6,7 +6,7 @@ This workshop designed to help you get started with your Oracle Cloud trial acco
 ## Trial Servcies Breakdown
 As part of your Oracle Cloud Trial you have full access to all of the funcationality of a variety of services. To help break things down lets start by taking the services you have access to and breaking things down
 
-<table width="100%" border="1">
+<table width="100%">
     <tr>
         <th>What You Have in your Trial</th>
         <th>What can apply most to AppDev</th>
@@ -117,5 +117,3 @@ As part of your Oracle Cloud Trial you have full access to all of the funcationa
 > *Open Source framework 
 
 ## Oracle Cloud AppDev Continuum
-
-
