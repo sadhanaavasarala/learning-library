@@ -1,16 +1,17 @@
 ![](images/home/cloud-touch.png)
+
 # Oracle Presents
-## Touch The Cloud, an AppDev workshop for Trial Accounts 
-This workshop designed to help you get started with your Oracle Cloud trial account.
+## Touch the Cloud, an AppDev workshop for Trial Accounts 
+This workshop designed to help you get started with your Oracle Cloud trial account. To proceed with the workshop, use the menu at the top to traverse the information, content and labs. Below we will provide some breakdown information about your current trial account and the services provided.
     
-## Trial Servcies Breakdown
-As part of your Oracle Cloud Trial you have full access to all of the funcationality of a variety of services. To help break things down lets start by taking the services you have access to and breaking things down
+## Let's start with a Trial Services Breakdown
+With your Oracle Cloud Trial you have full feature access to a variety of services. To help break things down we can look at the set of cloud services included in your trial.
 
 <table width="100%">
     <tr>
         <th>What You Have in your Trial</th>
-        <th>What can apply most to AppDev</th>
-        <th>What will we use in this workshop</th>
+        <th>What Generally Applies to AppDev</th>
+        <th>What will we use in this Workshop</th>
     </tr>
     <tr>
         <td align="center"><a href="https://cloud.oracle.com/database" target="_blank">Oracle Database</a></td>
@@ -116,4 +117,37 @@ As part of your Oracle Cloud Trial you have full access to all of the funcationa
  
 > *Open Source framework 
 
-## Oracle Cloud AppDev Continuum
+## Now we can dive into what some of these services can do
+** Oracle is focused on supporting the Full Spectrum of the Modern AppDev Continuum **
+
+![](images/home/appDevContinuum.png)
+
+### Modernize Traditional Applications: Java Cloud Service
+Running Java EE workloads leveraging the latest Weblogic 12c web containers in the cloud.
+
+![](images/home/java_cs.png)
+
+### Data Storage Services
+Run an Oracle Database or MySQL DB in the cloud. Fully featured functionality to support enterprise grade applications.
+
+![](images/home/db_cs.png)
+
+### Bring Your Own Docker Container
+Leverage a huge library of certified images + your exsisting ecosystem of Docker images and easily wire Conteriner Cloud Service into your Docker DevOps pipeline.
+
+![](images/home/oc_cs.png)
+
+![](images/home/docker_pipeline.png)
+
+### Build Polyglot Cloud Native Microserivces
+Leverage the lightweight containerized capabilities of Application Container Cloud Service
+
+![](images/home/ac_cs.png)
+
+### Developer Cloud Service
+All the developer tools in one place to allow you to Plan, Code, Build, Integrate, Test, Run and Collaborate
+
+![](images/home/dev_cs.png)
+
+___
+** You will be leveraging many of these services as you continue on with the upcoming labs***

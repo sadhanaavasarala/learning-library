@@ -1,5 +1,3 @@
-
-![](images/prerequisite/Picture-Title.png)  
 Update: April 10, 2017
 
 # Prerequisites Guide
