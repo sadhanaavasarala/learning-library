@@ -12,9 +12,9 @@ As part of your Oracle Cloud Trial you have full access to all of the funcationa
         <th>What can apply most to AppDev</th>
         <th>What will we use in this workshop</th>
     </tr>
-    <td align="center">[Oracle Database](https://cloud.oracle.com/database)</td>
-    <td align="center">[Oracle Database](https://cloud.oracle.com/database)</td>
-    <td align="center">[MySQL](https://cloud.oracle.com/mysql)</td>
+    <td align="center"><a href="https://cloud.oracle.com/database" target="_blank">Oracle Database</a></td>
+    <td align="center"><a href="https://cloud.oracle.com/database" target="_blank">Oracle Database</a></td>
+    <td align="center"><a href="https://cloud.oracle.com/mysql" target="_blank">MySQL</a></td>
 </table>
 
 | What You Have in your Trial                                                     | What can apply most to AppDev                                                 | What will we use in this workshop                                             |
