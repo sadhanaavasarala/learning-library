@@ -235,7 +235,7 @@ Artifact: TTC-CatalogApp.zip
 
 ### **STEP 8**: Verify Deployment
 
-- Open your main Dashboard Console. Select Application Container and open the service console
+- Click the Deploy to ACCS link on the CatalogUIDeploy Deployment to navigate to the Application Container Cloud Service Console
 
 ![](images/100/step27.png)
 
