@@ -118,9 +118,8 @@ With your Oracle Cloud Trial you have full feature access to a variety of servic
 > *Open Source framework 
 
 ## Let's dive into what some of these services can do
-** Oracle is focused on supporting the Full Spectrum of the Modern AppDev Continuum **
-
 ![](images/home/appDevContinuum.png)
+***Oracle is focused on supporting the Full Spectrum of the Modern AppDev Continuum***
 
 ### Modernize Traditional Applications: Java Cloud Service
 Running Java EE workloads leveraging the latest Weblogic 12c web containers in the cloud.
@@ -149,7 +148,10 @@ All the developer tools in one place to allow you to Plan, Code, Build, Integrat
 
 ![](images/home/dev_cs.png)
 
-## [Start the Labs](PreReqGuide.md)
+## Start the Labs
+
+You can access all the labs and prerequisite information though the top **menu**
+![](images/WorkshopMenu.png)
 ____
 You will be leveraging many of these services as you continue on with the upcoming labs
 
