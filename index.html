@@ -39,7 +39,7 @@
       <md-toolbar class="md-hue-2 infra">
         <h1 class="md-toolbar-tools infra">Workshop Contents</h1>
       </md-toolbar>
-      <md-content>
+      <md-content style="height: 110%;">
         <md-list>
             <md-list-item class="md-3-line toc-item infra" ng-repeat="lab in manifest.workshop.labs" ng-click="getLabGuide(lab); close();">
                 <div class="md-list-item-text infra">
@@ -178,8 +178,8 @@
             $mdSidenav('left').close();
         };
         
-        //upon page load, display README
-        $scope.getLabGuide({filename: 'README.md'});
+        //upon page load, display Home
+        $scope.getLabGuide({filename: 'Home.md'});
     }]);
     
 </script>
