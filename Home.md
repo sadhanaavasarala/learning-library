@@ -6,8 +6,19 @@ This workshop designed to help you get started with your Oracle Cloud trial acco
 ## Trial Servcies Breakdown
 As part of your Oracle Cloud Trial you have full access to all of the funcationality of a variety of services. To help break things down lets start by taking the services you have access to and breaking things down
 
+<table>
+    <tr>
+        <th>What You Have in your Trial</th>
+        <th>What can apply most to AppDev</th>
+        <th>What will we use in this workshop</th>
+    </tr>
+    <td align="center">[Oracle Database](https://cloud.oracle.com/database)</td>
+    <td align="center">[Oracle Database](https://cloud.oracle.com/database)</td>
+    <td align="center">[MySQL](https://cloud.oracle.com/mysql)</td>
+</table>
+
 | What You Have in your Trial                                                     | What can apply most to AppDev                                                 | What will we use in this workshop                                             |
-| ------------------------------------------------------------------------------- | ----------------------------------------------------------------------------- | ----------------------------------------------------------------------------- |
+| :-------------------------------------------------------------------------------: | :-----------------------------------------------------------------------------: | :-----------------------------------------------------------------------------: |
 | [Oracle Database](https://cloud.oracle.com/database)                            | [Oracle Database](https://cloud.oracle.com/database)                          | [MySQL](https://cloud.oracle.com/mysql)                                       |
 | [MySQL](https://cloud.oracle.com/mysql)                                         | [MySQL](https://cloud.oracle.com/mysql)                                       | [Application Container](https://cloud.oracle.com/application-container-cloud) |
 | [GoldenGate](https://cloud.oracle.com/goldengate)                               | [Java](https://cloud.oracle.com/java)                                         | [Developer](https://cloud.oracle.com/developer-service)                       |
