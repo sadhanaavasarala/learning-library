@@ -6,39 +6,113 @@ This workshop designed to help you get started with your Oracle Cloud trial acco
 ## Trial Servcies Breakdown
 As part of your Oracle Cloud Trial you have full access to all of the funcationality of a variety of services. To help break things down lets start by taking the services you have access to and breaking things down
 
-<table>
+<table width="100%" border="1">
     <tr>
         <th>What You Have in your Trial</th>
         <th>What can apply most to AppDev</th>
         <th>What will we use in this workshop</th>
     </tr>
-    <td align="center"><a href="https://cloud.oracle.com/database" target="_blank">Oracle Database</a></td>
-    <td align="center"><a href="https://cloud.oracle.com/database" target="_blank">Oracle Database</a></td>
-    <td align="center"><a href="https://cloud.oracle.com/mysql" target="_blank">MySQL</a></td>
+    <tr>
+        <td align="center"><a href="https://cloud.oracle.com/database" target="_blank">Oracle Database</a></td>
+        <td align="center"><a href="https://cloud.oracle.com/database" target="_blank">Oracle Database</a></td>
+        <td align="center"><a href="https://cloud.oracle.com/mysql" target="_blank">MySQL</a></td>
+    </tr>
+    <tr>
+        <td align="center"><a href="https://cloud.oracle.com/mysql" target="_blank">MySQL</a></td>
+        <td align="center"><a href="https://cloud.oracle.com/mysql" target="_blank">MySQL</a></td>
+        <td align="center"><a href="https://cloud.oracle.com/application-container-cloud" target="_blank">Application Container</a></td>
+    </tr>
+    <tr>
+        <td align="center"><a href="https://cloud.oracle.com/goldengate" target="_blank">GoldenGate</a></td>
+        <td align="center"><a href="https://cloud.oracle.com/java" target="_blank">Java</a></td>
+        <td align="center"><a href="https://cloud.oracle.com/developer-service" target="_blank">Developer</a></td>
+    </tr>
+    <tr>
+        <td align="center"><a href="https://cloud.oracle.com/database-backup" target="_blank">Database Backup</a></td>
+        <td align="center"><a href="https://cloud.oracle.com/mobile" target="_blank">Mobile</a></td>
+        <td align="center"><a href="https://cloud.oracle.com/container" target="_blank">Container</a></td>
+    </tr>
+    <tr>
+        <td align="center"><a href="https://cloud.oracle.com/big-data-compute-edition" target="_blank">Big Data – Compute Edition</a></td>
+        <td align="center"><a href="https://cloud.oracle.com/application-container-cloud" target="_blank">Application Container</a></td>
+        <td align="center"><a href="http://www.oracle.com/webfolder/technetwork/jet/index.html" target="_blank">Oracle JET*</a></td>
+    </tr>
+    <tr>
+        <td align="center"><a href="https://cloud.oracle.com/big-data-preparation" target="_blank">Big Data Preparation</a></td>
+        <td align="center"><a href="https://cloud.oracle.com/compute" target="_blank">Compute</a></td>
+        <td align="center"></td>
+    </tr>
+    <tr>
+        <td align="center"><a href="https://cloud.oracle.com/ravello" target="_blank">Ravello</a></td>
+        <td align="center"><a href="https://cloud.oracle.com/bare-metal" target="_blank">Bare Metal</a></td>
+        <td align="center"></td>
+    </tr>
+    <tr>
+        <td align="center"><a href="https://cloud.oracle.com/java" target="_blank">Java</a></td>
+        <td align="center"><a href="https://cloud.oracle.com/storage" target="_blank">Storage</a></td>
+        <td align="center"></td>
+    </tr>
+    <tr>
+        <td align="center"><a href="https://cloud.oracle.com/integration" target="_blank">Integration</a></td>
+        <td align="center"><a href="https://cloud.oracle.com/container" target="_blank">Container</a></td>
+        <td align="center"></td>
+    </tr>
+    <tr>
+        <td align="center"><a href="https://cloud.oracle.com/soa" target="_blank">SOA</a></td>
+        <td align="center"><a href="https://cloud.oracle.com/developer-service" target="_blank">Developer</a></td>
+        <td align="center"></td>
+    </tr>
+    <tr>
+        <td align="center"><a href="https://cloud.oracle.com/process" target="_blank">Process</a></td>
+        <td align="center"><a href="https://cloud.oracle.com/messaging" target="_blank">Messaging</a></td>
+        <td align="center"></td>
+    </tr>
+    <tr>
+        <td align="center"><a href="https://cloud.oracle.com/mobile" target="_blank">Mobile</a></td>
+        <td align="center"></td>
+        <td align="center"></td>
+    </tr>
+    <tr>
+        <td align="center"><a href="https://cloud.oracle.com/application-container-cloud" target="_blank">Application Container</a></td>
+        <td align="center"></td>
+        <td align="center"></td>
+    </tr>
+    <tr>
+        <td align="center"><a href="https://cloud.oracle.com/iot" target="_blank">Internet of Things</a></td>
+        <td align="center"></td>
+        <td align="center"></td>
+    </tr>
+    <tr>
+        <td align="center"><a href="https://cloud.oracle.com/compute" target="_blank">Compute</a></td>
+        <td align="center"></td>
+        <td align="center"></td>
+    </tr>
+    <tr>
+        <td align="center"><a href="https://cloud.oracle.com/bare-metal" target="_blank">Bare Metal</a></td>
+        <td align="center"></td>
+        <td align="center"></td>
+    </tr>
+    <tr>
+        <td align="center"><a href="https://cloud.oracle.com/storage" target="_blank">Storage</a></td>
+        <td align="center"></td>
+        <td align="center"></td>
+    </tr>
+    <tr>
+        <td align="center"><a href="https://cloud.oracle.com/container" target="_blank">Container</a></td>
+        <td align="center"></td>
+        <td align="center"></td>
+    </tr>
+    <tr>
+        <td align="center"><a href="https://cloud.oracle.com/developer-service" target="_blank">Developer</a></td>
+        <td align="center"></td>
+        <td align="center"></td>
+    </tr>
+    <tr>
+        <td align="center"><a href="https://cloud.oracle.com/messaging" target="_blank">Messaging</a></td>
+        <td align="center"></td>
+        <td align="center"></td>
+    </tr>
 </table>
-
-| What You Have in your Trial                                                     | What can apply most to AppDev                                                 | What will we use in this workshop                                             |
-| :-------------------------------------------------------------------------------: | :-----------------------------------------------------------------------------: | :-----------------------------------------------------------------------------: |
-| [Oracle Database](https://cloud.oracle.com/database)                            | [Oracle Database](https://cloud.oracle.com/database)                          | [MySQL](https://cloud.oracle.com/mysql)                                       |
-| [MySQL](https://cloud.oracle.com/mysql)                                         | [MySQL](https://cloud.oracle.com/mysql)                                       | [Application Container](https://cloud.oracle.com/application-container-cloud) |
-| [GoldenGate](https://cloud.oracle.com/goldengate)                               | [Java](https://cloud.oracle.com/java)                                         | [Developer](https://cloud.oracle.com/developer-service)                       |
-| [Database Backup](https://cloud.oracle.com/database-backup)                     | [Mobile](https://cloud.oracle.com/mobile)                                     | [Container](https://cloud.oracle.com/container)                               |
-| [Big Data – Compute Edition](https://cloud.oracle.com/big-data-compute-edition) | [Application Container](https://cloud.oracle.com/application-container-cloud) | [Oracle JET*](http://www.oracle.com/webfolder/technetwork/jet/index.html)     |
-| [Big Data Preparation](https://cloud.oracle.com/big-data-preparation)           | [Compute](https://cloud.oracle.com/compute)                                   |                                                                               |
-| [Ravello](https://cloud.oracle.com/ravello)                                     | [Bare Metal](https://cloud.oracle.com/bare-metal)                             |                                                                               |
-| [Java](https://cloud.oracle.com/java)                                           | [Storage](https://cloud.oracle.com/storage)                                   |                                                                               |
-| [Integration](https://cloud.oracle.com/integration)                             | [Container](https://cloud.oracle.com/container)                               |                                                                               |
-| [SOA](https://cloud.oracle.com/soa)                                             | [Developer](https://cloud.oracle.com/developer-service)                       |                                                                               |
-| [Process](https://cloud.oracle.com/process)                                     | [Messaging](https://cloud.oracle.com/messaging)                               |                                                                               |
-| [Mobile](https://cloud.oracle.com/mobile)                                       |                                                                               |                                                                               |
-| [Application Container](https://cloud.oracle.com/application-container-cloud)   |                                                                               |                                                                               |
-| [Internet of Things](https://cloud.oracle.com/iot)                              |                                                                               |                                                                               |
-| [Compute](https://cloud.oracle.com/compute)                                     |                                                                               |                                                                               |
-| [Bare Metal](https://cloud.oracle.com/bare-metal)                               |                                                                               |                                                                               |
-| [Storage](https://cloud.oracle.com/storage)                                     |                                                                               |                                                                               |
-| [Container](https://cloud.oracle.com/container)                                 |                                                                               |                                                                               |
-| [Developer](https://cloud.oracle.com/developer-service)                         |                                                                               |                                                                               |
-| [Messaging](https://cloud.oracle.com/messaging)                                 |                                                                               |                                                                               |
  
 > *Open Source framework 
 
