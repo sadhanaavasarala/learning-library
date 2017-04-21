@@ -149,7 +149,7 @@ All the developer tools in one place to allow you to Plan, Code, Build, Integrat
 
 ![](images/home/dev_cs.png)
 
-#
+## [Start the Labs](PreReqGuide.md)
 ____
 You will be leveraging many of these services as you continue on with the upcoming labs
 
