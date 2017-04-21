@@ -1,7 +1,7 @@
 {
     "workshop": {
-        "title": "Workshop Title",
-        "description": "Description of this workshop.",
+        "title": "Touch the Cloud Series: AppDev Starter kit",
+        "description": "Workshops designed to help you get started with your trial accounts.",
         "labs": [
             {
                 "number": "0",
