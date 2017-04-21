@@ -127,27 +127,29 @@ Running Java EE workloads leveraging the latest Weblogic 12c web containers in t
 
 ![](images/home/java_cs.png)
 
-### Data Storage Services
+### Data Storage Services: Database and MySQL Cloud Service
 Run an Oracle Database or MySQL DB in the cloud. Fully featured functionality to support enterprise grade applications.
 
 ![](images/home/db_cs.png)
 
-### Bring Your Own Docker Container
-Leverage a huge library of certified images + your exsisting ecosystem of Docker images and easily wire Conteriner Cloud Service into your Docker DevOps pipeline.
+### Bring Your Own Docker: Container Cloud Service
+Leverage a huge library of certified images + your exsisting ecosystem of Docker images and easily wire Container Cloud Service into your Docker DevOps pipeline.
 
 ![](images/home/oc_cs.png)
 
 ![](images/home/docker_pipeline.png)
 
-### Build Polyglot Cloud Native Microserivces
+### Build Polyglot Cloud Native Microserivces: Applicaiton Container Cloud
 Leverage the lightweight containerized capabilities of Application Container Cloud Service
 
 ![](images/home/ac_cs.png)
 
-### Developer Cloud Service
+### DevOps and Devlopment tooling: Developer Cloud Service
 All the developer tools in one place to allow you to Plan, Code, Build, Integrate, Test, Run and Collaborate
 
 ![](images/home/dev_cs.png)
 
-___
-** You will be leveraging many of these services as you continue on with the upcoming labs***
+
+
+____
+**You will be leveraging many of these services as you continue on with the upcoming labs**
