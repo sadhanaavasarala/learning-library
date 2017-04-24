@@ -1,7 +1,7 @@
 ![](images/home/cloud-touch.png)
 
 # Oracle Presents
-## Touch the Cloud, an AppDev workshop for Trial Accounts 
+## Touch the Cloud Series: AppDev Starter Kit 
 This workshop designed to help you get started with your Oracle Cloud trial account. To proceed with the workshop, use the menu at the top to traverse the information, content and labs. Below we will provide some breakdown information about your current trial account and the services provided.
     
 ## Let's start with a Trial Services Breakdown
