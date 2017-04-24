@@ -111,11 +111,7 @@ https://github.com/c-rocket/TTC-MySQLMicroservice.git
 
 ![](images/200/step09.png)
 
-- Enter the maven goal:
-
-```maven
-clean assembly:assembly
-```
+- Accept the default settings
 
 ![](images/200/step10.png)
 
@@ -174,9 +170,9 @@ Artifact: target/catalog-microservice-dist.zip
 
 ### **STEP 5**: Verify Deployment
 
-- Open your main Dashboard Console. Select Application Container and open the service console
+- Click the Deploy to ACCS link on the MySQLMicroserviceDeploy Deployment to navigate to the Application Container Cloud Service Console
 
-![](images/100/step27.png)
+![](images/200/step20a.png)
 
 - You will now see the Deployed MySQL Microservice Application Running
 
