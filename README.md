@@ -13,7 +13,7 @@
       
 ## How to View the Lab Guides
 
-- The Labguides are best viewed using the Workshop's [GitHub IO Pages Website URL](https://c-rocket.github.io/TouchTheCloudDevOpsLab/) 
+- The Lab Guides are best viewed using the Workshop's [GitHub IO Pages Website URL](https://c-rocket.github.io/TouchTheCloudDevOpsLab/) 
 
 - Once you are viewing the Workshop's GitHub Pages website, you can see a list of Lab Guides at any time by clicking on the **Menu Icon**
 
@@ -21,7 +21,7 @@
 
 - To log issues and view the Lab Guide source, go to the [github oracle](https://github.com/c-rocket/TouchTheCloudDevOpsLab) repository. 
 
-## Touch The Cloud, an AppDev workshop for Trial Accounts
+## Oracle's Touch the Cloud Series: AppDev Starter Kit
 
 This Oracle Public Cloud workshop will walk you through AppDev services found in your trial account. It will also give you a hands on example of leveraging many of these servcies to build out a microservices architecture. You will be following DevOps principles of automation and consistancy throughout the workshop. No coding or detailed background of Oracle Cloud Services is required.
 
@@ -31,7 +31,7 @@ This Oracle Public Cloud workshop will walk you through AppDev services found in
 
 ## Lab 100: Build and Deploy your UI
 
-**Documenation**: [LabGuide100.md](LabGuide100.md)
+**Documentation**: [LabGuide100.md](LabGuide100.md)
 
 ### Objectives
 
@@ -42,7 +42,7 @@ This Oracle Public Cloud workshop will walk you through AppDev services found in
 
 ## Lab 200: Your First Microservice
 
-**Documenation**: [LabGuide200.md](LabGuide200.md)
+**Documentation**: [LabGuide200.md](LabGuide200.md)
 
 ### Objectives
 
@@ -53,18 +53,18 @@ This Oracle Public Cloud workshop will walk you through AppDev services found in
 
 ## Lab 300: Create the Backend
 
-**Documenation**: [LabGuide300.md](LabGuide300.md)
+**Documentation**: [LabGuide300.md](LabGuide300.md)
 
 ### Objectives
 
 - Provision your [MySQL Cloud Service](https://cloud.oracle.com/en_US/mysql) backend
 - Access [Developer Cloud Service](https://cloud.oracle.com/en_US/developer-service)
 - Deploy your setup script automatically to your MySQL instance
-- Bind the databse to your microservice
+- Bind the database to your microservice
 
 ## Lab 400:  Your Second Microservice
 
-**Documenation**: [LabGuide400.md](LabGuide400.md)
+**Documentation**: [LabGuide400.md](LabGuide400.md)
 
 ### Objectives
 

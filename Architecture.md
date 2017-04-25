@@ -3,9 +3,9 @@
 ## Workshop Goal
 
 - To inform and understand the AppDev services provided to you in your trial account
-- Understand Oracle's support for Polyglot Development
+- To understand Oracle's support for Polyglot Development
 - To build a modern microservice architecture in the cloud
-    - Our Applciation will display a catalog of information provided by a catalog microservice that uses a MySQL DB. We will also leverage a currency microservice to provide echange rate information for that catalog
+    - Our Application will display a catalog of information provided by a catalog microservice that uses a MySQL DB. We will also leverage a currency microservice to provide exchange rate information for that catalog
 - To apply DevOps techniques for Automation to build, configure and deploy your applications to the cloud
 
 ## Workshop Technologies
@@ -15,7 +15,7 @@ We will be executing the workshop running many different technologies behind the
     - Git for source code
     - Maven for build scripting
     - Shell for build scripting
-    - Continuous Integration platfrom to run automated builds
+    - Continuous Integration platform to run automated builds
     - Continuous Delivery platform to run automated deploys
 - Our UI application:
     - Written in NodeJS

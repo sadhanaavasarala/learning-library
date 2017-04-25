@@ -2,14 +2,14 @@ Update: April 10, 2017
 
 # Prerequisites Guide
 
-This Guide will provide you with the instructions nessesary to ensure you have the proper tools and configuration done to execute ont he workshop. This Workshop will allow you to gain exposure to Oracle Developer Cloud Service, Oracle Application Container Cloud Service, Oracle Container Cloud Service, Oracle MySQL Cloud Service and Oracle's open source front end framework Oracle JET.
+This Guide will provide you with the instructions necessary to ensure you have the proper tools and configuration done to execute on the workshop. This Workshop will allow you to gain exposure to Oracle Developer Cloud Service, Oracle Application Container Cloud Service, Oracle Container Cloud Service, Oracle MySQL Cloud Service and Oracle's open source front end framework Oracle JET.
 
-## Client Enviroment Options
+## Client Environment Options
 
-Your client enviroment **must be configured prior** to attempting the Hands on Workshop, or you will not be able to complete the Workshop labs.
+Your client environment **must be configured prior** to attempting the Hands on Workshop, or you will not be able to complete the Workshop labs.
 
 ### Check/Set Storage Replication Policy
-Depending on the state of your Cloud Account, you may need to set the replication policy, if it has not been previously set. In this step you will got to the Storage Cloud Service to check on the status of the Replicaton Policy
+Depending on the state of your Cloud Account, you may need to set the replication policy, if it has not been previously set. In this step you will got to the Storage Cloud Service to check on the status of the Replication Policy
 
 - From any browser, go to the URL:
     `https://cloud.oracle.com`
@@ -45,22 +45,13 @@ Depending on the state of your Cloud Account, you may need to set the replicatio
 
     ![](images/100/Picture-02.png)
 
-- Care must be taking when setting your replication policy, because it cannot be changed. With Trial accounts, the first option available will generatlly set the replication policy sufficient for this workshop, so we will take the Default, and click on the **Set** button. 
+- Care must be taking when setting your replication policy, because it cannot be changed. With Trial accounts, the first option available will generally set the replication policy sufficient for this workshop, so we will take the Default, and click on the **Set** button. 
 
     ![](images/100/Picture-03.png)
 
 - Click on the **Dashboard** button
 
     ![](images/100/Picture-04.png)
-
-You have two options for configuring your workshop client environment. 
-
-- ***Option 1***: You can install Virtual Box and download and run a pre-configured **Virtual Box Image**. 
-    - Refer to the ***Virtual Box Client Installation*** section of this document to use this option
-    - **This option is best**, if you don't want to worry about installing and configuring multiple Open Source Software tools on your laptop. 
-- ***Option 2***: You can **install and configure** Eclipse, Brackets and Git on your laptop.
-    - Refer to the ***Configure Client Tools Locally*** section of this document to use this option.
-    - **This option is best** if you want to install and configure the opensource software on your laptop, or your corporate standards will not let you install a hypervisor, or your laptop's resorces are not adequate to run virtual images. 
 
 ### Hardware Requirements
 
