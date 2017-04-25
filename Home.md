@@ -1,10 +1,25 @@
 ![](images/home/cloud-touch.png)
 
-# Oracle Presents
-## Touch the Cloud Series: AppDev Starter Kit 
-This workshop designed to help you get started with your Oracle Cloud trial account. To proceed with the workshop, use the menu at the top to traverse the information, content and labs. Below we will provide some breakdown information about your current trial account and the services provided.
+# Oracle Touch the Cloud Series: AppDev Starter Kit 
+Times are changing and things are getting simpler in the Cloud! At Oracle we have invested in delivering a plethora of new Cloud Services and we want to show you how simple – yet powerful they are. We specifically wanted to focus on low code, high productivity services that can be used in building enterprise grade solutions. We believe the best way to do this is to showcase a real world business solution comprised of these services. You will build the entire solution during the course of this workshop all in a stress-free fun environment. By the end of this workshop you would have created a complete “Quote to Order” solution. This solution will comprise of a mobile application, a process automation workflow, integration with an ERP and creating dashboards for visibility and business KPIs. No expertise or experience required We will have experienced instructors guide you through the tool’s online screens and explain how each service works. There is no expertise required from your side, just bring a laptop with a modern web browser and your mobile phone.
+
+## Objective
+Cloud is here to stay but development is your choice. Our goal is to show you how you can leverage a cloud focused development platform to meet all your development needs.
+                            
+## Overview
+The AppDev starter kit is part of Oracle's Touch the Cloud Series of hands-on workshops In this workshop you will be traversing the Oracle Cloud to develop a dynamic microservices architecture. You will explore various services as well as built-in tools for automation and DevOps. To proceed with the workshop, use the menu at the top to traverse the information, content and labs. Below we will provide some breakdown information about your current trial account and the services provided.
+
+## Workshop Delivery
+This workshop is designed to give you everything you need to self-guide the labs leveraging your Trial Account. Oracle Platform Specialists can facilitate the event if desired for greater depth of knowledge developing with Oracle's cloud.
+
+## Our Commitment
+Oracle is working with a large number of customers in all kinds of organizations and industries to enable cloud development. We can help you address the big picture, evaluate how you compare with your peers and design for the future. During this event, we will showcase modern services that you can add to your arsenal of development tools and capabilities needed to compete and excel in today’s aggressive business environments. We commit to making sure that you leave this workshop with a better grasp of Oracle’s Cloud Services.
     
-## Let's start with a Trial Services Breakdown
+______
+# Background Information
+To better understand what your trial account gives you access to, you may review the listed information. This will give you a bit of background on some of the development tool, practices and services we will be leveraging throughout this workshop.
+
+## Trial Services Breakdown
 With your Oracle Cloud Trial you have full feature access to a variety of services. To help break things down we can look at the set of cloud services included in your trial.
 
 <table width="100%">
@@ -121,34 +136,34 @@ With your Oracle Cloud Trial you have full feature access to a variety of servic
 ![](images/home/appDevContinuum.png)
 ***Oracle is focused on supporting the Full Spectrum of the Modern AppDev Continuum***
 
-### Modernize Traditional Applications: Java Cloud Service
-Running Java EE workloads leveraging the latest Weblogic 12c web containers in the cloud.
+### Build Polyglot Cloud Native Microservices: Application Container Cloud
+Develop cloud native, 12-factor style applications on a modern polyglot platform with Java SE, PHP, Node.js and more. Oracle's Application Container Cloud Service provides rapid self-service provisioning of dedicated and isolated Java SE, PHP and Node runtime application containers in the cloud. With cloud based integrated development lifecycle tools for continuous integration and deployment, you will be able to rapidly and effectively develop applications.
 
-![](images/home/java_cs.png)
+![](images/home/ac_cs.png)
 
-### Data Storage Services: Database and MySQL Cloud Service
-Run an Oracle Database or MySQL DB in the cloud. Fully featured functionality to support enterprise grade applications.
+### Apply DevOps and Development tooling with ease: Developer Cloud Service
+Is a hosted team development and delivery platform including issue tracking, code versioning, wiki, agile-development tools, continuous integration and delivery automation. Developer cloud service allows you to streamline and automate development to delivery process with a unified integrated solution. It gives you integration with popular IDEs, web interfaces and other standard interfaces to your environment. Ultimately allowing you to manage development in any language with unique build features for Java, JavaScript and Node.JS
 
-![](images/home/db_cs.png)
+![](images/home/dev_cs.png)
 
-### Bring Your Own Docker: Container Cloud Service
-Leverage a huge library of certified images + your exsisting ecosystem of Docker images and easily wire Container Cloud Service into your Docker DevOps pipeline.
+### Bring Your Own Docker Image: Container Cloud Service
+Oracle Container Cloud Service provides an easy and quick way to create an enterprise-grade container infrastructure. It delivers comprehensive tooling to compose, deploy, orchestrate and manage Docker container-based applications on the Oracle Cloud for Dev, Dev/Test, DevOps, and Cloud Native use cases.
 
 ![](images/home/oc_cs.png)
 
 ![](images/home/docker_pipeline.png)
 
-### Build Polyglot Cloud Native Microserivces: Applicaiton Container Cloud
-Leverage the lightweight containerized capabilities of Application Container Cloud Service
+### Modernize Traditional Java Applications: Java Cloud Service
+Java cloud service gives you easy, rapid and agile deployment of any Java application. Experience full control and flexibility of your application in public cloud. It is built on open standards so that Java EE applications are easily deployed and managed. Java cloud service provides rapid, self-service provisioning of complex, multi-tier environments of Oracle WebLogic Server and Oracle Coherence in the cloud.
 
-![](images/home/ac_cs.png)
+![](images/home/java_cs.png)
 
-### DevOps and Devlopment tooling: Developer Cloud Service
-All the developer tools in one place to allow you to Plan, Code, Build, Integrate, Test, Run and Collaborate
+### Data Storage Services: Database and MySQL Cloud Service
+Enterprise-proven database cloud service that supports any size workload from dev/test to large scale production deployment. Multi-layered, in depth security with encryption by default. A highly available and scalable service delivering speed, simplicity and flexibility for faster time to value and savings.
 
-![](images/home/dev_cs.png)
+![](images/home/db_cs.png)
 
-## Start the Labs
+# Start the Labs
 
 You can access all the labs and prerequisite information though the top **menu**
 ![](images/WorkshopMenu.png)
