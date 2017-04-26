@@ -27,7 +27,7 @@ With your Oracle Cloud Trial you have full feature access to a variety of servic
     <tr>
         <th>What You Have in your Trial</th>
         <th>What Generally Applies to AppDev</th>
-        <th>What will we use in this Workshop</th>
+        <th>What we will use in this Workshop</th>
     </tr>
     <tr>
         <td align="center"><a href="https://cloud.oracle.com/database" target="_blank">Oracle Database</a></td>
