@@ -149,11 +149,16 @@ If you are running Eclipse behind a firewall and need to configure the proxy set
 > Note: Only the MySQLMicroservice is an Eclipse project, the rest should be loaded as general projects
 
 ## Create an Automated build for Adding serivce bindings
+*coming soon*
 
 ## Create an Automated docker build for your CurrencyMicroservice from Developer CloudService
+*coming soon*
 
 ## Automate MySQL Provisioning
+*coming soon*
 
 ## Automate MySQL Schema Migrations using FlywayDB
+*coming soon*
 
 ## Add in APM Tooling with Oracle Management Cloud
+*coming soon*
