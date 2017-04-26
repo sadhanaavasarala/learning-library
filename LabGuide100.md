@@ -1,7 +1,7 @@
+<center>![](images/home/cloud-touch.png)</center>
+> Updated: April 19, 2017
 
-![](images/100/Picture100-lab.png)  
-Updated: April 19, 2017
-
+# Lab 100
 ## Introduction
 
 This is the first of several labs that are part of the **Touch the Cloud for DevOps.** This workshop will walk you through building a microservices architecture for a Cloud Native project that will create and use several Microservices built using various technologies.

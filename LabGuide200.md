@@ -1,6 +1,7 @@
-![](images/200/Picture200-lab.png)  
-Updated: April 19, 2017
+<center>![](images/home/cloud-touch.png)</center>
+> Updated: April 19, 2017
 
+# Lab 200
 ## Introduction
 
 In Lab 200 we will be building and deploying our first microservice, this microservice will provide a RESTful interface for our catalog database. The microservice is built using Java and leverages lightweight libraries JAX-WS and Grizzly IO to create RESTful endpoints. In Lab 300 we will be wiring up a MySQL Database to the microservice.

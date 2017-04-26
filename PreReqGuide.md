@@ -1,4 +1,5 @@
-Update: April 10, 2017
+<center>![](images/home/cloud-touch.png)</center>
+> Updated: April 19, 2017
 
 # Prerequisites Guide
 

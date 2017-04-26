@@ -1,6 +1,7 @@
-![](images/300/Picture300-lab.png)  
-Updated: April 17, 2017
+<center>![](images/home/cloud-touch.png)</center>
+> Updated: April 19, 2017
 
+# Lab 300
 ## Introduction
 
 In Lab 300 we will be adding a MySQL database to our microservice from lab 200. We will be using an automated build process to load our baseline schema onto the database after we have provisioned it.

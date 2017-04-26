@@ -1,8 +1,7 @@
-![](images/400/Picture400-lab.png)  
-Updated: April 19, 2017
+<center>![](images/home/cloud-touch.png)</center>
+> Updated: April 19, 2017
 
-Please direct comments to: Cam Crockett (cam.crockett@oracle.com
-
+# Lab 400
 ## Introduction
 
 Welcome to lab 400. In this lab we will be completing our application architecture by deploying a Golang microservice on Docker. The service will be responsible to translating currencies on our UI. Our target Architecture for the end of the lab will look like this:

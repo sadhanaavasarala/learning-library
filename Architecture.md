@@ -1,3 +1,6 @@
+<center>![](images/home/cloud-touch.png)</center>
+> Updated: April 19, 2017
+
 # Workshop Architecture Guide
     
 ## Workshop Goal
