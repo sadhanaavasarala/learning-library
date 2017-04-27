@@ -1,14 +1,14 @@
 <center>![](images/home/cloud-touch.png)</center>
 > Updated: April 19, 2017
 
-# Oracle Touch the Cloud Series: AppDev Starter Kit 
+# Oracle Touch the Cloud Series: DevOps Starter Kit 
 Times are changing and things are getting simpler in the Cloud! At Oracle we have invested in delivering a plethora of new Cloud Services and we want to show you how simple – yet powerful they are. We specifically wanted to focus on low code, high productivity services that can be used in building enterprise grade solutions. We believe the best way to do this is to showcase a real world business solution comprised of these services. You will build the entire solution during the course of this workshop all in a stress-free fun environment. By the end of this workshop you would have created a complete microservice solution. This solution will comprise of a reactive UI with various microservices providing data and functionality. No expertise or experience required We will have experienced instructors guide you through the tool’s online screens and explain how each service works. There is no expertise required from your side, just bring a laptop with a modern web browser.
 
 ## Objective
 Cloud is here to stay but development is your choice. Our goal is to show you how you can leverage a cloud focused development platform to meet all your development needs.
                             
 ## Overview
-The AppDev starter kit is part of Oracle's Touch the Cloud Series of hands-on workshops In this workshop you will be traversing the Oracle Cloud to develop a dynamic microservices architecture. You will explore various services as well as built-in tools for automation and DevOps. To proceed with the workshop, use the menu at the top to traverse the information, content and labs. Below we will provide some breakdown information about your current trial account and the services provided.
+The DevOps Starter Kit is part of Oracle's Touch the Cloud Series of hands-on workshops In this workshop you will be traversing the Oracle Cloud to develop a dynamic microservices architecture. You will explore various services as well as built-in tools for automation and DevOps. To proceed with the workshop, use the menu at the top to traverse the information, content and labs. Below we will provide some breakdown information about your current trial account and the services provided.
 
 ## Workshop Delivery
 This workshop is designed to give you everything you need to self-guide through the labs leveraging your Trial Account. Oracle Platform Specialists can facilitate the event if desired for greater depth of knowledge developing with Oracle's cloud.

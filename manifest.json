@@ -1,13 +1,13 @@
 {
     "workshop": {
-        "title": "Touch the Cloud Series: AppDev Starter kit",
+        "title": "Touch the Cloud Series: DevOps Starter kit",
         "description": "Workshops designed to help you get started with your trial accounts.",
         "labs": [
             {
                 "number": "0",
                 "filename": "Home.md",
                 "title": "Home",
-                "description": "Welcome to Touch The Cloud for Application Developers"
+                "description": "Welcome to Touch The Cloud for DevOps"
             },
             {
                 "number": "1",

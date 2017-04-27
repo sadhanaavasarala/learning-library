@@ -24,9 +24,9 @@
 
 - To log issues and view the Lab Guide source, go to the [github oracle](https://rebrand.ly/ttcappdevlabs) repository. 
 
-## Oracle's Touch the Cloud Series: AppDev Starter Kit
+## Oracle's Touch the Cloud Series: DevOps Starter Kit
 
-This Oracle Public Cloud workshop will walk you through AppDev services found in your trial account. It will also give you a hands on example of leveraging many of these servcies to build out a microservices architecture. You will be following DevOps principles of automation and consistancy throughout the workshop. No coding or detailed background of Oracle Cloud Services is required.
+This Oracle Public Cloud workshop will walk you through using some of the AppDev services found in your trial account while applying DevOps principles. It will also give you a hands on example of leveraging many of these servcies to build out a microservices architecture. You will be following DevOps principles of automation and consistancy throughout the workshop. No coding or detailed background of Oracle Cloud Services is required.
 
 ## Workshop Details
 

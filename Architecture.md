@@ -6,6 +6,7 @@
 ## Workshop Goal
 
 - To inform and understand the AppDev services provided to you in your trial account
+- To understand the DevOps implications of these services
 - To understand Oracle's support for Polyglot Development
 - To build a modern microservice architecture in the cloud
     - Our Application will display a catalog of information provided by a catalog microservice that uses a MySQL DB. We will also leverage a currency microservice to provide exchange rate information for that catalog
