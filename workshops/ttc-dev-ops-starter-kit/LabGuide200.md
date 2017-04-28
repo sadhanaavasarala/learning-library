@@ -15,7 +15,7 @@ Please direct comments to: Cam Crockett (cam.crockett@oracle.com)
 - Bind your microservice to the UI
 
 ## Required Artifacts
-- We will be leveraging a prepared application found on [GitHub: https://github.com/c-rocket/TTC-MySQLMicroservice.git](https://github.com/c-rocket/TTC-MySQLMicroservice.git)
+- We will be leveraging a prepared application found on [GitHub: https://github.com/CloudAccelerate/TTC-MySQLMicroservice.git](https://github.com/CloudAccelerate/TTC-MySQLMicroservice.git)
 
 ## Prerequisites
 
@@ -78,7 +78,7 @@ Oracle Developer Cloud Service provides a complete development platform that str
 ```
 Name: MySQLMicroservice
 Select Import from Existing Repository:
-https://github.com/c-rocket/TTC-MySQLMicroservice.git
+https://github.com/CloudAccelerate/TTC-MySQLMicroservice.git
 ```
 
 ![](images/200/step03.png)

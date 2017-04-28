@@ -17,7 +17,7 @@ Please direct comments to: Cam Crockett (cam.crockett@oracle.com)
 - Setup an automated deployment to provision and deploy your application into the Oracle Cloud
 
 ## Required Artifacts
-- We will be leveraging a prepared application found on GitHub: [https://github.com/c-rocket/TTC-CatalogApp.git](https://github.com/c-rocket/TTC-CatalogApp.git)
+- We will be leveraging a prepared application found on GitHub: [https://github.com/CloudAccelerate/TTC-CatalogApp.git](https://github.com/CloudAccelerate/TTC-CatalogApp.git)
 
 ## Technologies Involved
 - Oracle Cloud Services:
@@ -142,9 +142,9 @@ In this step we will be importing the NodeJS and Oracle JET application from Git
 
 > Select Import from Existing Repository:
 
-> https://github.com/c-rocket/TTC-CatalogApp.git
+> https://github.com/CloudAccelerate/TTC-CatalogApp.git
 
-> 
+
 
 ![](images/100/step08.png)
 

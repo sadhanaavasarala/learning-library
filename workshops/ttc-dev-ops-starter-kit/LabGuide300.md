@@ -14,7 +14,7 @@ Please direct comments to: Cam Crockett (cam.crockett@oracle.com)
 - Bind the database to your microservice from lab 200
 
 ## Required Artifacts
-- We will be leveraging scripts found within the MySQL Microservice from lab 200 that was pulled from [GitHub: https://github.com/c-rocket/TTC-MySQLMicroservice.git](https://github.com/c-rocket/TTC-MySQLMicroservice.git)
+- We will be leveraging scripts found within the MySQL Microservice from lab 200 that was pulled from [GitHub: https://github.com/CloudAccelerate/TTC-MySQLMicroservice.git](https://github.com/CloudAccelerate/TTC-MySQLMicroservice.git)
 - We will require an ssh key: [labkey](labkey.pub)
 
 ## Prerequisites

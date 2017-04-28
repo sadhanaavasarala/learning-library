@@ -18,7 +18,8 @@ Welcome to lab 400. In this lab we will be completing our application architectu
 
 ## Optional Artifacts
 
-- The Code Base for Docker Hub Build is located here: [https://github.com/c-rocket/TTC-CurrencyMicroservice](https://github.com/c-rocket/TTC-CurrencyMicroservice)
+- The Code Base for Docker Hub Build is located here: [https://github.com/CloudAccelerate/TTC-CurrencyMicroservice.git](https://github.com/CloudAccelerate/TTC-CurrencyMicroservice.git)
+- The Docker Hub Build is here: [https://hub.docker.com/r/cloudaccelerate/ttc-currencymicroservicebuild/](https://hub.docker.com/r/cloudaccelerate/ttc-currencymicroservicebuild/)
 - Google's Go Programming Language is described here: [https://golang.org/](https://golang.org/)
 - Docker information can be found here: [https://www.docker.com/](https://www.docker.com/)
 - Oracle's Container Cloud Service is detailed here: [https://cloud.oracle.com/en_US/container](https://cloud.oracle.com/en_US/container)
@@ -107,7 +108,7 @@ Password: Oracle123!
 ```
 
 Service Name: Currency Microservice
-Image: camcrockett/ttc-currencymicroservice
+Image: cloudaccelerate/ttc-currencymicroservicebuild
 
 ```
 
