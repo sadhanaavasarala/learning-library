@@ -32,35 +32,13 @@ Welcome to lab 400. In this lab we will be completing our application architectu
 
 ## Setup your Docker Host
 
-### **STEP 1**: Login with your Oracle Cloud Account
+### **STEP 1**: Create a Container Cloud Service Instance
 
-- From any browser, go to the URL:
-    `https://cloud.oracle.com`
-- click **Sign In** in the upper right hand corner of the browser
+- Return to the Cloud Services Dashboard
 
-    ![](images/100/Picture100-1.png)
-    - **IMPORTANT** - Under my services, select from the drop down list the correct data center and click on **My Services**. If you are unsure of the data center you should select, and this is an in-person training event, ***ask your instructor*** which **Region** to select from the drop down list. If you received your account through an Oracle Trial, your Trial confirmation email should provide a URL that will pre-select the region for you.
+![](images/400/step01.png)
 
-    ![](images/100/Picture100-2.png)
-- Enter your identity domain and click **Go**.
-
-    **NOTE:** The **Identity Domain, User Name** and **Password** values will be given to you by the instructor or Trial confirmation email.
-
-    ![](images/100/Picture100-3.png)
-- Once your Identity Domain is set, enter your User Name and Password and click **Sign In**
-
-    ![](images/100/Picture100-3.5.png)
-- You will be presented with a Dashboard displaying the various cloud services available to this account.
-
-    ![](images/100/Picture100-4.png)
-- If all your services are not visible, **click** on the **Customize Dashboard**, you can add services to the dashboard by clicking **Show.** For this workshop, you will want to ensure that you are showing at least the **Application Container, Developer and Storage** cloud services. If you do not want to see a specific service, click **Hide**
-
-    ![](images/100/Picture100-5.png)
-
-
-### **STEP 2**: Create a Container Cloud Service Instance
-
-- From the Cloud UI dashboard click on the **Container** Cloud Service menu (not to be confused with Application Container) and select Open Service Console
+- From the dashboard click on the **Container** Cloud Service menu (not to be confused with Application Container) and select Open Service Console
 
 ![](images/400/step02.png)
 
@@ -90,9 +68,11 @@ Admin Password: Oracle123!
 
 - Wait for a few minutes while your host provisions (approx 10 minutes to setup your host)
 
+> Note that we will see 2 OCPUs and 15GB or memory being used. This is due to the management console needing a OC3 shape to run (1 OCPU and 7.5GB memory). Additional shapes are then allocated based on the number of workers and the worker shape selected in the cofiguration. For our Demo we have a single OC3 shaped worker.
+
 ![](images/400/step07.png)
 
-### **STEP 3**: Create a new container service
+### **STEP 2**: Create a new container service
 
 - Once your Container Service instance is provisioned, click on the menu to open the Container Console (you may have to add a browser security exception)
 
@@ -142,7 +122,7 @@ Container Port: 8089
 Protocol: TCP
 ```
 
-
+> Our application is set to listen on port 8089 which is exposed by the container (defined in the docker file). In order to access the container port we need to create a mapping from the host to the container. In this case we have chosen to set port 80 on the host to create the mapping to port 8089 on the container.
 
 ![](images/400/step15.png)
 
@@ -155,7 +135,7 @@ Protocol: TCP
 ![](images/400/step17.png)
 
 
-### **STEP 4**: Deploy the container
+### **STEP 3**: Deploy the container
 
 - find the Currency Microservice in the list of services and select Deploy
 
@@ -174,7 +154,7 @@ Protocol: TCP
 ![](images/400/step20.png)
 
 
-### **STEP 5**: Verify your Microservice
+### **STEP 4**: Verify your Microservice
 
 - Select Containers on the left menu to see a listing of your containers
 
@@ -194,7 +174,7 @@ ex: http://129.144.154.28/currencies/v1/usd
 
 ![](images/400/step23.png)
 
-### **STEP 6**: Bind your Microservice
+### **STEP 5**: Bind your Microservice
 
 - Return to your main service dashboard
 

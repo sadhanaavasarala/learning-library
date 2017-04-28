@@ -63,7 +63,7 @@ You will be building out the first component of your Microservices Application
 
     ![](images/100/Picture100-4.png)
 
-- If all your services are not visible, **click** on the **Customize Dashboard**, you can add services to the dashboard by clicking **Show.** For this workshop, you will want to ensure that you are showing at least the **Application Container, Developer and Storage** cloud services. If you do not want to see a specific service, click **Hide**
+- If all your services are not visible, **click** on the **Customize Dashboard**, you can add services to the dashboard by clicking **Show.** For this workshop, you will want to ensure that you are showing at least the **Application Container, Container, Developer and Storage** cloud services. If you do not want to see a specific service, click **Hide**
 
     ![](images/100/Picture100-5.png)
 
@@ -185,11 +185,11 @@ In this step we will be importing the NodeJS and Oracle JET application from Git
 
 `npm install`
 
-![](images/100/step16.png)
+![](images/100/step16-1.png)
 
 - Select the **Post Build** tab and check Archive the artifacts: `*.zip`
 
-![](images/100/step17.png)
+![](images/100/step16.png)
 
 - **Save** and **Build Now**
 
@@ -201,7 +201,7 @@ In this step we will be importing the NodeJS and Oracle JET application from Git
 
 ![](images/100/step20.png)
 
-- Select Create **New Configuration** and fill out the form and select Application Container from the Deployment Target
+- Select **New Configuration** and fill out the Configuration Name. By Deployment Target click **New** and select **Application Container** from the drop down
 
 > ConfigurationName: CatalogUIDeploy
 

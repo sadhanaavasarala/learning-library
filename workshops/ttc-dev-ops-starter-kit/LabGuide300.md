@@ -72,6 +72,7 @@ Database Schema Name: catalog
 Backup Destination: none
 
 ```
+> Note: we have chosen no DB backup for our Demo Environement. If setting up a backup, you would simply set a container name (this container can be created on the fly or provisioned previously from your Storage Service) and set your account username and password.
 
 ![](images/300/step04.png)
 
@@ -186,7 +187,7 @@ Password: Oracle123!
 
 > Note: Selecting the show all variables under environment variables will display all variables added that are associated with the binding
 
-![](images/300/step24.png)
+![](images/300/step24-1.png)
 
 ### **STEP 5**: Verify the Catalog Data
 
