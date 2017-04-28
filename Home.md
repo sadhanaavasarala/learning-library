@@ -8,7 +8,7 @@ Times are changing and things are getting simpler in the Cloud! At Oracle we hav
 Cloud is here to stay but development is your choice. Our goal is to show you how you can leverage a cloud focused development platform to meet all your development needs.
                             
 ## Overview
-The DevOps Starter Kit is part of Oracle's Touch the Cloud Series of hands-on workshops In this workshop you will be traversing the Oracle Cloud to develop a dynamic microservices architecture. You will explore various services as well as built-in tools for automation and DevOps. To proceed with the workshop, use the menu at the top to traverse the information, content and labs. Below we will provide some breakdown information about your current trial account and the services provided.
+The DevOps Starter Kit is part of Oracle's Cloud Accelerate Series of hands-on workshops In this workshop you will be traversing the Oracle Cloud to develop a dynamic microservices architecture. You will explore various services as well as built-in tools for automation and DevOps. To proceed with the workshop, use the menu at the top to traverse the information, content and labs. Below we will provide some breakdown information about your current trial account and the services provided.
 
 ## Workshop Delivery
 This workshop is designed to give you everything you need to self-guide through the labs leveraging your Trial Account. Oracle Platform Specialists can facilitate the event if desired for greater depth of knowledge developing with Oracle's cloud.
