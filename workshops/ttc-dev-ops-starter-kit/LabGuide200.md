@@ -81,9 +81,9 @@ Select Import from Existing Repository:
 https://github.com/CloudAccelerate/TTC-MySQLMicroservice.git
 ```
 
-![](images/200/step03.png)
+![](images/200/step03-1.png)
 
-- Your code is now import into a new Git repository in Developer Cloud Service under your project
+- Your code is now imported into a new Git repository in Developer Cloud Service under your project
 
 ![](images/200/step04.png)
 

@@ -46,7 +46,7 @@ You will be building out the first component of your Microservices Application
 
 - **IMPORTANT** - Under my services, select from the drop down list the correct data center and click on **My Services**. If you are unsure of the data center you should select, and this is an in-person training event, ***ask your instructor*** which **Region** to select from the drop down list. If you received your account through an Oracle Trial, your Trial confirmation email should provide a URL that will pre-select the region for you.
 
-    ![](images/100/Picture100-2.png)
+    ![](images/100/Picture100-2-1.png)
 
 - Enter your identity domain and click **Go**.
 
@@ -146,7 +146,7 @@ In this step we will be importing the NodeJS and Oracle JET application from Git
 
 
 
-![](images/100/step08.png)
+![](images/100/step08-1.png)
 
 - Your code is now being imported into a new Git repository in Developer Cloud Service
 

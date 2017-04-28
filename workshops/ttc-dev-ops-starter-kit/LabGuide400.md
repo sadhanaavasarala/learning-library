@@ -112,7 +112,7 @@ Image: cloudaccelerate/ttc-currencymicroservicebuild
 
 ```
 
-![](images/400/step14.png)
+![](images/400/step14-1.png)
 
 - Select Ports from the Available Options and Add a new port mapping
 
@@ -129,7 +129,7 @@ Protocol: TCP
 
 - Now Save your new service
 
-![](images/400/step16.png)
+![](images/400/step16-1.png)
 
 - verify your new service is in the list by filtering for Currency
 
