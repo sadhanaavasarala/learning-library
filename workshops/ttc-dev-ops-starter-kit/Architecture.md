@@ -1,4 +1,4 @@
-<center>![](images/home/cloud-touch.png)</center>
+<center>![](https://cloudaccelerate.github.io/TTC-CommonContent/images/ttc-logo.png)</center> 
 > Updated: April 19, 2017
 
 # Workshop Architecture Guide
