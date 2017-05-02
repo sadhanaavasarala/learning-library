@@ -135,6 +135,7 @@ With your Oracle Cloud Trial you have full feature access to a variety of servic
 
 ## Let's dive into what some of these services can do
 ![](images/home/appDevContinuum.png)
+
 ***Oracle is focused on supporting the Full Spectrum of the Modern AppDev Continuum***
 
 ### Build Polyglot Cloud Native Microservices: Application Container Cloud
