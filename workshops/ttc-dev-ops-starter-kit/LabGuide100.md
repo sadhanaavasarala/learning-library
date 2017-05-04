@@ -4,9 +4,7 @@
 # Lab 100
 ## Introduction
 
-This is the first of several labs that are part of the **DevOps Starter Kit.** This workshop will walk you through building a microservices architecture for a Cloud Native project that will create and use several Microservices built using various technologies.
-
-You will be applying DevOps principles to build you applications, provision your services and automate deployment of your applications.
+This is the first of several labs that are part of the DevOps Starter Kit. This workshop will walk you through building and deploying a Cloud Native project that will create and use several Microservices built using various technologies. You will be applying DevOps principles to build your applications, provision your services and automate deployment of your applications.
 
 Please direct comments to: Cam Crockett (cam.crockett@oracle.com)
 
