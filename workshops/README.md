@@ -2,12 +2,12 @@
 
 ![](./images/Touch-the-Cloud.jpg)
 
-The list below provides a description of each of this Repositories Hands-on-Lab and Workshops
+## Workshop and Hands-on-labs
 
 | Title | Location | Desc |
 | ----- | -------- | ---- |
-| DevOps Cloud Native Microservices | ![](./microservices/) | Hands-on-labs showing Oracle Developer Cloud Service and Application Container Cloud Service |
-| JCS Pipeline using Oracle Stack Manager | ![](./jcs-devops/) | Hands-on-labs showing a Software Development Lifecycle using the Oracle Developer Cloud Services, Java Cloud Service and Oracle Stack Manager.|
+| DevOps Cloud Native Microservices | [microservices](./microservices/README.md) | Hands-on-labs showing Oracle Developer Cloud Service and Application Container Cloud Service |
+| JCS Pipeline using Oracle Stack Manager | [jcs-devops](./jcs-devops/) | Hands-on-labs showing a Software Development Lifecycle using the Oracle Developer Cloud Services, Java Cloud Service and Oracle Stack Manager.|
 
 
 
