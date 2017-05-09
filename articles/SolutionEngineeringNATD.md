@@ -51,10 +51,6 @@ When providing your Oracle Cloud Product(s) Presentation, you have two options. 
 
 Info
 
-## Technical Question and Answer
-
-Info
-
 ## Management Interview
 
 Info
@@ -64,8 +60,8 @@ Info
 ### Whiteboard / Powerpoint
 
 - The interview room will be supplied with a white board and/or laptop that you can use to present your **Recent Project** and **Oracle Cloud Product(s)** presentations.
-- Suplied Laptop - will allow you connection to the internet, and access to a USB drive if you desire to bring a presentation.
+- Oracle Suplied Laptop: We will allow you connection to the internet, and access to a USB drive if you desire to bring a presentation.
 
 ## Oracle Trial Account
 
-Info
+Here is a Link to a short video 
