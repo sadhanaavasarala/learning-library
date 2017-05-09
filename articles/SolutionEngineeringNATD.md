@@ -2,10 +2,11 @@
 
 ## Table of Contents
 - [Interview Schedule](#Interview-Schedule)
-- [Overview](#Overview)
+- [Overview Presenation](#Overview-Presentation)
 - [Recent Project Presentation](#Recent-Project-Presentation)
 - [Touch the Cloud Presentation](#Touch-the-Cloud-Presentation)
 - [Technical Question and Answer](#Technical-Question-and-Answer)
+- [Management Interview](#Management-Interview)
 - [Visual Aids](#Visual-Aids)
 - [Oracle Trial Account](#Oracle-Trial-Account)
 
@@ -19,22 +20,20 @@
 | Recent Project Presentation | 10 - 12 | Brief description/presentation on a technical development project on which you have worked |
 | Touch the Cloud Presentation | 10 - 12 | Brief presentation on Oracle Cloud Product(s) of interest and relevance |
 | Technical Question and Answer | 20 | Techincal Question and Answer Interview |
-| General Discussion | 20 | Interview with Solution Engineering Leader|
+| Management Interview | 20 | Interview with Solution Engineering Leadership|
 
 
-## Interview Outline
-
-### Overview
+## Overview Presentation
 
 During this section we ask that you provide a brief overview of yourself, including your technical experience and skills. It's not necessary to go into much detail, as we will ask more question during the **Technical Question and Answer** section of the interview. 
 
-### Recent Project Presentation
+## Recent Project Presentation
 
 During this section we would like you to present an overview of a development project on which you have recently worked. Feel free to use the whiteboard or laptop available in the interview room. If you use powerpoint, please keep your presentation to approximately 5 slides. 
 
-### Touch the Cloud Presentation
-
 ![Touch The Cloud](../common/images/Touch-the-Cloud.jpg)
+
+## Touch the Cloud Presentation
 
 During this section we ask that you provide a brief presentation on Oracle Cloud Products you have investigated, and that you feel are of interest and releveance. You can find the information you need from Oracle's main [Cloud Home Page](https://cloud.oracle.com/) website. From this website you can investigate Oracle's three Cloud Offering Categories: [Platform as a Service](https://cloud.oracle.com/en_US/paas), [Infrastructure](https://cloud.oracle.com/en_US/iaas) and [Software as a Service](https://cloud.oracle.com/en_US/saas). Note: The job for which you are applying will focus primarily on **Platform as a Service** and **Infrastructure as a Service**.  
 
@@ -48,13 +47,19 @@ When providing your Oracle Cloud Product(s) Presentation, you have two options. 
 
     If you are unable to gain access to a trial account, you can also investigate the **Platform** and **Infrastructure** Services and present back some of your findings. 
 
-### Technical Question and Answer
+## Technical Question and Answer
+
+Info
+
+## Technical Question and Answer
+
+Info
+
+## Management Interview
 
 Info
 
 ## Visual Aids
-
-Info
 
 ### Whiteboard / Powerpoint
 
