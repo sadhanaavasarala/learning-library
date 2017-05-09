@@ -49,11 +49,11 @@ When providing your Oracle Cloud Product(s) Presentation, you have two options. 
 
 ## Technical Question and Answer
 
-Info
+During this section of the interview we will ask technical questions based on your expierence, and also based on the requirements of the Solution Engineering position. We will gain a better understanding of your development expierences, your use of development methodologies, and also your expierence with various programming languages and open source development tools. 
 
 ## Management Interview
 
-Info
+During this section of the interview you will be with a member of the Solution Engineering leadership, during which time we hope to learn more about you, and your interest in the Solution Engineering position at Oracle. 
 
 ## Visual Aids
 
@@ -62,6 +62,12 @@ Info
 - The interview room will be supplied with a white board and/or laptop that you can use to present your **Recent Project** and **Oracle Cloud Product(s)** presentations.
 - Oracle Suplied Laptop: We will allow you connection to the internet, and access to a USB drive if you desire to bring a presentation.
 
-## Oracle Trial Account
+# Oracle Trial Account
 
-Here is a Link to a short video 
+
+## Oracle Cloud Environment Setup
+
+If you are using an **Oracle Trial/Try It** account, there is an ***Account Configuration*** Step you must perform. You must **Configure Your Storage Replication Policy**. After you receive your account credentials, you can set the replication policy by follow the steps in the ***Setting the Storage Replication*** section of this document. 
+
+## Configure Your Storage Replication Policy
+
