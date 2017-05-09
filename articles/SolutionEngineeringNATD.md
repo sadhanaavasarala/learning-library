@@ -31,9 +31,9 @@ During this section we ask that you provide a brief overview of yourself, includ
 
 During this section we would like you to present an overview of a development project on which you have recently worked. Feel free to use the whiteboard or laptop available in the interview room. If you use powerpoint, please keep your presentation to approximately 5 slides. 
 
-![Touch The Cloud](../common/images/Touch-the-Cloud.jpg)
-
 ## Touch the Cloud Presentation
+
+![Touch The Cloud](../common/images/Touch-the-Cloud.jpg)
 
 During this section we ask that you provide a brief presentation on Oracle Cloud Products you have investigated, and that you feel are of interest and releveance. You can find the information you need from Oracle's main [Cloud Home Page](https://cloud.oracle.com/) website. From this website you can investigate Oracle's three Cloud Offering Categories: [Platform as a Service](https://cloud.oracle.com/en_US/paas), [Infrastructure](https://cloud.oracle.com/en_US/iaas) and [Software as a Service](https://cloud.oracle.com/en_US/saas). Note: The job for which you are applying will focus primarily on **Platform as a Service** and **Infrastructure as a Service**.  
 
