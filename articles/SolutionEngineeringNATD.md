@@ -40,11 +40,11 @@ During this section we ask that you provide a brief presentation on Oracle Cloud
 
 When providing your Oracle Cloud Product(s) Presentation, you have two options. With both of these options, if you choose to use Powerpoint, please keep your presentation to 5 slides or less. 
 
-- Option 1 - Oracle Cloud Investigation and Demo:
+- **Option 1** - Oracle Cloud Investigation and Demo:
 
     This option is prefered, but not required. We will provide more detail on how to acquire an Oracle Trial account below, but in summary, using an Oracle Trial account you can investigate any of the Oracle **Infrastructure** or **Platform** Cloud Services, and present what you learned about your experience and interest in these products. Many of Oracle's **Platform** Services (e.g: Application Container Cloud Service, Container Cloud Servier, Developer Cloud Service, Database Cloud Services (Oracle and MySQL) and Java Cloud Service) provide simple demonstations. Example are also available using Oracle's **Infrastructure** Cloud Services. 
 
-- Option 2 - Oracle Cloud Investigation:
+- **Option 2** - Oracle Cloud Investigation:
 
     If you are unable to gain access to a trial account, you can also investigate the **Platform** and **Infrastructure** Services and present back some of your findings. 
 
