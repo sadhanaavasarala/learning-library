@@ -12,14 +12,22 @@
 
 ## Interview Schedule
 
+**Note:** As you prepare presentations, **we will stick to the allotted time** for each of these interview sections listed below. 
+
+### **Technical Interview** - 45 to 50 minutes
+
 | Interview Section | Minutes | Description |
 | --- | --- | --- | 
 | Overview | 3 - 5 | Brief overview of yourself, covering your techincal experience and capabilities |
 | Recent Project Presentation | 10 - 12 | Brief description/presentation on a technical development project on which you have worked |
 | Touch the Cloud Presentation | 10 - 12 | Brief presentation on Oracle Cloud Product(s) of interest and relevance |
 | Technical Q & A Interview | 20 | Techincal Question and Answer Interview |
-| Management Interview | 20 | Interview with Solution Engineering Leadership|
 
+### **Management Interview** - 20 minutes
+
+| Interview Section | Minutes | Description |
+| --- | --- | --- | 
+| Management Interview | 20 | Interview with Solution Engineering Leadership|
 
 ## Overview Presentation
 
@@ -62,9 +70,96 @@ During this section of the interview you will meet with a member of the Solution
 
 # Oracle Trial Account
 
-## Oracle Cloud Environment Setup
+Acquiring and Oracle Account is not required for the interview, however, doing so will allow you to see first hand some of Oracle's cloud products before your interview. 
 
 To get an Oracle Trial account, please go this the [Oracle Try It](https://cloud.oracle.com/tryit). From this website you can find answers to your questions concerning the Free Trial account, along with step by step instructions on how to register your account. Some of the services you may desire to use require that your Account's Storage Replication policy is set prior to using those services. Please follow the steps below to set your Replication Policy once your account has been provisioned. 
+
+## Request a trial account
+
+### View Details and Sign Up
+
+- From the **TryIt** page, click on the **View Details & Sign Up** button
+
+    ![Touch The Cloud](./images/SolutionEngineeringNATD/image001.png)
+
+- Click on the **Get started for free** link
+
+    ![Touch The Cloud](./images/SolutionEngineeringNATD/image002.png)
+
+### Create your Account
+
+- Enter the required information on the **Create an Oracle Account...** page, and click on **Create Account**.
+
+    ![Touch The Cloud](./images/SolutionEngineeringNATD/image003.png)
+
+- The following dialog indicates that you will receive an confirmation email.
+
+    ![Touch The Cloud](./images/SolutionEngineeringNATD/image004.png)
+
+- Check your email, and click on the **Verify email address** button contained in the received email. 
+
+    ![Touch The Cloud](./images/SolutionEngineeringNATD/image005.png)
+
+- After Verifing your email address, enter your email address into the **User Name** field, and enter your **Password** ,and click on **Sign In**.
+
+    ![Touch The Cloud](./images/SolutionEngineeringNATD/image006.png)
+
+### Verify your Phone Number
+
+- Enter your **Mobile Phone Number** and click on **Request Code**
+
+    ![Touch The Cloud](./images/SolutionEngineeringNATD/image007.png)
+
+- Enter the **Verification Code** you receive via phone text message.
+
+    ![Touch The Cloud](./images/SolutionEngineeringNATD/image008.png)
+
+## Enter Account Information
+
+- Enter the required account information.
+
+    ![Touch The Cloud](./images/SolutionEngineeringNATD/image009.png)
+
+- Read the information about the use of your credit card, and Click on the **Add Payment Method** button.
+
+    ![Touch The Cloud](./images/SolutionEngineeringNATD/image010.png)
+
+- Enter your credit card information, and click on **Finish**.
+
+    ![Touch The Cloud](./images/SolutionEngineeringNATD/image011.png)
+
+- **Accept** the terms and conditions, then click on the **Complete** Button. 
+
+    ![Touch The Cloud](./images/SolutionEngineeringNATD/image012.png)
+
+- Note the following steps.
+
+    ![Touch The Cloud](./images/SolutionEngineeringNATD/image013.png)
+
+## Account Confirmation
+
+- The following is an example email confirming your Trial Account request.
+
+    ![Touch The Cloud](./images/SolutionEngineeringNATD/image014.png)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 ## Configure Your Storage Replication Policy
 
