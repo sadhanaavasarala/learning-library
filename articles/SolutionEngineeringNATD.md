@@ -100,7 +100,7 @@ To get an Oracle Trial account, please go this the [Oracle Try It](https://cloud
 
     ![Touch The Cloud](./images/SolutionEngineeringNATD/image005.png)
 
-- After Verifing your email address, enter your email address into the **User Name** field, and enter your **Password** ,and click on **Sign In**.
+- After Verifing your email address, enter your email address into the **User Name** field, enter your **Password**, then click on **Sign In**.
 
     ![Touch The Cloud](./images/SolutionEngineeringNATD/image006.png)
 
