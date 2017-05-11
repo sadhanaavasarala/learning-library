@@ -21,10 +21,10 @@ The face to face interview process will be broken into two separate sessions. Th
 
 | Interview Section | Minutes | Description |
 | --- | --- | --- | 
-| Overview | 3 - 5 | Brief overview of yourself, covering your techincal experience and capabilities |
+| Overview | 3 - 5 | Brief overview of yourself, covering your technical experience and capabilities |
 | Recent Project Presentation | 10 - 12 | Brief description/presentation on a technical development project on which you have worked |
 | Touch the Cloud Presentation | 10 - 12 | Brief presentation on Oracle Cloud Product(s) of interest and relevance |
-| Technical Q & A Interview | 20 | Techincal Question and Answer Interview |
+| Technical Q & A Interview | 20 | Technical Question and Answer Interview |
 
 ### **Management Interview** - 20 minutes
 
