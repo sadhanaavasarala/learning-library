@@ -169,7 +169,7 @@ Along with the instruction provided on the Oracle website and in this document, 
 
 ## 6. Confirmation Email
 
-- Once your account has been provisioned, you will receive a **Confirmation Email** that will provide you with your **Identity Domain**, **Password** and **Username**. You will also receive a **My Services URL** link that will allow you to access and log into your account. You may also receive an email describing how to connect into to VPN, but in most cases VPN will not be needed for testing. 
+- Once your account has been provisioned, you will receive a **Confirmation Email** that will provide you with your **Identity Domain**, **Password** and **Username**. This email also contains a **My Services URL** link that will allow you to access and log into your account. You may also receive an separate email describing how to connect into to VPN, but in most cases VPN will not be needed for testing. 
 
     ![](./images/SolutionEngineeringNATD/image015.png)
 
