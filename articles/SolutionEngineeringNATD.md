@@ -91,7 +91,7 @@ During this section of the interview, you will meet with a member of the Solutio
 
 # Oracle Trial Account
 
-Acquiring and Oracle Account is not required for the interview, however, doing so will allow you to see first hand some of Oracle's cloud products before your interview. 
+Acquiring an Oracle Account is not required for the interview, however, doing so will allow you to see first hand some of Oracle's cloud products before your interview. 
 
 To get an Oracle Trial account, please go the [Oracle Try It](https://cloud.oracle.com/tryit). From this website you can find answers to your questions concerning the Free Trial account, along with step by step instructions on how to register your account. After you account is provisioned, some of the services you may desire to use require that your Account's Storage Replication policy is set prior to using those services being used. Those instructions are provided later in this guide.
 
