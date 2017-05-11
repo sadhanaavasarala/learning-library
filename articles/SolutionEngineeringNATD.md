@@ -15,6 +15,7 @@
 
 **Note:** As you prepare your short interview presentations, please keep in mind that **we will stick to the allotted time** for each of these interview sections listed below. Your interview will be broken into two separate interviews. The first will be a technical interview, and the second will be an interview with someone from the Oracle management team.
 
+<a name="Technical-Interview"></a>
 ### **Technical Interview** - 45 to 50 minutes
 
 | Interview Section | Minutes | Description |
