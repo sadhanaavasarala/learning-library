@@ -12,7 +12,7 @@
 
 ## Interview Schedule
 
-**Note:** As you prepare presentations, **we will stick to the allotted time** for each of these interview sections listed below. 
+**Note:** As you prepare your short interview presentations, please keep in mind that **we will stick to the allotted time** for each of these interview sections listed below. Your interview will be broken into two separate interviews. The first will be a technical interview, and the second will be an interview with someone from the Oracle management team.
 
 ### **Technical Interview** - 45 to 50 minutes
 
@@ -31,23 +31,23 @@
 
 ## Overview Presentation
 
-During this presentation we ask that you provide a brief overview of yourself, including your technical experience and skills. It's not necessary to go into much detail, as we will ask more question during the [Technical Question and Answer Interview](#Technical-Question-and-Answer-Interview) section of the interview. 
+During this presentation, we ask that you provide a brief overview of yourself, including your technical experience and skills. It's not necessary to go into detail, as we will ask more question during the [Technical Question and Answer Interview](#Technical-Question-and-Answer-Interview) section of the interview. 
 
 ## Recent Project Presentation
 
-During this presentation we would like you to provide an overview of a development project on which you have recently worked. Feel free to use the whiteboard or laptop available in the interview room. If you use powerpoint, please keep your presentation to approximately 5 slides. 
+During this presentation, we would like you to provide an overview of a development project on which you have recently worked. Provide examples of the technology, programming languages and methodologies you used during this project. Feel free to use the whiteboard or laptop available in the interview room. If you use powerpoint, please keep your presentation to approximately 5 slides.  
 
 ## Touch the Cloud Presentation
 
 ![Touch The Cloud](../common/images/Touch-the-Cloud.jpg)
 
-During this presentation we ask that you provide a brief summary of the Oracle Cloud Products you have investigated, and that you feel are of interest and relevance. You can find the information you need from Oracle's main [Cloud Home Page](https://cloud.oracle.com/) website. From this website you can investigate Oracle's three categories of Cloud Offerings: [Platform as a Service](https://cloud.oracle.com/en_US/paas), [Infrastructure](https://cloud.oracle.com/en_US/iaas) and [Software as a Service](https://cloud.oracle.com/en_US/saas). Note: The job for which you are applying will focus primarily on **Platform as a Service** and **Infrastructure as a Service**.  
+During this presentation, we ask that you provide a brief summary of the Oracle Cloud Products you have investigated, and that you feel are of interest and relevance. You can find the information you need from Oracle's main [Cloud Home Page](https://cloud.oracle.com/) website. From this website you can investigate Oracle's three categories of Cloud Offerings: [Platform as a Service](https://cloud.oracle.com/en_US/paas), [Infrastructure](https://cloud.oracle.com/en_US/iaas) and [Software as a Service](https://cloud.oracle.com/en_US/saas). Note: The job for which you are applying will focus primarily on **Platform as a Service** and **Infrastructure as a Service**.  
 
 When providing your Oracle Cloud Product Presentation, you have two options. With both these options, if you choose to use Powerpoint, please keep your presentation to 5 slides or less. 
 
 - **Option 1** - Oracle Cloud Investigation and Demo:
 
-    This option is prefered, but not required. We will provide more detail on how to acquire an [Oracle Trial](#Oracle-Trial-Account) account below, but in summary, using an Oracle Trial account you can investigate any of the Oracle **Infrastructure** or **Platform** Cloud Services, and present what you learned about your experience and interest in these products. Many of Oracle's **Platform** Services (e.g: Application Container Cloud Service, Container Cloud Service, Developer Cloud Service, Oracle Database\/MSQL Cloud Services and Java Cloud Service provide simple demonstrations. Example are also available using Oracle's **Infrastructure** Cloud Services. 
+    Acquire an Oracle Cloud Trial Account. More detail is provided below on how to acquire an [Oracle Trial](#Oracle-Trial-Account), but in summary, using an Oracle Trial account you can investigate any of the Oracle **Infrastructure** or **Platform** Cloud Services, and present what you learned about your experience and interest in these products. Many of Oracle's **Platform** Services (e.g: Application Container Cloud Service, Container Cloud Service, Developer Cloud Service, Oracle Database\/MSQL Cloud Services and Java Cloud Service provide simple demonstrations. Example are also available using Oracle's **Infrastructure** Cloud Services. 
 
 - **Option 2** - Oracle Cloud Investigation:
 
@@ -55,11 +55,11 @@ When providing your Oracle Cloud Product Presentation, you have two options. Wit
 
 ## Technical Question and Answer Interview
 
-During this section of the interview we will ask technical questions based on your experience, and requirements of the Solution Engineering position. We hope to gain a better understanding of your development expertise, your understanding of development methodologies, and your experience with various programming languages and open source tools and frameworks. 
+During this section of the interview we will ask technical questions based on your experience, and our requirements of the Solution Engineering position. We hope to gain a better understanding of your development expertise, your understanding of development methodologies, and your experience with various programming languages and open source tools and frameworks. 
 
 ## Management Interview
 
-During this section of the interview you will meet with a member of the Solution Engineering leadership, during which time we hope to learn more about you and your interest in the Solution Engineering position at Oracle. 
+During this section of the interview, you will meet with a member of the Solution Engineering leadership, during which time we hope to learn more about you and your interest in the Solution Engineering position at Oracle. 
 
 ## Visual Aids
 
@@ -143,24 +143,5 @@ To get an Oracle Trial account, please go this the [Oracle Try It](https://cloud
     ![Touch The Cloud](./images/SolutionEngineeringNATD/image014.png)
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 ## Configure Your Storage Replication Policy
 
-Need info
