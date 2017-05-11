@@ -14,7 +14,7 @@
 
 ## Interview Schedule
 
-**Note:** As you prepare your short interview presentations, please keep in mind that **we will stick to the allotted time** for each of these interview sections listed below. Your interview will be broken into two separate interviews. The first will be a technical interview, and the second will be an interview with someone from the Oracle management team.
+The face to face interview process will be broken into two separate sessions. The first will be a technical interview, and the second will be a one-on-one interview with someone from the Oracle management team.
 
 ### **Technical Interview** - 45 to 50 minutes
 
@@ -41,7 +41,7 @@ During this presentation, we ask that you provide a brief overview of yourself, 
 
 ## Recent Project Presentation
 
-During this presentation, we would like you to provide an overview (or demonstration) of a development project on which you have recently worked. Provide examples of the technology, programming languages and methodologies you used during this project. Feel free to use the whiteboard or laptop available in the interview room. If you use powerpoint, please keep your presentation to approximately 5 slides.  
+During this presentation, we would like you to provide an overview (or demonstration) of a development project on which you have recently worked. Provide examples of the technology, programming languages, and methodologies you used during this project. Feel free to use the whiteboard or laptop available in the interview room. If you use powerpoint, please keep your presentation to approximately 5 slides.  
 
 ## Touch the Cloud Presentation
 
@@ -83,7 +83,7 @@ During this section of the interview, you will meet with a member of the Solutio
 
 ### Whiteboard / Powerpoint
 
-- The interview room will be supplied with a white board and laptop that you can use to present your [Recent Project](#Recent-Project-Presentation) and [Touch the Cloud](#Touch-the-Cloud-Presentation) Presentations.
+- The interview room will be furnished with a whiteboard and laptop that you can use to present your [Recent Project](#Recent-Project-Presentation) and [Touch the Cloud](#Touch-the-Cloud-Presentation) Presentations.
 - Oracle Supplied Laptop: We will have a laptop and prejector available for your use. The laptop will have connectivity to the internet, and you can bring a USB drive if you desire to load a presentation to the laptop.
 
 <a name="Oracle-Trial-Account"></a>
