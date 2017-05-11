@@ -35,7 +35,7 @@
 
 During this presentation, we ask that you provide a brief overview of yourself, including your technical experience and skills. It's not necessary to go into detail, as we will ask more question during the [Technical Question and Answer Interview](#Technical-Question-and-Answer-Interview) section of the interview. 
 
-<a name="">Recent-Project-Presentation</a>
+<a name="Recent-Project-Presentation"></a>
 ## Recent Project Presentation
 
 During this presentation, we would like you to provide an overview of a development project on which you have recently worked. Provide examples of the technology, programming languages and methodologies you used during this project. Feel free to use the whiteboard or laptop available in the interview room. If you use powerpoint, please keep your presentation to approximately 5 slides.  
@@ -44,7 +44,7 @@ During this presentation, we would like you to provide an overview of a developm
 
 ![Touch The Cloud](../common/images/Touch-the-Cloud.jpg)
 
-<a name="">Touch-the-Cloud-Presentation</a>
+<a name="Touch-the-Cloud-Presentation"></a>
 ### **Touch the Cloud Presentation Overview**:
 
 During this presentation, we ask that you provide a brief summary of the Oracle Cloud Products you have investigated, and that you feel are of interest and relevance. You can find the information you need from Oracle's main [Cloud Home Page](https://cloud.oracle.com/) website. From this website you can investigate Oracle's three categories of Cloud Offerings: [Platform as a Service](https://cloud.oracle.com/en_US/paas), [Infrastructure](https://cloud.oracle.com/en_US/iaas) and [Software as a Service](https://cloud.oracle.com/en_US/saas). Note: The job for which you are applying will focus primarily on **Platform as a Service** and **Infrastructure as a Service**.  
@@ -60,7 +60,7 @@ When providing your Oracle Cloud Product Presentation, you have two options. Wit
 
     As an option to getting a trial account, you can investigate the **Platform** and **Infrastructure** Services and present back some of your findings, understanding and interests. 
 
-<a name="">Technical-Question-and-Answer-Interview</a>
+<a name="Technical-Question-and-Answer-Interview"></a>
 ## Technical Question and Answer Interview
 
 During this section of the interview we will ask technical questions based on your experience, and our requirements of the Solution Engineering position. We hope to gain a better understanding of your development expertise, your understanding of development methodologies, and your experience with various programming languages and open source tools and frameworks. 
