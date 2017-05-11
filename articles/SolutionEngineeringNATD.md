@@ -15,7 +15,6 @@
 
 **Note:** As you prepare your short interview presentations, please keep in mind that **we will stick to the allotted time** for each of these interview sections listed below. Your interview will be broken into two separate interviews. The first will be a technical interview, and the second will be an interview with someone from the Oracle management team.
 
-<a name="Technical-Interview"></a>
 ### **Technical Interview** - 45 to 50 minutes
 
 | Interview Section | Minutes | Description |
@@ -58,6 +57,7 @@ When providing your Oracle Cloud Product Presentation, you have two options. Wit
 
     As an option to getting a trial account, you can investigate the **Platform** and **Infrastructure** Services and present back some of your findings, understanding and interests. 
 
+<a name="Technical-Question-and-Answer-Interview"></a>
 ## Technical Question and Answer Interview
 
 During this section of the interview we will ask technical questions based on your experience, and our requirements of the Solution Engineering position. We hope to gain a better understanding of your development expertise, your understanding of development methodologies, and your experience with various programming languages and open source tools and frameworks. 
