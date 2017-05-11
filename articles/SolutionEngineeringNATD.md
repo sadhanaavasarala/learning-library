@@ -41,8 +41,11 @@ During this presentation, we would like you to provide an overview of a developm
 
 ![Touch The Cloud](../common/images/Touch-the-Cloud.jpg)
 
+### **Touch the Cloud Presentation Overview**:
+
 During this presentation, we ask that you provide a brief summary of the Oracle Cloud Products you have investigated, and that you feel are of interest and relevance. You can find the information you need from Oracle's main [Cloud Home Page](https://cloud.oracle.com/) website. From this website you can investigate Oracle's three categories of Cloud Offerings: [Platform as a Service](https://cloud.oracle.com/en_US/paas), [Infrastructure](https://cloud.oracle.com/en_US/iaas) and [Software as a Service](https://cloud.oracle.com/en_US/saas). Note: The job for which you are applying will focus primarily on **Platform as a Service** and **Infrastructure as a Service**.  
 
+### **Touch the Cloud Presentation Presentation Options**:
 When providing your Oracle Cloud Product Presentation, you have two options. With both these options, if you choose to use Powerpoint, please keep your presentation to 5 slides or less. 
 
 - **Option 1** - Oracle Cloud Investigation and Demo:
