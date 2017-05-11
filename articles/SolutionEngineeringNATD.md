@@ -10,6 +10,7 @@
 - [Visual Aids](#Visual-Aids)
 - [Oracle Trial Account](#Oracle-Trial-Account)
 
+<a name="Interview-Schedule"></a>
 ## Interview Schedule
 
 **Note:** As you prepare your short interview presentations, please keep in mind that **we will stick to the allotted time** for each of these interview sections listed below. Your interview will be broken into two separate interviews. The first will be a technical interview, and the second will be an interview with someone from the Oracle management team.
