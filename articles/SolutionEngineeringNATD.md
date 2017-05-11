@@ -9,6 +9,7 @@
 - [Management Interview](#Management-Interview)
 - [Visual Aids](#Visual-Aids)
 - [Oracle Trial Account](#Oracle-Trial-Account)
+- [Configure Replication Policy](#Configure-Your-Storage-Replication-Policy)
 
 <a name="Interview-Schedule"></a>
 
@@ -92,14 +93,90 @@ During this section of the interview, you will meet with a member of the Solutio
 
 Acquiring and Oracle Account is not required for the interview, however, doing so will allow you to see first hand some of Oracle's cloud products before your interview. 
 
-To get an Oracle Trial account, please go the [Oracle Try It](https://cloud.oracle.com/tryit). From this website you can find answers to your questions concerning the Free Trial account, along with step by step instructions on how to register your account. Some of the services you may desire to use require that your Account's Storage Replication policy is set prior to using those services being used.
+To get an Oracle Trial account, please go the [Oracle Try It](https://cloud.oracle.com/tryit). From this website you can find answers to your questions concerning the Free Trial account, along with step by step instructions on how to register your account. After you account is provisioned, some of the services you may desire to use require that your Account's Storage Replication policy is set prior to using those services being used. Those instructions are provided later in this guide.
 
-Along with the instruction provided on the Oracle Webpage, you can Click on this [Video Link](https://publicdocs-corp.documents.us2.oraclecloud.com/documents/link/LD408AE98AE514A9D8A5B144F6C3FF17C1177E4725F3/fileview/D5BB8965F597992573C1B2A4F6C3FF17C1177E4725F3/_CloudCredits_VideoEdit.mp4) to view a short video showing how to acquire a trial account. 
+Along with the instruction provided on the Oracle website and in this document, you can Click on this [Video Link](https://publicdocs-corp.documents.us2.oraclecloud.com/documents/link/LD408AE98AE514A9D8A5B144F6C3FF17C1177E4725F3/fileview/D5BB8965F597992573C1B2A4F6C3FF17C1177E4725F3/_CloudCredits_VideoEdit.mp4) to view a short video showing how to acquire a trial account. 
 
 **Note:** it may take 24 hours for your Trial to be approved/provisioned. 
 
+## Step by step instructions on Provisioning your Account
 
-## Configure Your Storage Replication Policy
+### 1. View Details and Sign Up
+
+- From the **TryIt** page, click on the **View Details & Sign Up** button
+
+    ![](./images/SolutionEngineeringNATD/image001.png)
+
+- Click on the **Get started for free** link
+
+    ![](./images/SolutionEngineeringNATD/image002.png)
+
+### 2. Create your Account
+
+- Enter the required information on the **Create an Oracle Account...** page, and click on **Create Account**.
+
+    ![](./images/SolutionEngineeringNATD/image003.png)
+
+- The following dialog indicates that you will receive an confirmation email.
+
+    ![](./images/SolutionEngineeringNATD/image004.png)
+
+- Check your email, and click on the **Verify email address** button contained in the received email. 
+
+    ![](./images/SolutionEngineeringNATD/image005.png)
+
+- After Verifing your email address, enter your email address into the **User Name** field, enter your **Password**, then click on **Sign In**.
+
+    ![](./images/SolutionEngineeringNATD/image006.png)
+
+### 3. Verify your Phone Number
+
+- Enter your **Mobile Phone Number** and click on **Request Code**
+
+    ![](./images/SolutionEngineeringNATD/image007.png)
+
+- Enter the **Verification Code** you receive via phone text message.
+
+    ![](./images/SolutionEngineeringNATD/image008.png)
+
+## 4. Enter Account Information
+
+- Enter the required account information.
+
+    ![](./images/SolutionEngineeringNATD/image009.png)
+
+- Read the information about the use of your credit card, and Click on the **Add Payment Method** button.
+
+    ![](./images/SolutionEngineeringNATD/image010.png)
+
+- Enter your credit card information, and click on **Finish**.
+
+    ![](./images/SolutionEngineeringNATD/image011.png)
+
+- **Accept** the terms and conditions, then click on the **Complete** Button. 
+
+    ![](./images/SolutionEngineeringNATD/image012.png)
+
+- Note the following steps.
+
+    ![](./images/SolutionEngineeringNATD/image013.png)
+
+## 5. Account Confirmation
+
+- The following is an example email confirming your Trial Account request.
+
+    ![](./images/SolutionEngineeringNATD/image014.png)
+
+## 6. Confirmation Email
+
+- Once your account has been provisioned, you will receive a **Confirmation Email** that will provide you with your **Identity Domain**, **Password** and **Username**. You will also receive a **My Services URL** link that will allow you to access and log into your account. You may also receive an email describing how to connect into to VPN, but in most cases VPN will not be needed for testing. 
+
+    ![](./images/SolutionEngineeringNATD/image015.png)
+
+
+<a name="Configure-Your-Storage-Replication-Policy"></a>
+
+## 7. Configure Your Storage Replication Policy
 
 Once your Trial Account is fully approved and provisioned, you will need to set your Storage Replication Policy. We recommend that you do this as soon as your account is fully provisioned, otherwise some of the PaaS services that may be of interest will not work correctly. The Replication Policy is not automatically set to allow for flexibility on how how it is configured.
 
@@ -115,7 +192,7 @@ Once your Trial Account is fully approved and provisioned, you will need to set 
 
     ![](images/SolutionEngineeringNATD/Picture100-5.png)
 
-### Check/Set Storage Replication Policy
+## Check/Set Storage Replication Policy
 
 Depending on the state of your Cloud Account, you will need to set the **Replication Policy**, if it has not been previously set. In this step you will go to the Storage Cloud Service to check on the status of the Replicaton Policy. 
 
