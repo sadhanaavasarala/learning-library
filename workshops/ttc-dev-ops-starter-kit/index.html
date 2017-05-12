@@ -41,6 +41,13 @@
       </md-toolbar>
       <md-content style="height: 110%;">
         <md-list>
+            <md-list-item class="md-3-line toc-item infra" ng-show="manifest.workshop.interactive" ng-click="loadContent(manifest.workshop.interactive);">
+                <div class="md-list-item-text infra">
+                    <h3 class="infra">Interactive Tour</h3>
+                    <p class="infra">Your interactive lab guide</p>
+                </div>
+                <md-divider></md-divider>
+            </md-list-item>
             <md-list-item class="md-3-line toc-item infra" ng-repeat="lab in manifest.workshop.labs" ng-click="getLabGuide(lab); close();">
                 <div class="md-list-item-text infra">
                     <h3 class="infra">{{lab.title}}</h3>
@@ -98,16 +105,15 @@
             console.log('Error getting manifest.json!');
             console.log(msg);
         });
-        
-        $scope.getLabGuide = function(lab) {
-            if(lab.htmlContent == null) {
-                $http.get(lab.filename).then(function(res) {
+                                           
+       $scope.loadContent = function(page){
+           $http.get(page).then(function(res) {
 
                     var converter = new showdown.Converter(),
                     text = res.data,
                     html = converter.makeHtml(text);
                     $scope.htmlContent = html;
-                    lab.htmlContent = html;
+                    page.htmlContent = html;
                     $scope.selection.lab = true;
                     setTimeout(function() {
                         $("#labguide h2").next("h3").addClass("first-in-section");
@@ -152,6 +158,11 @@
                     console.log('Error getting lab guide markdown!');
                     console.log(msg);
                 });
+       }
+        
+        $scope.getLabGuide = function(lab) {
+            if(lab.htmlContent == null) {
+                $scope.loadContent(lab.filename);
             }
             else {
                 $scope.htmlContent = lab.htmlContent;
