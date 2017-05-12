@@ -2,6 +2,6 @@
 
 | Article | Description |
 | --- | --- |
-| [Solution Engineering NATD](../../common/images/Touch-the-Cloud.jpg) | Solution Engineering North American Technology Division Interview Summary |
+| [Solution Engineering NATD](./solution-engineering-natd/SolutionEngineeringNATD.md) | Solution Engineering North American Technology Division Interview Summary |
 
 
