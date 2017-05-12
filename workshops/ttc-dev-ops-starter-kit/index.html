@@ -55,15 +55,17 @@
         <md-tooltip md-direction="left">Interactive Tour</md-tooltip> <img class="interactive-img infra" style="" src="https://cloudaccelerate.github.io/TTC-CommonContent/images/interactive-logo.png" /> </md-button>
     <div id="interactive-popup" style="visibility: hidden">
         <div class="md-dialog-container" id="interactiveDialog">
-            <md-dialog layout-padding>
+            <md-dialog style="width: 80%; height: 80%;">
                 <md-toolbar class="md-hue-2 infra">
                     <div class="md-toolbar-tools">
                         <h2 class="infra">
                 <span class="infra">Interactive Tour</span>
             </h2> </div>
                 </md-toolbar>
-                <md-dialog-content>
-                    <iframe width="1200" height="600" type="text/html" ng-src="{{trustSrc(interactive.src)}}" allowfullscreen frameborder="0"></iframe>
+                <md-dialog-content style="overflow: hidden;">
+                    <div class="interactive-wrapper">
+                        <iframe class="infra interactive-frame" type="text/html" ng-src="{{trustSrc(interactive.src)}}" allowfullscreen frameborder="0"></iframe>
+                    </div>
                 </md-dialog-content>
             </md-dialog>
         </div>
@@ -83,6 +85,7 @@
                 //.dark();
                 .primaryPalette('blue').accentPalette('light-blue').warnPalette('red').backgroundPalette('whiteBackground');
         }).controller('labGuideController', ['$scope', '$http', '$mdSidenav', '$sanitize', '$sce', '$mdDialog'
+            
             , function ($scope, $http, $mdSidenav, $sanitize, $sce, $mdDialog) {
                 $scope.selection = {
                     "lab": false
