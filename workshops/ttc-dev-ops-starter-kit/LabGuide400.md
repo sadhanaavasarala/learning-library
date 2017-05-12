@@ -1,7 +1,6 @@
-<center>![](https://cloudaccelerate.github.io/TTC-CommonContent/images/ttc-logo.png)</center> 
-> Updated: April 19, 2017
-
 # Lab 400
+<center>![](https://cloudaccelerate.github.io/TTC-CommonContent/images/ttc-logo.png)</center> 
+
 ## Introduction
 
 Welcome to lab 400. In this lab we will be completing our application architecture by deploying a Golang microservice on Docker. The service will be responsible to translating currencies on our UI. Our target Architecture for the end of the lab will look like this:

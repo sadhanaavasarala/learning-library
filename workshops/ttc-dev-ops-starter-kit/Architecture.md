@@ -1,7 +1,5 @@
-<center>![](https://cloudaccelerate.github.io/TTC-CommonContent/images/ttc-logo.png)</center> 
-> Updated: April 19, 2017
-
 # Workshop Architecture Guide
+<center>![](https://cloudaccelerate.github.io/TTC-CommonContent/images/ttc-logo.png)</center> 
     
 ## Workshop Goal
 

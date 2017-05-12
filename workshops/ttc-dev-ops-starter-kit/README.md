@@ -1,9 +1,7 @@
+# Tips for Workshop Developers
 <center>
 <img src="https://cloudaccelerate.github.io/TTC-CommonContent/images/ttc-logo.png" />
 </center> 
-> Updated: April 19, 2017
-
-# Tips for Workshop Developers
     
 ## IMPORTANT: How to prepare for this workshop
 

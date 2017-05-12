@@ -1,7 +1,6 @@
-<center>![](https://cloudaccelerate.github.io/TTC-CommonContent/images/ttc-logo.png)</center> 
-> Updated: April 19, 2017
-
 # Lab 100
+<center>![](https://cloudaccelerate.github.io/TTC-CommonContent/images/ttc-logo.png)</center> 
+
 ## Introduction
 
 This is the first of several labs that are part of the DevOps Starter Kit. This workshop will walk you through building and deploying a Cloud Native project that will create and use several Microservices built using various technologies. You will be applying DevOps principles to build your applications, provision your services and automate deployment of your applications.
