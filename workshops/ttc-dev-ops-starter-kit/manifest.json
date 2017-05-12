@@ -51,12 +51,6 @@
                 "filename": "LabGuide400.md",
                 "title": "Lab 400: Your Second Microservice",
                 "description": "Use Developer cloud service to build and deploy a Google Go Microservice"
-            },
-            {
-                "number": "8",
-                "filename": "SupplementGuide.md",
-                "title": "Supplemental Guide",
-                "description": "Fun extras to try: Connect IDE to DevCS, Extra Automation excercises and more"
             }
         ]
     }
