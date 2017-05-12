@@ -82,8 +82,6 @@ During this section of the interview, you will meet with a member of the Solutio
 
 ## Visual Aids
 
-### Whiteboard / Powerpoint
-
 - The interview room will be furnished with a whiteboard and laptop that you can use to present your [Recent Project](#Recent-Project-Presentation) and [Touch the Cloud](#Touch-the-Cloud-Presentation) Presentations.
 - Oracle Supplied Laptop: We will have a laptop and prejector available for your use. The laptop will have connectivity to the internet, and you can bring a USB drive if you desire to load a presentation to the laptop.
 
@@ -139,7 +137,7 @@ Along with the instruction provided on the Oracle website and **in this document
 
     ![](./images/image008.png)
 
-## 4. Enter Account Information
+### 4. Enter Account Information
 
 - Enter the required account information.
 
@@ -161,13 +159,13 @@ Along with the instruction provided on the Oracle website and **in this document
 
     ![](./images/image013.png)
 
-## 5. Account Confirmation
+### 5. Account Confirmation
 
 - The following is an example email confirming your Trial Account request.
 
     ![](./images/image014.png)
 
-## 6. Confirmation Email
+### 6. Confirmation Email
 
 - Once your account has been provisioned, you will receive a **Confirmation Email** that will provide you with your **Identity Domain**, **Password** and **Username**. This email also contains a **My Services URL** link that will allow you to access and log into your account. You may also receive an separate email describing how to connect into to VPN, but in most cases VPN will not be needed for testing. 
 
@@ -176,7 +174,7 @@ Along with the instruction provided on the Oracle website and **in this document
 
 <a name="Configure-Your-Storage-Replication-Policy"></a>
 
-## 7. Configure Your Storage Replication Policy
+## Configure Your Storage Replication Policy
 
 Once your Trial Account is fully approved and provisioned, you will need to set your Storage Replication Policy. We recommend that you do this as soon as your account is fully provisioned, otherwise some of the PaaS services that may be of interest will not work correctly. The Replication Policy is not automatically set to allow for flexibility on how how it is configured.
 
@@ -192,7 +190,7 @@ Once your Trial Account is fully approved and provisioned, you will need to set 
 
     ![](images/Picture100-5.png)
 
-## Check/Set Storage Replication Policy
+### Check/Set Storage Replication Policy
 
 Depending on the state of your Cloud Account, you will need to set the **Replication Policy**, if it has not been previously set. In this step you will go to the Storage Cloud Service to check on the status of the Replicaton Policy. 
 
