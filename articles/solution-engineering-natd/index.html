@@ -127,7 +127,7 @@
             if(lab.htmlContent == null) {
                 $http.get(lab.filename).then(function(res) {
 
-                    var converter = new showdown.Converter(),
+                    var converter = new showdown.Converter({tables: true}),
                     text = res.data,
                     html = converter.makeHtml(text);
                     $scope.htmlContent = html;
