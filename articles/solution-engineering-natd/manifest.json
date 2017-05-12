@@ -1,0 +1,14 @@
+{
+    "workshop": {
+        "title": "Solution Engineering North American Technology Division",
+        "description": "This document provides instruction for those interviewing for the Solution Engineering Positions at Oracle.",
+        "labs": [
+            {
+                "number": "0",
+                "filename": "SolutionEngineeringNATD.md",
+                "title": "Overview Document",
+                "description": "Instructions on the Interview Process"
+            }
+        ]
+    }
+}
