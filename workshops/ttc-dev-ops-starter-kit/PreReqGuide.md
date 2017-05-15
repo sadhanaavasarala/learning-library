@@ -1,7 +1,5 @@
-<center>![](https://cloudaccelerate.github.io/TTC-CommonContent/images/ttc-logo.png)</center> 
-> Updated: April 19, 2017
-
 # Prerequisites Guide
+<center>![](https://oracle.github.io/learning-library/workshops/common-content/images/touch-the-cloud/ttc-logo.png)</center> 
 
 This Guide will provide you with the instructions necessary to ensure you have the proper tools and configuration done to execute on the workshop. This Workshop will allow you to gain exposure to Oracle Developer Cloud Service, Oracle Application Container Cloud Service, Oracle Container Cloud Service, Oracle MySQL Cloud Service and Oracle's open source front end framework Oracle JET.
 

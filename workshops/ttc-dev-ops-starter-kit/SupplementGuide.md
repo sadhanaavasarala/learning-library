@@ -1,5 +1,5 @@
-<center>![](https://cloudaccelerate.github.io/TTC-CommonContent/images/ttc-logo.png)</center> 
-> Updated: April 19, 2017
+# Supplimental Guide
+<center>![](https://oracle.github.io/learning-library/workshops/common-content/images/touch-the-cloud/ttc-logo.png)</center> 
 
 ## Introduction
 
@@ -16,8 +16,6 @@ Please direct comments to: Cam Crockett (cam.crockett@oracle.com)
 ## Required Artifacts
 
 - Eclipse with Oracle's OEPE plugin: [Download Here](google.ca)
-
-# Supplimental Guide
 
 ## Connect Eclipse to Developer Cloud Serivce
 Connecting via a local IDE to Oracle Developer Cloud Service will be covered in a supplimenal guide

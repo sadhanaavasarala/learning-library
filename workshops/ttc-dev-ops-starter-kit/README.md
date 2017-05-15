@@ -1,9 +1,7 @@
-<center>
-<img src="https://cloudaccelerate.github.io/TTC-CommonContent/images/ttc-logo.png" />
-</center> 
-> Updated: April 19, 2017
-
 # Tips for Workshop Developers
+<center>
+<img src="https://oracle.github.io/learning-library/workshops/common-content/images/touch-the-cloud/ttc-logo.png" />
+</center> 
     
 ## IMPORTANT: How to prepare for this workshop
 

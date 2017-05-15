@@ -1,7 +1,6 @@
-<center>![](https://cloudaccelerate.github.io/TTC-CommonContent/images/ttc-logo.png)</center> 
-> Updated: April 19, 2017
-
 # Lab 200
+<center>![](https://oracle.github.io/learning-library/workshops/common-content/images/touch-the-cloud/ttc-logo.png)</center> 
+
 ## Introduction
 
 In Lab 200 we will be building and deploying our first microservice, this microservice will provide a RESTful interface for our catalog database. The microservice is built using Java and leverages lightweight libraries JAX-WS and Grizzly IO to create RESTful endpoints. In Lab 300 we will be wiring up a MySQL Database to the microservice.
