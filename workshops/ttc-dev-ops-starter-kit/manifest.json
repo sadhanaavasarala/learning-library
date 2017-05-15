@@ -3,6 +3,7 @@
         "title": "Cloud Accelerate: DevOps Starter kit",
         "description": "Workshops designed to help you get started with your trial accounts.",
         "interactive": "https://launch.oracle.com/?ttcdevopsstarterkit",
+        "theme": "ttc",
         "labs": [
             {
                 "number": "0",
