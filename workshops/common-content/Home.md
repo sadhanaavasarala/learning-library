@@ -5,16 +5,13 @@ This repository hosts the common content - Images, CSS, JS and theming for Oracl
 Here are a few of the items you can reference (right from this project)
 
 ### Cloud Acelerate
-Template CSS: [https://cloudaccelerate.github.io/TTC-CommonContent/css/solutionEngTemplate.css](https://cloudaccelerate.github.io/TTC-CommonContent/css/solutionEngTemplate.css)
-
-Workshop CSS: [https://cloudaccelerate.github.io/TTC-CommonContent/css/workshopIndex.css](https://cloudaccelerate.github.io/TTC-CommonContent/css/workshopIndex.css)
+theme: default
 
 ### Touch The Cloud
-Logo: [https://cloudaccelerate.github.io/TTC-CommonContent/images/ttc-logo.png](https://cloudaccelerate.github.io/TTC-CommonContent/images/ttc-logo.png)
+[Logo](https://oracle.github.io/workshops/common-content/images/touch-the-cloud/ttc-logo.png)
 
-Top Banner: [https://cloudaccelerate.github.io/TTC-CommonContent/images/ttc-top-banner.jpg](https://cloudaccelerate.github.io/TTC-CommonContent/images/ttc-top-banner.jpg)
+theme: ttc
 
-Workshop Menu Icon: [https://cloudaccelerate.github.io/TTC-CommonContent/images/ttc-workshop-menu.png](https://cloudaccelerate.github.io/TTC-CommonContent/images/ttc-workshop-menu.png)
 
 ## Standards
 ### Tiny URLs
