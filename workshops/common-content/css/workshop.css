@@ -1,0 +1,122 @@
+/*Common CSS*/
+
+html,
+body {
+    padding: 0;
+    max-width: 100%;
+}
+
+td {
+    border: 1px solid #D3D3D3;
+    padding: 3px;
+}
+
+th {
+    background-color: #EEEEEE;
+    border: 1px solid #D3D3D3;
+    padding: 3px;
+}
+
+table {
+    border-spacing: 0;
+}
+
+img:not(.infra),
+canvas:not(.infra),
+iframe:not(.infra),
+video:not(.infra),
+select:not(.infra),
+textarea:not(.infra) {
+    display: block !important;
+    margin: 0 auto !important;
+}
+
+.md-button.md-fab.md-fab-top-right {
+    bottom: auto;
+    right: 20px;
+    top: 40px;
+    left: auto;
+    position: fixed;
+}
+
+.interactive-img {
+    max-width: 100%;
+    padding: 7px 1px 1px 1px;
+}
+
+.interactive-wrapper {
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+
+.interactive-frame {
+    position: fixed;
+    top: 65px;
+    left: 0px;
+    margin-top: 0;
+    border: none;
+    width: 100%;
+    height: 90%;
+    vertical-align: bottom;
+}
+
+md-dialog.fullscreen-dialog {
+    max-width: 100%;
+    max-height: 100%;
+    width: 100%;
+    height: 100%;
+    border-radius: 0;
+}
+
+md-toolbar.md-default-theme.md-hue-2:not(.md-menu-toolbar),
+md-toolbar.md-hue-2:not(.md-menu-toolbar) {
+    color: rgba(255, 255, 255, 0.87);
+}
+
+.menu-hamburger {
+    padding: 4px 1px 1px 0px;
+    height: 20px;
+    width: 20px;
+}
+
+/*DESKTOP SETTINGS*/
+
+@media only screen and (min-width: 801px) {
+    #labguide {
+        margin: 0 auto;
+        padding: 3.25rem 10em;
+        font-family: 'Open Sans Condensed', sans-serif;
+        font-weight: 300;
+    }
+}
+
+
+/*PHONE AND TABLET SETTINGS*/
+
+@media only screen and (max-width: 800px) {
+    #labguide {
+        margin: 0 auto;
+        padding: 1rem;
+        font-family: 'Open Sans Condensed', sans-serif;
+        font-weight: 300;
+    }
+    h1:not(.infra),
+    .modest-h1:not(.infra) {
+        font-size: 1.5rem;
+    }
+    h2:not(.infra),
+    .modest-h1:not(.infra) {
+        font-size: 1.25rem;
+    }
+    h3:not(.infra),
+    .modest-h1:not(.infra) {
+        font-size: 1rem;
+    }
+    p:not(.infra),
+    .modest-p:not(.infra) {
+        font-size: .85rem;
+        margin-bottom: 1rem;
+        margin-left: 15px;
+    }
+}
