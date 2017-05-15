@@ -26,9 +26,7 @@
 <body ng-cloak ng-controller="labGuideController">
     <md-toolbar class="md-hue-2 infra" flex="none" layout-padding>
         <div class="md-toolbar-tools infra">
-            <md-button class="md-icon-button md-raised md-accent infra" aria-label="Settings" ng-disabled="false" ng-click="toggleLeft()">
-                <md-icon class="infra" md-svg-icon="images/menu.svg"></md-icon>
-            </md-button>
+            
             <h2 class="infra">
                 <span class="infra">{{manifest.workshop.title}}</span>
             </h2>
@@ -87,13 +85,13 @@
     <div id='returnToTop' layout layout-align="center center">
         <a href="#" layout-margin layout-padding>^ Return to Top</a>
     </div>
-    
-    
+
+
 <script type="text/javascript">
     angular.module('labGuide', ['ngMaterial', 'ngSanitize'])
-    
+
     .config(function($mdThemingProvider) {
-        
+
     var whiteBackground = $mdThemingProvider.extendPalette('grey', {
         '50': '#fefefe'
       });
@@ -107,29 +105,30 @@
           .accentPalette('orange')
           .warnPalette('red')
           .backgroundPalette('whiteBackground');
-      
+
     })
-    
-    .controller('labGuideController', ['$scope', '$http', '$mdSidenav', '$sanitize', 
+
+    .controller('labGuideController', ['$scope', '$http', '$mdSidenav', '$sanitize',
                                        function($scope, $http, $mdSidenav, $sanitize) {
-                                            
+
         $scope.selection = { "lab": false };
-                                           
+
         $http.get('manifest.json').then(function(res) {
-           $scope.manifest = res.data; 
+           $scope.manifest = res.data;
             console.log($scope.manifest);
         }, function(msg) {
             console.log('Error getting manifest.json!');
             console.log(msg);
         });
-        
+
         $scope.getLabGuide = function(lab) {
             if(lab.htmlContent == null) {
                 $http.get(lab.filename).then(function(res) {
 
                     var converter = new showdown.Converter({tables: true}),
-                    text = res.data,
-                    html = converter.makeHtml(text);
+                    text = res.data;
+                    converter.setFlavor('github');
+                    var html = converter.makeHtml(text);
                     $scope.htmlContent = html;
                     lab.htmlContent = html;
                     $scope.selection.lab = true;
@@ -138,7 +137,7 @@
                         $("#labguide h3").nextUntil("#labguide h1, #labguide h2, #labguide h3").hide();
                         $("#labguide h3").addClass('plus');
                         $("#labguide h3").click(function(e) {
-                            
+
                             var fadeOutStep = function(step) {
 //                                console.log('fading out step: '+$(step).text() );
                                 $(step).nextUntil("#labguide h1, #labguide h2, #labguide h3").fadeOut();
@@ -151,12 +150,12 @@
                                 $(step).addClass('minus');
                                 $(step).removeClass('plus');
                             };
-                            
+
                             if(e.offsetY < 0) { //user has clicked above the H3, in the expand/collapse all button
                                 if($(this).hasClass('first-in-section') && $(this).hasClass('plus')) {
                                   fadeInStep($(this));
                                   $(this).nextUntil("#labguide h1, #labguide h2", "h3").each(function(i, e) { return fadeInStep(e);} );
-                                }     
+                                }
                                 else if($(this).hasClass('first-in-section') && $(this).hasClass('minus')) {
                                   fadeOutStep($(this));
                                   $(this).nextUntil("#labguide h1, #labguide h2", "h3").each(function(i, e) { return fadeOutStep(e);} );
@@ -165,13 +164,13 @@
                             else { //user has clicked in the H3, only work on this step
                                 if($(this).hasClass('plus')) {
                                   fadeInStep($(this));
-                                } 
+                                }
                                 else if($(this).hasClass('minus')) {
                                   fadeOutStep($(this));
-                                } 
+                                }
                             }
                         });
-                        
+
                     }, 0);
 
                 }, function(msg) {
@@ -195,7 +194,7 @@
                     })
                 }
             }, 500)
-            
+
         }
         $scope.toggleLeft = function() {
             $mdSidenav('left').toggle();
@@ -203,11 +202,11 @@
         $scope.close = function() {
             $mdSidenav('left').close();
         };
-        
+
         //upon page load, display README
         $scope.getLabGuide({filename: 'README.md'});
     }]);
-    
+
 </script>
 </body>
 </html>
