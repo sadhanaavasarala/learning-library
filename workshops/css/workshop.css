@@ -1,16 +1,9 @@
+/*Common CSS*/
+
 html,
 body {
     padding: 0;
     max-width: 100%;
-}
-
-md-toolbar.md-default-theme.md-hue-2:not(.md-menu-toolbar),
-md-toolbar.md-hue-2:not(.md-menu-toolbar) {
-    background-image: url("https://cloudaccelerate.github.io/TTC-CommonContent/images/ttc-top-banner.jpg");
-    background-repeat: no-repeat;
-    background-position: center;
-    background-color: #006E87;
-    color: rgba(255, 255, 255, 0.87);
 }
 
 td {
@@ -76,6 +69,16 @@ md-dialog.fullscreen-dialog {
     border-radius: 0;
 }
 
+md-toolbar.md-default-theme.md-hue-2:not(.md-menu-toolbar),
+md-toolbar.md-hue-2:not(.md-menu-toolbar) {
+    color: rgba(255, 255, 255, 0.87);
+}
+
+.menu-hamburger {
+    padding: 4px 1px 1px 0px;
+    height: 20px;
+    width: 20px;
+}
 
 /*DESKTOP SETTINGS*/
 

@@ -1,25 +1,47 @@
-angular.module('labGuide', ['ngMaterial', 'ngSanitize']).config(function ($mdThemingProvider) {
+var labGuide = angular.module('labGuide', ['ngMaterial', 'ngSanitize']);
+
+labGuide.config(function ($mdThemingProvider) {
     var whiteBackground = $mdThemingProvider.extendPalette('grey', {
         '50': '#fefefe'
     });
-    // Register the new color palette map with the name <code>neonRed</code>
     $mdThemingProvider.definePalette('whiteBackground', whiteBackground);
     $mdThemingProvider.theme('default')
-        //.dark();
-        .primaryPalette('blue').accentPalette('light-blue').warnPalette('red').backgroundPalette('whiteBackground');
-}).controller('labGuideController', ['$scope', '$http', '$mdSidenav', '$sanitize', '$sce', '$mdDialog'
+        .primaryPalette('blue')
+        .accentPalette('orange')
+        .warnPalette('red')
+        .backgroundPalette('whiteBackground');
+    $mdThemingProvider.theme('ttc')
+        .primaryPalette('blue')
+        .accentPalette('light-blue')
+        .warnPalette('red')
+        .backgroundPalette('whiteBackground');
+    $mdThemingProvider.alwaysWatchTheme(true);
+});
 
-            
+labGuide.controller('labGuideController', ['$scope', '$http', '$mdSidenav', '$sanitize', '$sce', '$mdDialog' 
     , function ($scope, $http, $mdSidenav, $sanitize, $sce, $mdDialog) {
+        $scope.theme = 'default';
         $scope.selection = {
             "lab": false
         };
+//        READ MANIFEST - THEME, INTERACTIVE, MENU
         $http.get('manifest.json').then(function (res) {
             $scope.manifest = res.data;
-            $scope.interactive = {
-                src: $scope.manifest.workshop.interactive
-                , title: "Interactive Tour"
-            };
+            console.log("json",$scope.manifest)
+            if($scope.manifest.workshop.interactive){
+               $scope.enableInteractive = true;
+               $scope.interactive = {
+                    src: $scope.manifest.workshop.interactive
+                    , title: "Interactive Tour"
+                };
+            }
+            
+            if($scope.manifest.workshop.theme){
+                console.log("Theme selected",$scope.manifest.workshop.theme);
+                if($scope.manifest.workshop.theme == 'ttc'){
+                    $scope.theme = 'ttc';
+                }
+            }
         }, function (msg) {
             console.log('Error getting manifest.json!');
             console.log(msg);
@@ -111,10 +133,6 @@ angular.module('labGuide', ['ngMaterial', 'ngSanitize']).config(function ($mdThe
         $scope.cancel = function () {
             $mdDialog.cancel();
         };
-        //upon page load, display Home
-        $scope.getLabGuide({
-            filename: 'Home.md'
-        });
         $scope.showInteractive = function (ev) {
             $mdDialog.show({
                 contentElement: '#interactiveDialog'
@@ -124,4 +142,8 @@ angular.module('labGuide', ['ngMaterial', 'ngSanitize']).config(function ($mdThe
                 , fullscreen: true
             });
         };
+        //upon page load, display Home
+        $scope.getLabGuide({
+            filename: 'Home.md'
+        });
     }]);
