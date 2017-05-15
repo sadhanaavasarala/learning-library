@@ -1,5 +1,5 @@
 # Lab 300
-<center>![](https://cloudaccelerate.github.io/TTC-CommonContent/images/ttc-logo.png)</center> 
+<center>![](https://oracle.github.io/learning-library/workshops/common-content/images/touch-the-cloud/ttc-logo.png)</center> 
 
 ## Introduction
 
