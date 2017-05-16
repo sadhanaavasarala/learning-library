@@ -1,4 +1,4 @@
-<div style="width: 100px;" id="test-id" class="fload-right"></div>
+<div style="width: 100px;" id="test-id" class="fload-right">Stuff</div>
 
 <img class="float-right" src="https://oracle.github.io/learning-library/workshops/common-content/images/touch-the-cloud/ttc-logo.png" width="200">
 
