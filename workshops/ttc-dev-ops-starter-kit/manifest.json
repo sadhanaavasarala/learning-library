@@ -12,12 +12,6 @@
                 "description": "Welcome to Oracle's DevOps Starter Kit"
             },
             {
-                "number": "1",
-                "filename": "README.md",
-                "title": "How To Guide",
-                "description": "How to use and leverage this workshop"
-            },
-            {
                 "number": "2",
                 "filename": "Architecture.md",
                 "title": "Architecture Guide",
