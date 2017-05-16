@@ -1,5 +1,5 @@
+<img class="float-right" src="https://oracle.github.io/learning-library/workshops/common-content/images/touch-the-cloud/ttc-logo.png" width="200">
 # Workshop Architecture Guide
-<center>![](https://cloudaccelerate.github.io/TTC-CommonContent/images/ttc-logo.png)</center> 
     
 ## Workshop Goal
 
