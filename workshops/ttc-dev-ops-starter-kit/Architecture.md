@@ -21,7 +21,7 @@ We will be executing the workshop running many different technologies behind the
     - Continuous Delivery platform to run automated deploys
 - Our UI application:
     - Written in NodeJS
-    - Uses (Oracle JET)[www.oraclejet.org] as a client side UI framework
+    - Uses Oracle JET as a client side UI framework
 - Our MySQL microservice
     - Written in Java
     - Leverages JAX-WS and Grizzly IO to provide the REST and embedded web services
