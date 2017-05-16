@@ -1,4 +1,4 @@
-<div style="float:right;">
+<div style="float: right;">
 <img src="https://oracle.github.io/learning-library/workshops/common-content/images/touch-the-cloud/ttc-logo.png" width="200">
 </div> 
 # Lab 100
