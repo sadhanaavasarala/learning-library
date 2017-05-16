@@ -52,7 +52,7 @@ textarea:not(.infra) {
 
 @-moz-document url-prefix() {
 	.interactive-frame {
-		top: -15px;
+		top: -15px !important;
 	}
 }
 		
