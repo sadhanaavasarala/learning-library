@@ -19,7 +19,7 @@ Please direct comments to: Cam Crockett (cam.crockett@oracle.com)
 ## Prerequisites
 
 - Expected that lab 100 has been completed already
-- Expected that your storage policy has been set as described in the [prerequisite guide](PreReqGuide.md)
+- Expected that your storage policy has been set as described in the **prerequisite guide**
 
 ## Technologies Involved
 - Oracle Cloud Services:

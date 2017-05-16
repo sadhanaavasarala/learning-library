@@ -17,6 +17,10 @@ Please direct comments to: Cam Crockett (cam.crockett@oracle.com)
 ## Required Artifacts
 - We will be leveraging a prepared application found on GitHub: [https://github.com/CloudAccelerate/TTC-CatalogApp.git](https://github.com/CloudAccelerate/TTC-CatalogApp.git)
 
+## Prerequisites
+
+- Expected that your storage policy has been set as described in the **prerequisite guide**
+
 ## Technologies Involved
 - Oracle Cloud Services:
     - Developer Cloud Service

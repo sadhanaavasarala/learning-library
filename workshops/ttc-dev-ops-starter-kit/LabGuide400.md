@@ -3,7 +3,7 @@
 
 ## Introduction
 
-Welcome to lab 400. In this lab we will be completing our application architecture by deploying a Golang microservice on Docker. The service will be responsible to translating currencies on our UI.
+Welcome to lab 400. In this lab we will be completing our application architecture by deploying a Golang microservice on Docker. The service will be responsible to translating currencies on our UI. 
 
 ## Objectives
 
@@ -25,7 +25,15 @@ Welcome to lab 400. In this lab we will be completing our application architectu
 ## Prerequisites
 
 - Expected that labs 100, 200 and 300 have been completed already
-- Expected that your storage policy has been set as described in the [prerequisite guide](PreReqGuide.md)
+- Expected that your storage policy has been set as described in the **prerequisite guide**
+
+## Technologies Involved
+- Oracle Cloud Services:
+  - Oracle Container Cloud Serivce
+  
+## Architecture
+You will be adding your second microserivce.
+![](images/400/targeted-architecture.png) 
 
 # Setup and Deploy a Golang Microservice on Docker
 
