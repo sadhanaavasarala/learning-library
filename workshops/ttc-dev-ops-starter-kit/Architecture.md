@@ -35,17 +35,54 @@ To Build out a Catalog UI supported by multiple microservices - providing suppor
 ![](images/400/step29.png)
 
 ### Lab 100
+This is the first of several labs that are part of the DevOps Starter Kit. This workshop will walk you through building and deploying a Cloud Native project that will create and use several Microservices built using various technologies. You will be applying DevOps principles to build your applications, provision your services and automate deployment of your applications.
+
+#### Goal
 Deploy the UI
+
+#### Objectives
+- Create Initial Project
+- Import UI application from GitHub
+- Setup automated build to create application artifacts
+- Setup an automated deployment to provision and deploy your application into the Oracle Cloud
+
 ![](images/100/target-architecture.png)
 
 ### Lab 200
+In Lab 200 we will be building and deploying our first microservice, this microservice will provide a RESTful interface for our catalog database. The microservice is built using Java and leverages lightweight libraries JAX-WS and Grizzly IO to create RESTful endpoints. In Lab 300 we will be wiring up a MySQL Database to the microservice.
+
+#### Goal
 Deploy a Microservice
+
+#### Objectives
+- Import microservice from GitHub
+- Setup automated build to create application artifacts
+- Setup an automated deployment to provision and deploy your application into the Oracle Cloud
+- Bind your microservice to the UI
+
 ![](images/200/targeted-architecture.png)
 
 ### Lab 300
+In Lab 300 we will be adding a MySQL database to our microservice from lab 200. We will be using an automated build process to load our baseline schema onto the database after we have provisioned it.
+
+#### Goal
 Wire the Microservice up to at MySQL Database
+
+#### Objectives
+- Provision a MySQL Database
+- Create the baseline schema
+- Bind the database to your microservice from lab 200
+
 ![](images/300/targeted-architecture.png)
 
 ### Lab 400
+Welcome to lab 400. In this lab we will be completing our application architecture by deploying a Golang microservice on Docker. The service will be responsible to translating currencies on our UI.
+
+#### Goal
 Deploy a second microserivce on a Docker image
+
+#### Objectives
+- Setup your docker host on Container Cloud Service
+- Deploy the microservices from it's Docker Hub build location
+
 ![](images/400/targeted-architecture.png)
