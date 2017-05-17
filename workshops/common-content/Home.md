@@ -8,7 +8,7 @@ Here are a few of the items you can reference (right from this project)
 theme: default
 
 ### Touch The Cloud
-[Logo](https://oracle.github.io/workshops/common-content/images/touch-the-cloud/ttc-logo.png)
+[Logo](https://oracle.github.io/learning-library/workshops/common-content/images/touch-the-cloud/ttc-logo.png)
 
 theme: ttc
 

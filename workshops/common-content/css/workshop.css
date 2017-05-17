@@ -50,6 +50,12 @@ textarea:not(.infra) {
     height: 100%;
 }
 
+@-moz-document url-prefix() {
+	.interactive-frame {
+		top: -15px !important;
+	}
+}
+		
 .interactive-frame {
     position: fixed;
     top: 65px;
