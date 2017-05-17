@@ -86,6 +86,10 @@ md-toolbar.md-hue-2:not(.md-menu-toolbar) {
     width: 20px;
 }
 
+.float-right{
+	float: right;
+}
+
 /*DESKTOP SETTINGS*/
 
 @media only screen and (min-width: 801px) {
