@@ -23,11 +23,18 @@
     <link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/angular_material/1.1.0/angular-material.min.css">
     <link type="text/css" rel="stylesheet" href="https://oracle.github.io/learning-library/workshops/common-content/css/solutionEngTemplate.css">
     <link type="text/css" rel="stylesheet" href="https://oracle.github.io/learning-library/workshops/common-content/css/workshop.css">
+<!--        <link type="text/css" rel="stylesheet" href="./css/dev.css">-->
     <link type="text/css" rel="stylesheet" href="https://oracle.github.io/learning-library/workshops/common-content/css/default-theme.css">
     <link type="text/css" rel="stylesheet" href="https://oracle.github.io/learning-library/workshops/common-content/css/touch-the-cloud-theme.css">
-<!--    <link type="text/css" rel="stylesheet" href="./css/dev.css">-->
-    <link rel="shortcut icon" href="https://oracle.github.io/learning-library/workshops/common-content/fav.ico" /> </head>
+    <link rel="shortcut icon" href="https://oracle.github.io/learning-library/workshops/common-content/fav.ico" /> 
+    <style>
+        .float-right{
+            float: right;
+        }
+    </style>
     
+    </head>
+
 <body ng-cloak ng-controller="labGuideController" md-theme="{{theme}}" class="{{theme}}">
     <md-toolbar class="md-hue-2 infra" flex="none" layout-padding>
         <div class="md-toolbar-tools infra">
@@ -55,26 +62,20 @@
         </md-content>
     </md-sidenav>
     <md-button class="md-fab md-fab-top-right" aria-label="Interactive Tour" ng-click="showInteractive()">
-        <md-tooltip md-direction="left">Interactive Tour</md-tooltip> <img class="interactive-img infra" style="" src="https://cloudaccelerate.github.io/TTC-CommonContent/images/interactive-logo.png" /> </md-button>
-    
+        <md-tooltip md-direction="left">Interactive Tour</md-tooltip> <img class="interactive-img infra" style="" src="https://oracle.github.io/learning-library/workshops/common-content/images/common/interactive-logo.png" /> </md-button>
     <div id="interactive-popup" style="visibility: hidden">
         <div class="md-dialog-container" id="interactiveDialog">
             <md-dialog class="fullscreen-dialog" aria-label="Full Screen Dialog Test">
-                <md-toolbar class="md-hue-2 infra">
-                    <div class="md-toolbar-tools">
-                        <h2 class="infra">
-                            <span class="infra">Interactive Tour</span>
-                        </h2>
+                <md-toolbar class="md-hue-3 mini-toolbar infra">
+                    <div class="mini-toolbar-tools">
                         <span flex></span>
-                        <md-button class="md-icon-button" ng-click="cancel()"> 
-                            <img src="https://cloudaccelerate.github.io/TTC-CommonContent/images/dialog-close.png" class="md-primary infra" ng-click="closeInteractive()" /> 
-                        </md-button>
+                        <md-button class="md-icon-button" ng-click="cancel()"> <img src="https://oracle.github.io/learning-library/workshops/common-content/images/common/dialog-close.png" class="md-primary infra" ng-click="closeInteractive()" /> </md-button>
                     </div>
                 </md-toolbar>
                 <md-dialog-content style="overflow: show;">
-                    <div class="interactive-wrapper">
+
                         <iframe class="infra interactive-frame" type="text/html" ng-src="{{trustSrc(interactive.src)}}" allowfullscreen frameborder="0" scrolling="yes"></iframe>
-                    </div>
+
                 </md-dialog-content>
             </md-dialog>
         </div>
@@ -86,6 +87,7 @@
     <script type="text/javascript">
     </script>
     <script src="https://oracle.github.io/learning-library/workshops/common-content/js/workshop.js"></script>
+<!--    <script src="./js/dev.js"></script>-->
 </body>
 
 </html>

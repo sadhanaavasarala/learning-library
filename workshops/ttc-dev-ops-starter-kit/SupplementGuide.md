@@ -1,5 +1,5 @@
+<img class="float-right" src="https://oracle.github.io/learning-library/workshops/common-content/images/touch-the-cloud/ttc-logo.png" width="200">
 # Supplimental Guide
-<center>![](https://oracle.github.io/learning-library/workshops/common-content/images/touch-the-cloud/ttc-logo.png)</center> 
 
 ## Introduction
 

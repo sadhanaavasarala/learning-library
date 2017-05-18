@@ -1,16 +1,9 @@
+/*Common CSS*/
+
 html,
 body {
     padding: 0;
     max-width: 100%;
-}
-
-md-toolbar.md-default-theme.md-hue-2:not(.md-menu-toolbar),
-md-toolbar.md-hue-2:not(.md-menu-toolbar) {
-    background-image: url("https://cloudaccelerate.github.io/TTC-CommonContent/images/ttc-top-banner.jpg");
-    background-repeat: no-repeat;
-    background-position: center;
-    background-color: #006E87;
-    color: rgba(255, 255, 255, 0.87);
 }
 
 td {
@@ -51,29 +44,73 @@ textarea:not(.infra) {
     padding: 7px 1px 1px 1px;
 }
 
-.interactive-wrapper {
-    position: relative;
-    width: 100%;
-    height: 100%;
-}
-
 .interactive-frame {
-    position: fixed;
-    top: 65px;
-    left: 0px;
-    margin-top: 0;
     border: none;
     width: 100%;
-    height: 90%;
-    vertical-align: bottom;
 }
 
 md-dialog.fullscreen-dialog {
-    max-width: 100%;
-    max-height: 100%;
-    width: 100%;
-    height: 100%;
     border-radius: 0;
+}
+
+md-toolbar.md-default-theme.md-hue-2:not(.md-menu-toolbar),
+md-toolbar.md-hue-2:not(.md-menu-toolbar) {
+    color: rgba(255, 255, 255, 0.87);
+}
+
+.menu-hamburger {
+    padding: 4px 1px 1px 0px;
+    height: 20px;
+    width: 20px;
+}
+
+.float-right {
+    float: right;
+}
+
+.mini-toolbar-tools {
+    font-size: 10px;
+    letter-spacing: .005em;
+    box-sizing: border-box;
+    font-weight: 400;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: row;
+    flex-direction: row;
+    width: 100%;
+    height: 32px;
+    max-height: 32px;
+    padding: 0 8px;
+    margin: 0;
+}
+
+.mini-toolbar {
+    box-sizing: border-box;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+    flex-direction: column;
+    position: relative;
+    z-index: 2;
+    font-size: 10px;
+    min-height: 32px;
+    width: 100%;
+}
+
+.ttc md-toolbar.md-default-theme.md-hue-3:not(.md-menu-toolbar),
+.ttc md-toolbar.md-hue-3:not(.md-menu-toolbar) {
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: #006E87;
 }
 
 
@@ -85,6 +122,60 @@ md-dialog.fullscreen-dialog {
         padding: 3.25rem 10em;
         font-family: 'Open Sans Condensed', sans-serif;
         font-weight: 300;
+    }
+}
+
+
+/*LARGE DESKTOPS SCREENS*/
+
+@media only screen and (min-height: 830px) and (min-width: 960px) {
+    md-dialog.fullscreen-dialog {
+        height: 830px;
+        max-height: 830px;
+        max-width: 1700px;
+        width: 80%;
+    }
+    .interactive-frame {
+        border: none;
+        width: 100%;
+        height: 790px;
+    }
+}
+
+
+/*LAPTOP SCREENS*/
+@media only screen and (max-height: 829px) and (min-height: 701px) and (min-width: 960px) {
+    md-dialog.fullscreen-dialog {
+        height: 680px;
+        max-height: 700px;
+        max-width: 1300px;
+        width: 80%;
+    }
+    .interactive-frame {
+        height: 640px;
+    }
+}
+
+/*TINY SCREENS*/
+@media only screen and (max-height: 700px) and (min-width: 960px) {
+    md-dialog.fullscreen-dialog {
+        height: 90%;
+        max-height: 90%;
+        max-width: 959px;
+        width: 80%;
+    }
+    .interactive-frame {
+        height: 700px;
+    }
+}
+
+@media only screen and (max-width: 959px) {
+    md-dialog.fullscreen-dialog {
+        height: 100%;
+        max-height: 100%;
+    }
+    .interactive-frame {
+        height: 1024px;
     }
 }
 
