@@ -47,12 +47,9 @@ textarea:not(.infra) {
 .interactive-frame {
     border: none;
     width: 100%;
-    height: 790px;
 }
 
 md-dialog.fullscreen-dialog {
-    max-width: 100%;
-    width: 90%;
     border-radius: 0;
 }
 
@@ -109,11 +106,13 @@ md-toolbar.md-hue-2:not(.md-menu-toolbar) {
     width: 100%;
 }
 
-.ttc md-toolbar.md-default-theme.md-hue-3:not(.md-menu-toolbar), .ttc md-toolbar.md-hue-3:not(.md-menu-toolbar) {
+.ttc md-toolbar.md-default-theme.md-hue-3:not(.md-menu-toolbar),
+.ttc md-toolbar.md-hue-3:not(.md-menu-toolbar) {
     background-repeat: no-repeat;
     background-position: center;
     background-color: #006E87;
 }
+
 
 /*DESKTOP SETTINGS*/
 
@@ -126,17 +125,57 @@ md-toolbar.md-hue-2:not(.md-menu-toolbar) {
     }
 }
 
-@media only screen and (min-height: 830px) {
+
+/*LARGE DESKTOPS SCREENS*/
+
+@media only screen and (min-height: 830px) and (min-width: 960px) {
     md-dialog.fullscreen-dialog {
         height: 830px;
         max-height: 830px;
+        max-width: 1700px;
+        width: 80%;
+    }
+    .interactive-frame {
+        border: none;
+        width: 100%;
+        height: 790px;
     }
 }
 
-@media only screen and (max-height: 829px) {
+
+/*LAPTOP SCREENS*/
+@media only screen and (max-height: 829px) and (min-height: 701px) and (min-width: 960px) {
+    md-dialog.fullscreen-dialog {
+        height: 680px;
+        max-height: 700px;
+        max-width: 1300px;
+        width: 80%;
+    }
+    .interactive-frame {
+        height: 640px;
+    }
+}
+
+/*TINY SCREENS*/
+@media only screen and (max-height: 700px) and (min-width: 960px) {
+    md-dialog.fullscreen-dialog {
+        height: 90%;
+        max-height: 90%;
+        max-width: 959px;
+        width: 80%;
+    }
+    .interactive-frame {
+        height: 700px;
+    }
+}
+
+@media only screen and (max-width: 959px) {
     md-dialog.fullscreen-dialog {
         height: 100%;
         max-height: 100%;
+    }
+    .interactive-frame {
+        height: 1024px;
     }
 }
 
