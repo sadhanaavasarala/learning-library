@@ -2,6 +2,7 @@
     "workshop": {
         "title": "Oracle Big Data Prep-BI Cloud Service Workshop",
         "description": "The Oracle Big Data Preparation - BI Cloud Service Workshop is a one day workshop that focuses on LOB user preparation, discovery, and reporting on spreadsheet data . Students will begin the day by taking a spreadsheet (csv file), and uploading it to Big Data Preparation Cloud Service. Students will then cleanse and enrich the data with BDPCS in a simple graphical environment, Then they will publish the data to BICS where they will profile and discover patterns in the data. Finally they will create reports and dashboard with the curated content. ",
+        "theme": "ttc",
         "labs": [
             {
                 "number": "0",
