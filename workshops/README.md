@@ -9,7 +9,7 @@
 | Title | Location | Desc |
 | ----- | -------- | ---- |
 | DevOps Cloud Native Microservices | [microservices](./microservices/README.md) | Hands-on-labs showing Oracle Developer Cloud Service and Application Container Cloud Service |
-| DevOps Cloud Native Microservices-DB | [microservices](./db-devops/README.md) | Hands-on-labs showing MSQL Cloud Service, Oracle Developer Cloud Service and Application Container Cloud Service |
+| DevOps Cloud Native Microservices-DB | [db-devops](./db-devops/README.md) | Hands-on-labs showing MSQL Cloud Service, Oracle Developer Cloud Service and Application Container Cloud Service |
 | DevOps Starter Kit | [ttc-dev-ops-starter-kit](./ttc-dev-ops-starter-kit/) | Hands-on-labs that will walk you through using some of the AppDev services found in the Oracle Trial Cloud Account, while applying DevOps principles. |
 | iPaaS to Build a Quote to Order Process | [ttc-quote-to-order](./ttc-quote-to-order/) | Hands-on-labs that will use Integration PaaS Services to build a Quote to Order Process |
 | JCS Pipeline using Oracle Stack Manager | [jcs-devops](./jcs-devops/) | Hands-on-labs showing a Software Development Lifecycle using the Oracle Developer Cloud Services, Java Cloud Service and Oracle Stack Manager.|
