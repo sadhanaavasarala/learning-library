@@ -62,11 +62,13 @@ When providing your Oracle Cloud Product Presentation, you have two options. Wit
 
 - **Option 1** - Oracle Cloud Investigation and Demo:
 
-    If you have an interest in acquiring an Oracle Trial account for a more in-depth Oracle Cloud investigation, details are provided below on the steps to acquire an [Oracle Trial](#Oracle-Trial-Account). Using an Oracle Trial account you can investigate any of the Oracle **Infrastructure** or **Platform** Cloud Services, and present what you learned about your experience and interest in these products. Many of Oracle's **Platform** Services (e.g: Application Container Cloud Service, Container Cloud Service, Developer Cloud Service, Oracle Database / MSQL Cloud Services and Java Cloud Service provide simple demonstrations. Examples are also available using Oracle's **Infrastructure** Cloud Services. 
+    If you have an interest in acquiring an Oracle Trial account for a more in-depth Oracle Cloud investigation, details are provided below on the steps to acquire an [Oracle Trial](#Oracle-Trial-Account). (Please note: once you request an account, it can take a few days to provision, so you will need to plan accrodingly.)
+    
+    Using an Oracle Trial account you can investigate any of the Oracle **Infrastructure** or **Platform** Cloud Services, and present what you learned about your experience and interest in these products. Many of Oracle's **Platform** Services (e.g: Application Container Cloud Service, Container Cloud Service, Developer Cloud Service, Oracle Database / MSQL Cloud Services and Java Cloud Service provide simple demonstrations. Examples are also available using Oracle's **Infrastructure** Cloud Services. 
 
 - **Option 2** - Oracle Cloud Investigation:
 
-    As an alternative to getting a Trial Account, you can investigate the **Platform** and **Infrastructure** Services and present back some of your findings and interests. You have flexibility in what you present. We are mostly interested in your understanding of the technical functionality of Oracle's Cloud Services, what you feel Oracle's Cloud capabilities are, and how they may compare to Oracle's competitor's solutions. We're not interested in a sales pitch, we're more interested in your technical understanding. 
+    As an alternative to getting a Trial Account, you can investigate the **Platform** and **Infrastructure** Services and present back some of your findings and interests. You have flexibility in what you present, so have fun with it. A few pointers: We are mostly interested in your understanding of the technical functionality of Oracle's Cloud Services, what you feel Oracle's Cloud capabilities are, and how they may compare to Oracle's competitor's solutions. We're not interested in a sales pitch, we're more interested in your technical understanding. 
 
 <a name="Technical-Question-and-Answer-Interview"></a>
 
