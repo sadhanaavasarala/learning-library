@@ -2,6 +2,7 @@
     "workshop": {
         "title": "Solution Engineering North American Technology Division",
         "description": "This document provides instruction for those interviewing for the Solution Engineering Positions at Oracle.",
+        "theme": "ttc",
         "labs": [
             {
                 "number": "0",
