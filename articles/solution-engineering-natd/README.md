@@ -62,7 +62,7 @@ When providing your Oracle Cloud Product Presentation, you have two options. Wit
 
 - **Option 1** - Oracle Cloud Investigation and Demo:
 
-    If you have an interest in acquiring an Oracle Trial account for a more in-depth Oracle Cloud investigation, details are provided below on the steps to acquire an [Oracle Trial](#Oracle-Trial-Account). (Please note: once you request an account, it can take a few days to provision, so you will need to plan accrodingly.)
+    If you have an interest in acquiring an Oracle Trial account for a more in-depth Oracle Cloud investigation, details are provided below on the steps to acquire an [Oracle Trial](#Oracle-Trial-Account). (Please note: once you request an account, it can take 24 hours to provision, so you will need to plan accrodingly.)
     
     Using an Oracle Trial account you can investigate any of the Oracle **Infrastructure** or **Platform** Cloud Services, and present what you learned about your experience and interest in these products. Many of Oracle's **Platform** Services (e.g: Application Container Cloud Service, Container Cloud Service, Developer Cloud Service, Oracle Database / MSQL Cloud Services and Java Cloud Service provide simple demonstrations. Examples are also available using Oracle's **Infrastructure** Cloud Services. 
 
