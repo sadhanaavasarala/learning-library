@@ -62,7 +62,7 @@ When providing your Oracle Cloud Product Presentation, you have two options. Wit
 
 - **Option 1** - Oracle Cloud Investigation and Demo:
 
-    If you have an interest in acquiring an Oracle Trial account for a more in-depth Oracle Cloud investigation, details are provided below on the steps to acquire an [Oracle Trial](#Oracle-Trial-Account). (Please note: once you request an account, it can take 24 hours to provision, so you will need to plan accrodingly.)
+    If you have an interest in acquiring an Oracle Trial account for a more in-depth Oracle Cloud investigation, details are provided below on the steps to acquire an [Oracle Trial](#Oracle-Trial-Account). 
     
     Using an Oracle Trial account you can investigate any of the Oracle **Infrastructure** or **Platform** Cloud Services, and present what you learned about your experience and interest in these products. Many of Oracle's **Platform** Services (e.g: Application Container Cloud Service, Container Cloud Service, Developer Cloud Service, Oracle Database / MSQL Cloud Services and Java Cloud Service provide simple demonstrations. Examples are also available using Oracle's **Infrastructure** Cloud Services. 
 
@@ -98,8 +98,6 @@ Acquiring an Oracle Account is not required for the interview, however, doing so
 To get an Oracle Trial account, please go the [Oracle Try It](https://cloud.oracle.com/tryit). From this website you can find answers to your questions concerning the Free Trial account, along with step by step instructions on how to register your account. After your account is provisioned, some of the services you may desire to use require that your Account's Storage Replication policy is set prior to using those services. Those instructions are provided later in this guide.
 
 Along with the instruction provided on the Oracle website and **in this document**, you can Click on this [Video Link](https://publicdocs-corp.documents.us2.oraclecloud.com/documents/link/LD408AE98AE514A9D8A5B144F6C3FF17C1177E4725F3/fileview/D5BB8965F597992573C1B2A4F6C3FF17C1177E4725F3/_CloudCredits_VideoEdit.mp4) to view a short video showing how to acquire a trial account. 
-
-**Note:** it may take 24 hours for your Trial to be approved/provisioned. 
 
 ## Step by step instructions on Provisioning your Account
 
