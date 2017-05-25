@@ -17,7 +17,7 @@
 
 ## Interview Schedule
 
-The face to face interview process will be broken into two separate sessions. The first will be a technical interview, and the second will be a one-on-one interview with someone from the Oracle management team.
+The face to face interview process consists of a technical interview outlined below:
 
 ### **Technical Interview** - 45 to 50 minutes
 
@@ -27,12 +27,6 @@ The face to face interview process will be broken into two separate sessions. Th
 | Recent Project Presentation | 10 - 12 | Brief description/presentation on a technical development project on which you have worked |
 | Touch the Cloud Presentation | 10 - 12 | Brief presentation on Oracle Cloud Product(s) of interest and relevance |
 | Technical Q & A Interview | 20 | Technical Question and Answer Interview |
-
-### **Management Interview** - 20 minutes
-
-| Interview Section | Minutes | Description |
-| --- | --- | --- | 
-| Management Interview | 20 | Interview with Solution Engineering Leadership|
 
 <a name="Overview-Presentation"></a>
 
