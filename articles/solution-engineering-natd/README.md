@@ -57,7 +57,7 @@ When providing your Oracle Cloud Product Presentation, you have two options. Wit
 
     If you have an interest in acquiring an Oracle Trial account for a more in-depth Oracle Cloud investigation, details are provided below on the steps to acquire an [Oracle Trial](#Oracle-Trial-Account). 
     
-    Using an Oracle Trial account you can investigate any of the Oracle **Infrastructure** or **Platform** Cloud Services, and present what you learned about your experience and interest in these products. Many of Oracle's **Platform** Services (e.g: Application Container Cloud Service, Container Cloud Service, Developer Cloud Service, Oracle Database / MSQL Cloud Services and Java Cloud Service provide simple demonstrations. Examples are also available using Oracle's **Infrastructure** Cloud Services. Note: you will want to turn off auto-renewal of your account after the trial period in order to avoid being charged for your subsequent cloud service usage. 
+    Using an Oracle Trial account you can investigate any of the Oracle **Infrastructure** or **Platform** Cloud Services, and present what you learned about your experience and interest in these products. Many of Oracle's **Platform** Services (e.g: Application Container Cloud Service, Container Cloud Service, Developer Cloud Service, Oracle Database / MSQL Cloud Services and Java Cloud Service provide simple demonstrations. Examples are also available using Oracle's **Infrastructure** Cloud Services. ***Note***: you will want to turn off auto-renewal of your account after the trial period in order to avoid being charged for your subsequent cloud service usage. 
 
 - **Option 2** - Oracle Cloud Investigation:
 
