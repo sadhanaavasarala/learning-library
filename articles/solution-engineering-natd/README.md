@@ -8,7 +8,6 @@
 - [Recent Project Presentation](#Recent-Project-Presentation)
 - [Touch the Cloud Presentation](#Touch-the-Cloud-Presentation)
 - [Technical Question and Answer Interview](#Technical-Question-and-Answer-Interview)
-- [Management Interview](#Management-Interview)
 - [Visual Aids](#Visual-Aids)
 - [Oracle Trial Account](#Oracle-Trial-Account)
 - [Configure Replication Policy](#Configure-Your-Storage-Replication-Policy)
@@ -58,7 +57,7 @@ When providing your Oracle Cloud Product Presentation, you have two options. Wit
 
     If you have an interest in acquiring an Oracle Trial account for a more in-depth Oracle Cloud investigation, details are provided below on the steps to acquire an [Oracle Trial](#Oracle-Trial-Account). 
     
-    Using an Oracle Trial account you can investigate any of the Oracle **Infrastructure** or **Platform** Cloud Services, and present what you learned about your experience and interest in these products. Many of Oracle's **Platform** Services (e.g: Application Container Cloud Service, Container Cloud Service, Developer Cloud Service, Oracle Database / MSQL Cloud Services and Java Cloud Service provide simple demonstrations. Examples are also available using Oracle's **Infrastructure** Cloud Services. 
+    Using an Oracle Trial account you can investigate any of the Oracle **Infrastructure** or **Platform** Cloud Services, and present what you learned about your experience and interest in these products. Many of Oracle's **Platform** Services (e.g: Application Container Cloud Service, Container Cloud Service, Developer Cloud Service, Oracle Database / MSQL Cloud Services and Java Cloud Service provide simple demonstrations. Examples are also available using Oracle's **Infrastructure** Cloud Services. Note: you will want to turn off auto-renewal of your account after the trial period in order to avoid being charged for your subsequent cloud service usage. 
 
 - **Option 2** - Oracle Cloud Investigation:
 
@@ -69,14 +68,6 @@ When providing your Oracle Cloud Product Presentation, you have two options. Wit
 ## Technical Question and Answer Interview
 
 During this section of the interview we will ask technical questions based on your experience, and our requirements of the Solution Engineering position. We hope to gain a better understanding of your development expertise, your understanding of development methodologies, and your experience with various programming languages and open source tools and frameworks. 
-
-<a name="Management-Interview"></a>
-
-## Management Interview
-
-During this section of the interview, you will meet with a member of the Solution Engineering leadership, during which time we hope to learn more about you and your interest in the Solution Engineering position at Oracle. 
-
-<a name="Visual-Aids"></a>
 
 ## Visual Aids
 
