@@ -57,7 +57,17 @@ When providing your Oracle Cloud Product Presentation, you have two options. Wit
 
     If you have an interest in acquiring an Oracle Trial account for a more in-depth Oracle Cloud investigation, details are provided below on the steps to acquire an [Oracle Trial](#Oracle-Trial-Account). 
     
-    Using an Oracle Trial account you can investigate any of the Oracle **Infrastructure** or **Platform** Cloud Services, and present or demonstrate what you learned about your experience and interest in these products. Many of Oracle's **Platform** Services (e.g: Application Container Cloud Service, Container Cloud Service, Developer Cloud Service, Oracle Database / MSQL Cloud Services and Java Cloud Service provide simple demonstrations. Examples are also available using Oracle's **Infrastructure** Cloud Services. **Note**: ensure you do ***NOT*** select "**Yes, convert my account to Pay as you go at the end of the free promotion**" located in the Billing Section, as Checking this option would convert your account to Pay as you go after the $300.00 credit or 30 days have been fulfilled.  
+    Using an Oracle Trial account you can investigate any of the Oracle **Infrastructure** or **Platform** Cloud Services, and present or demonstrate what you learned about your experience and interest in these products. Many of Oracle's **Platform** Services (e.g: Application Container Cloud Service, Container Cloud Service, Developer Cloud Service, Oracle Database / MSQL Cloud Services and Java Cloud Service provide simple demonstrations. Examples are also available using Oracle's **Infrastructure** Cloud Services.
+    
+    - **Note**: ensure you do ***NOT*** select "**Yes, convert my account to Pay as you go at the end of the free promotion**" located in the Billing Section, as Checking this option would convert your account to Pay as you go after the $300.00 credit or 30 days have been fulfilled. 
+
+    - **Note**: Depending on the cloud services that you use, the consumption of your cloud credits can vary greatly, so ensure that you understand the pricing structure for each cloud service you intend to use. Also, based on the cost of an individual cloud services, you may want to shut that service down when not in use to conserve credits. Every cloud service will contain information about that service's pricing. As examples, here are links to a few cloud service pricing pages: 
+
+        - [Database Cloud Serivce](https://cloud.oracle.com/en_US/database/pricing)
+        - [MySQL Cloud Serivce](https://cloud.oracle.com/en_US/mysql/pricing)
+        - [Application Cloud Service](https://cloud.oracle.com/application-container-cloud/pricing)
+        - [Developer Cloud Servicee](https://cloud.oracle.com/en_US/developer-service/pricing)
+        - [Container Cloud Service](https://cloud.oracle.com/en_US/container/pricing)
 
 - **Option 2** - Oracle Cloud Investigation:
 
