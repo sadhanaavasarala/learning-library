@@ -63,11 +63,11 @@ When providing your Oracle Cloud Product Presentation, you have two options. Wit
 
     - **Note**: Depending on the cloud services that you use, the consumption of your cloud credits can vary greatly, so ensure that you understand the pricing structure for each cloud service you intend to use. Also, based on the cost of an individual cloud services, you may want to shut that service down when not in use to conserve credits. Every cloud service will contain information about that service's pricing. As examples, here are links to a few cloud service pricing pages: 
 
-        - [Database Cloud Serivce](https://cloud.oracle.com/en_US/database/pricing)
-        - [MySQL Cloud Serivce](https://cloud.oracle.com/en_US/mysql/pricing)
-        - [Application Cloud Service](https://cloud.oracle.com/application-container-cloud/pricing)
-        - [Developer Cloud Servicee](https://cloud.oracle.com/en_US/developer-service/pricing)
-        - [Container Cloud Service](https://cloud.oracle.com/en_US/container/pricing)
+        - [Database Cloud Service Pricing](https://cloud.oracle.com/en_US/database/pricing)
+        - [MySQL Cloud Service Pricing](https://cloud.oracle.com/en_US/mysql/pricing)
+        - [Application Cloud Service Pricing](https://cloud.oracle.com/application-container-cloud/pricing)
+        - [Developer Cloud Service Pricing](https://cloud.oracle.com/en_US/developer-service/pricing)
+        - [Container Cloud Service Pricing](https://cloud.oracle.com/en_US/container/pricing)
 
 - **Option 2** - Oracle Cloud Investigation:
 
