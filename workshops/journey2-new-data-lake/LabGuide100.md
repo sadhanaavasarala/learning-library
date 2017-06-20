@@ -1,228 +1,144 @@
 
-![](images/100/Picture100-lab.png)  
-Updated: February 10, 2017
+![](images/100/100.JPG)  
+Updated: June 20, 2017
 
 ## Introduction
+Oracle offers a set of Big Data Journeys to help users get started using Oracle Cloud services with a purpose.  These journeys are available to everyone at [http://www.oracle.com/bigdatajourney](http://www.oracle.com/bigdatajourney)
 
-This is the first of several labs that are part of the **Oracle Public Cloud DevOps Cloud Native Microservices workshop.** This workshop will walk you through the Software Development Lifecycle (SDLC) for a Cloud Native project that will create and use several Microservices.
-
-You will take on 3 Personas during the workshop. The **Project Manager Persona** will create the projects, add tasks and features to be worked on, and assign tasks to developers.  The Project Manager will then start the initial sprint. The Java Developer persona will develop a new twitter feed service that will allow for retrieval and filtering of twitter data. The **JavaScript Developer** persona will develop a new Twitter Marketing UI that will display the twitter data to allow for analysis.  During the workshop, you will get exposure to Oracle Developer Cloud Service and Oracle Application Container Cloud Service.
-
-Please direct comments to: Dennis Foley (dennis.foley@oracle.com)
-
-## Objectives
-- Create Initial Project
-    - Add Users to Project
-- Create Product Issues
-    - Create Issues for Twitter Feed Microservice
-    - Create Issues for Twitter Feed Marketing UI
-- Create Agile Board and initial Sprint
-- Add Issues to Sprint
-
-## Required Artifacts
-- The following lab requires an Oracle Public Cloud account that will be supplied by your instructor.
+**If you are an Oracle Employee/Partner with access to GSE (demo.oracle.com), you should follow the alternate Lab 100GSE instructions available here: [LabGuide100GSE.md](LabGuide100GSE.md)**
 
 
-# Create Twitter Feed Marketing Project
+# Oracle Trial Account
 
-## Create Developer Cloud Service Project
+Using a free Oracle Public Cloud Trial account you can investigate any of the Oracle **Infrastructure** or **Platform** Cloud Services.
 
-### **STEP 1**: Login to your Oracle Cloud Account
-- From any browser, go to the URL:
-    `https://cloud.oracle.com`
+To get an Oracle Trial account, please go the [Oracle Try It](https://cloud.oracle.com/tryit). From this website you can find answers to your questions concerning the Free Trial account, along with step by step instructions on how to register your account. After your account is provisioned, some of the services you may desire to use require that your Account's Storage Replication policy is set prior to using those services. Those instructions are provided later in this guide.
 
-- click **Sign In** in the upper right hand corner of the browser
+Along with the instruction provided on the Oracle website and **in this document**, you can Click on this [Video Link](https://publicdocs-corp.documents.us2.oraclecloud.com/documents/link/LD408AE98AE514A9D8A5B144F6C3FF17C1177E4725F3/fileview/D5BB8965F597992573C1B2A4F6C3FF17C1177E4725F3/_CloudCredits_VideoEdit.mp4) to view a short video showing how to acquire a trial account. 
 
-    ![](images/100/Picture100-1.png)
+## Step by step instructions on Provisioning your Account
 
-- **IMPORTANT** - Under my services, select from the drop down list the correct data center and click on **My Services**. If you are unsure of the data center you should select, and this is an in-person training event, ***ask your instructor*** which **Region** to select from the drop down list. If you received your account through an Oracle Trial, your Trial confirmation email should provide a URL that will pre-select the region for you.
+### 1. View Details and Sign Up
 
-    ![](images/100/Picture100-2.png)
+- From the **TryIt** page, click on the **View Details & Sign Up** button
 
-- Enter your identity domain and click **Go**.
+    ![](./images/image001.png)
 
-    **NOTE:** The **Identity Domain, User Name** and **Password** values will be given to you by the instructor or Trial confirmation email.
+- Click on the **Get started for free** link
 
-    ![](images/100/Picture100-3.png)
+    ![](./images/image002.png)
 
-- Once your Identity Domain is set, enter your User Name and Password and click **Sign In**
+### 2. Create your Account
 
-  **NOTE:** For this lab you will assume the role of Project Manager ***Lisa Jones***. Although you are assuming the identify of Lisa Jones, you will log into the account using the **username** provided to you by your instructor, given to you by your corporation, or supplied to you as part of an Oracle Trial. As you progress through the workshop, you will remain logged in as a single user, but you will make “logical” changes from Lisa Jones the Project Manager to other personas.
+- Enter the required information on the **Create an Oracle Account...** page, and click on **Create Account**.
 
-    ![](images/lisa.png)
+    ![](./images/image003.png)
 
-    ![](images/100/Picture100-3.5.png)
+- The following dialog indicates that you will receive an confirmation email.
 
-- You will be presented with a Dashboard displaying the various cloud services available to this account.
+    ![](./images/image004.png)
 
-    ![](images/100/Picture100-4.png)
+- Check your email, and click on the **Verify email address** button contained in the received email. 
 
-- If all your services are not visible, **click** on the **Customize Dashboard**, you can add services to the dashboard by clicking **Show.** For this workshop, you will want to ensure that you are showing at least the **Application Container, Developer and Storage** cloud services. If you do not want to see a specific service, click **Hide**
+    ![](./images/image005.png)
 
-    ![](images/100/Picture100-5.png)
+- After Verifing your email address, enter your email address into the **User Name** field, enter your **Password**, then click on **Sign In**.
 
-### **STEP 2**: Check/Set Storage Replication Policy
+    ![](./images/image006.png)
 
-Depending on the state of your Cloud Account, you may need to set the replication policy, if it has not been previously set. In this step you will got to the Storage Cloud Service to check on the status of the Replicaton Policy. 
+### 3. Verify your Phone Number
+
+- Enter your **Mobile Phone Number** and click on **Request Code**
+
+    ![](./images/image007.png)
+
+- Enter the **Verification Code** you receive via a phone text message.
+
+    ![](./images/image008.png)
+
+### 4. Enter Account Information
+
+- Enter the required account information.
+
+    ![](./images/image009.png)
+
+- Read the information about the use of your credit card, and Click on the **Add Payment Method** button.
+
+    ![](./images/image010.png)
+
+- Enter your credit card information, and click on **Finish**.
+
+    ![](./images/image011.png)
+
+- **Accept** the terms and conditions, then click on the **Complete** Button. 
+
+    ![](./images/image012.png)
+
+- Note the following steps.
+
+    ![](./images/image013.png)
+
+### 5. Account Confirmation
+
+- The following is an example email confirming your Trial Account request.
+
+    ![](./images/image014.png)
+
+### 6. Confirmation Email
+
+- Once your account has been provisioned, you will receive a **Confirmation Email** that will provide you with your **Identity Domain**, **Password** and **Username**. This email also contains a **My Services URL** link that will allow you to access and log into your account. You may also receive an separate email describing how to connect into to VPN, but in most cases VPN will not be needed for testing. 
+
+    ![](./images/image015.png)
+
+
+<a name="Configure-Your-Storage-Replication-Policy"></a>
+
+## Configure Your Storage Replication Policy
+
+Once your Trial Account is fully approved and provisioned, you will need to set your Storage Replication Policy. We recommend that you do this as soon as your account is fully provisioned, otherwise some of the PaaS services that may be of interest will not work correctly. The Replication Policy is not automatically set to allow for flexibility on how how it is configured.
+
+
+### Login to your Oracle Cloud Account
+- Using the link ("My Services Administration" aka "My Services URL") and credentials provided in your confirmation email, log into your Oracle Trial Account. 
+
+- Once logged in, you will be presented with a Dashboard displaying the various cloud services available to your account.
+
+    ![](images/Picture100-4.png)
+
+- If your **Storage** cloud service are not visible, **click** on the **Customize Dashboard**, which will allow you to add services to the dashboard by clicking **Show.** For example, you can show the **Application Container, Developer and Storage** cloud services. If you do not want to see a specific service, click **Hide**
+
+    ![](images/Picture100-5.png)
+
+### Check/Set Storage Replication Policy
+
+Depending on the state of your Cloud Account, you will need to set the **Replication Policy**, if it has not been previously set. In this step you will go to the Storage Cloud Service to check on the status of the Replicaton Policy. 
 
 - Click on the **Storage** Cloud Service
+    ![](images/Picture-01.png)
 
-    ![](images/100/Picture-01.png)
+- Click on the **Open Service Console** icon at the top of the screen.
 
-- If you see a message requesting that you **Set Replication Policy** as is shown below, click on the message. If the message is not displayed, your replicatin policy has already been set and you can continue to the next step by clicking on the **Dashboard** icon in the top right corner of the page.
+    ![](images/Picture-01.5.png)
 
-    ![](images/100/Picture-02.png)
+- Also, be sure to **Note the Identity Domain name** (a431644 in the above example screenshot).  Write down as you'll need it later.
 
-- Care must be taking when setting your replication policy, because it cannot be changed. With Trial accounts, the first option available will generatlly set the replication policy sufficient for this workshop, so we will take the Default, and click on the **Set** button. 
+- If the Replication Policy has not been set, use the default and click on the **Set Policy** button. If the message is not displayed, your replication policy has already been set, and your Cloud Account is ready for use.
 
-    ![](images/100/Picture-03.png)
+    ![](images/Picture-02.5.png)
 
-- Click on the **Dashboard** button
+- Your Replication Policy is now set, and Services that require a Replication Policy will work correctly.
 
-    ![](images/100/Picture-04.png)
 
-### **STEP 3**: Login to Developer Cloud Service
+    
+# Additional notes about your Trail Account
 
-Oracle Developer Cloud Service provides a complete development platform that streamlines team development processes and automates software delivery. The integrated platform includes an issue tracking system, agile development dashboards, code versioning and review platform, continuous integration and delivery automation, as well as team collaboration features such as wikis and live activity stream. With a rich web based dashboard and integration with popular development tools, Oracle Developer Cloud Service helps deliver better applications faster.
+**Note**: ensure you do ***NOT*** select "**Yes, convert my account to Pay as you go at the end of the free promotion**" located in the Billing Section, as Checking this option would convert your account to Pay as you go after the $300.00 credit or 30 days have been fulfilled. 
 
-- From the Cloud UI dashboard click on the **Developer** service. In our example, the Developer Cloud Service is named **developer99019**.
+**Note**: Depending on the cloud services that you use, the consumption of your cloud credits can vary greatly, so ensure that you understand the pricing structure for each cloud service you intend to use. Also, based on the cost of an individual cloud services, you may want to shut that service down when not in use to conserve credits. Every cloud service will contain information about that service's pricing. As examples, here is a link to one of the cloud service pricing pages: 
 
-    ![](images/100/Picture100-6.png)
+[Big Data Cloud Service - Compute Edition Pricing](https://cloud.oracle.com/en_US/big-data-compute-edition/pricing)
 
-- The Service Details page gives you a quick glance of the service status overview.
 
-    ![](images/100/Picture100-7.png)
+# Next Steps
 
-- Click **Open Service Console** for the Oracle Developer Cloud Service. The Service Console will then list all projects for which you are currently a member.
-
-    ![](images/100/Picture100-7.5.png)
-
-### **STEP 4**: Create Developer Cloud Service Project
-
-- Click **New Project** to start the project create wizard.
-
-    ![](images/100/Picture100-8.png)
-
-- On Details screen enter the following data and click on **Next**.
-
-    **Name:** `Twitter Feed Marketing Project`
-
-    **Description:** `Project to gather and analyze twitter data`
-
-    **Note:** A Private project will only be seen by you. A Shared project will be seen by all Developer Cloud users. In either case, users need to be added to a project in order to interact with the project.
-
-    ![](images/100/Picture100-9.png)
-
-- Leave default template set to **Empty Project** and click **Next**
-
-    ![](images/100/Picture100-10.png)
-
-- Select your **Wiki Markup** preference to **MARKDOWN** and click **Finish**.
-
-    ![](images/100/Picture100-11.png)
-
-- The Project Creation will take about 1 minute.
-
-    ![](images/100/Picture100-12.png)
-
-- You now have a new project, in which you can manage your software development.
-
-    ![](images/100/Picture100-13.png)
-
-
-
-# Create Product Issues
-
-## Create Issues for Twitter Feed Microservice
-
-### **STEP 5**: Create Issue for the initial GIT Repository Creation
-
-In this step you are still assuming the identity of the Project Manager, ***Lisa Jones***.
-
-![](images/lisa.png)
-
-- Click **Issues** on left hand navigation panel to display the Track Issues page.
-
-    ![](images/100/Picture100-16.png)
-
-- Click **New Issue**. Enter the following data in the New Issue page and click **Create Issue**.
-
-    **Note:** Throughout the lab you will assign your own account as the “physical” owner of the issue, but for the sake of this workshop, **Bala Gupta** will be the “logical” owner of the following issues.
-
-    ![](images/bala.png)
-
-    **Summary:**
-    `Create Initial GIT Repository for Twitter Feed Service`
-
-    **Description:**
-    `Create Initial GIT Repository for Twitter Feed Service`
-
-    **Type:** `Task`
-
-    **Owner:** `Select your account provided in the dropdown [Logical Owner: Bala Gupta]`
-
-    **Story Points:** `1`
-
-    Note: Story point is an arbitrary measure used by Scrum teams. They are used to measure the effort required to implement a story. This [Site](https://agilefaq.wordpress.com/2007/11/13/what-is-a-story-point/) will provide more information. 
-
-    ![](images/100/Picture100-17.png)
-
-### **STEP 6**: Create Issue for Update Twitter Credentials
-
-- Click **New Issue**. Enter the following data in the New Issue page and click **Create Issue**.
-
-    ![](images/bala.png)
-
-    **Summary:** `Create Filter on Twitter Feed`
-
-    **Description:** `Create Filter to allow user to supply text to reduce the amount of data returned by the Twitter feed`
-
-    **Type:** `Feature`
-
-    **Owner:** `Select your account provided in the dropdown [Logical Owner: Bala Gupta]`
-
-    **Story Points:** `2`
-
-    ![](images/100/Picture100-18.png)
-
-### **STEP 7**: Create Issue for initial GIT Repository creation
-
-- Click **New Issue**. Enter the following data in the New Issue page and click **Create Issue**. Note: The next two issues will logically be owned by John Dunbar.
-
-    ![](images/john.png)
-
-    **Summary:** `Create Initial GIT Repository for Twitter Feed Marketing UI`
-
-    **Description:** `Create Initial GIT Repository for Twitter Feed Marketing UI`
-
-    **Type:** `Task`
-
-    **Owner:** `Select your account provided in the dropdown [Logical Owner: John Dunbar]`
-
-    **Story Points:** `1`
-
-    ![](images/100/Picture100-19.png)
-
-### **STEP 8**: Create Issue for Displaying Twitter Feed
-
-- Click **New Issue**. Enter the following data in the New Issue page and click **Create Issue**.
-
-    ![](images/john.png)
-
-    **Summary:** `Display Twitter Feed in Table Format`
-
-    **Description:** `Display Twitter Feed in Table Format`
-
-    **Type:** `Feature`
-
-    **Owner:** `Select account provided in the dropdown [Logical Owner: John Dunbar]`
-
-    **Story Points:** `2`
-
-    ![](images/100/Picture100-20.png)
-
-- Click the back arrow ![](images/100/Picture100-21.png) on the **left side** of the window, or click on the **Issues** menu option to view all newly created issues.
-
-    ![](images/100/Picture100-22.png)
-
-
+Proceed to [LabGuide200.md](LabGuide200.md) to provision your BDCS-CE instance.

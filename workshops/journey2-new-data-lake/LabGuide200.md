@@ -1,29 +1,11 @@
-![](images/200/Picture-lab.png)  
+![](images/200/200.JPG)  
+
 Updated: Date
 
 ## Introduction
 
-Introductory Text
+Lab 200 is not yet ready in this format.
 
-Please direct comments to: Owner
+For now follow pages 4 to 24 of this document: http://www.oracle.com/partners/en/most-popular-resources/journey2-module2-3702610.pdf
 
-## Objectives
-
-- Objective 1
-- Objective 2
-
-## Required Artifacts
-
-- List of Prerequisites
-
-# Main Heading 1
-
-## Sub Heading 1
-
-### **STEP 1**: Title of Step 1
-
-- Instructions for Step 1
-
-### **STEP 2**: Title of Step 2
-
-- Instructions for Step 2
+Note: if you are an Oracle employee following the Lab100GSE instructions to use a GSE Deal Server, you can skip this lab and move to lab 300.
