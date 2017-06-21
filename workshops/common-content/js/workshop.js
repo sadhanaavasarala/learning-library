@@ -123,18 +123,16 @@ labGuide.controller('labGuideController', ['$scope', '$http', '$mdSidenav', '$sa
                 $scope.selection.lab = true;
             }
             setTimeout(function () {
-                if (lab.filename === 'README.md') {
-                    $("#labguide a").each(function () {
-                        if (this.href.endsWith('.md')) {
-                            $(this).on("click", function (event) {
-                                event.preventDefault();
-                                $scope.getLabGuide({
-                                    filename: this.href
-                                });
+                $("#labguide a").each(function () {
+                    if (this.href.endsWith('.md')) {
+                        $(this).on("click", function (event) {
+                            event.preventDefault();
+                            $scope.getLabGuide({
+                                filename: this.href
                             });
-                        }
-                    })
-                }
+                        });
+                    }
+                })
             }, 500);
         }
         $scope.toggleLeft = function () {
