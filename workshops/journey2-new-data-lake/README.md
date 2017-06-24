@@ -1,14 +1,27 @@
 
 # Big Data Journey: New Data Lake Workshop
-Oracle offers a set of Big Data Journeys to help users get started using Oracle Cloud services with a purpose. This particular journey is designed to show you techniques you can use as part of the **New Data Lake**.
+Oracle offers a set of Big Data Journeys to help users get started using Oracle Cloud services with a purpose. This particular journey is designed to show you techniques you can use to build your own **New Data Lake**.
 
-You will learn how to populate and analyze your data lake based on Object Storage from a variety of file and streaming sources. You will also learn how to execute real-time and batch processing with Oracle’s managed Spark and Kafka cloud services.
+
+![](images/snap0012028.jpg) 
+
+- Real-time and Batch
+- Data Science Friendly
+- Scalable
+- Agile
+- Economical
+
+
+You will learn how to populate and analyze your data lake from a variety of file and streaming sources. You will learn how to execute real-time and batch processing with Oracle’s managed Hive, Spark, Kafka and Object Storage services in the cloud.
+
+The New Data Lake workshop will use a series of tutorials running in Zeppelin Notebook.  The tutorials will leverage the New York City CitiBike data to illustrate how the New Data Lake can work easily with both batch and real-time data.
+
+![](images/500/DemoLiveMap.gif) 
 
 ## Goals
 
  - Get comfortable with Oracle's public cloud services
  - Learn a repeatable way to integrate cloud data sources and build reports
- - Provide a channel to ask the experts questions
  - See techniques and patterns other organizations are using to enable their business users
 
 **To see a video overview of the New Data Lake, watch this link:** [Video](http://www.youtube.com/embed/Sj-PlJ-w1jA?rel=0?iframe=true&width=680&height=450)
